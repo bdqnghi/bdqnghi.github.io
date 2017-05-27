@@ -22,11 +22,11 @@ Singapore Management University <br>
 
 
 <p align="justify" style="max-width:600px">
-Hi, I'm a first year Ph.D Student at Singapore Management University. Currently, I'm being advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Prof. Lingxiao Jiang</a>.</p>
+Hi, I'm a first year Ph.D Student at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank"> Singapore Management University</a>. Currently, I'm being advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Prof. Lingxiao Jiang</a>. I obtained a Bachelor Degree in <a href="http://www.apcs.hcmus.edu.vn/Default.aspx?alias=www.apcs.hcmus.edu.vn/en" target="_blank">Advanced Program Computer Science </a>, which is a honour program at <a href="http://web.hcmus.edu.vn/en/index.php" target="_blank">Ho Chi Minh University of Science</a>.</p>
 
 ## Research Interests
 <p align="justify" style="max-width:600px">
-My research focuses on application of machine learning into software engineering task. More broadly, my interests lie at the intersection of Program Analysis, Natural Language Processing, and Machine Learning.
+My research focuses on application of machine learning into software engineering task. More broadly, my interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning.
 </p>
 <!-- <center> <em><a class="tosu"> Scroll down for news! </a></em></center> -->
 
