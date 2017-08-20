@@ -22,11 +22,11 @@ Singapore Management University <br>
 
 
 <p align="justify" style="max-width:600px">
-Hi, I'm a first year Ph.D Student at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank"> Singapore Management University</a>. Currently, I'm being jointly advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Prof. Lingxiao Jiang</a> and <a href="http://youngkilee.blogspot.sg/" target="_blank">Prof. Lee Youngki</a>. I obtained a Bachelor Degree in <a href="http://www.apcs.hcmus.edu.vn/Default.aspx?alias=www.apcs.hcmus.edu.vn/en" target="_blank">Advanced Program Computer Science</a>, which is a honour program at <a href="http://web.hcmus.edu.vn/en/index.php" target="_blank">Ho Chi Minh University of Science</a>.</p>
+Hi, welcome to my personal page. I'm a second year Ph.D Student at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank"> Singapore Management University</a>. Currently, I'm being jointly advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Prof. Lingxiao Jiang</a> and <a href="http://youngkilee.blogspot.sg/" target="_blank">Prof. Lee Youngki</a>. I obtained a Bachelor Degree in <a href="http://www.apcs.hcmus.edu.vn/Default.aspx?alias=www.apcs.hcmus.edu.vn/en" target="_blank">Advanced Program Computer Science</a>, which is a honour program at <a href="http://web.hcmus.edu.vn/en/index.php" target="_blank">Ho Chi Minh University of Science</a>.</p>
 
 ## Research Interests
 <p align="justify" style="max-width:600px">
-My research focuses on application of machine learning into software engineering task. More broadly, my interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. Currently, I'm working on the topic to understand the programming language semantic by using the distributed vector representation (Word2Vec), a neural-based natural language model. The learned semantic vectors can be useful for tasks like clone detection, source code understanding, neural machine translation for programming language.
+My research focuses on application of machine learning into software engineering task. More broadly, my interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. Currently, I'm working on the topic to understand the programming language semantic by using the distributed vector representation (Word2Vec), a neural-based language model. The learned semantic vectors can be useful for tasks like clone detection, source code understanding, neural machine translation for programming language,etc.
 </p>
 <!-- <center> <em><a class="tosu"> Scroll down for news! </a></em></center> -->
 
