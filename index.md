@@ -26,7 +26,7 @@ Hi, I'm a first year Ph.D Student at <a href="https://sis.smu.edu.sg/programmes/
 
 ## Research Interests
 <p align="justify" style="max-width:600px">
-My research focuses on application of machine learning into software engineering task. More broadly, my interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. Currently, I'm working on the topic to understand the programming language semantic by using the distributed vector representation, the learned semantic vectors can be useful for tasks like clone detection, source code understanding, neural machine translation for programming language.
+My research focuses on application of machine learning into software engineering task. More broadly, my interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. Currently, I'm working on the topic to understand the programming language semantic by using the distributed vector representation (Word2Vec), a neural-based natural language model. The learned semantic vectors can be useful for tasks like clone detection, source code understanding, neural machine translation for programming language.
 </p>
 <!-- <center> <em><a class="tosu"> Scroll down for news! </a></em></center> -->
 
