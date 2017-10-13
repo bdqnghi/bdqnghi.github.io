@@ -27,8 +27,7 @@ Hi, welcome to my personal page. I'm a second year Ph.D Student at <a href="http
 ## Research Interests
 <p align="justify" style="max-width:600px">
 My research focuses on the application of machine learning into software engineering task. More broadly, my interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. 
-</p>
-<p>
+<br>
 Currently, I'm working on the topic to understand the programming language semantic by using the distributed vector representation (Word2Vec), a neural-network based model. The learned semantic vectors can be useful for tasks like clone detection, source code understanding, neural machine translation for programming language, etc.e clone detection, source code understanding, neural machine translation for programming language,etc. 
 <br>
 I'm also interested in Deep Learning, the second project that I'm working on is to used the Recursive Neural Network as the model to understand the structure of the AST tree.
