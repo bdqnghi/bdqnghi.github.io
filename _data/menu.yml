@@ -4,8 +4,12 @@
 - title: "CV"
   href: "/files/CV_new.pdf"
 
-- title: "Research"
-  href: "/research/"
+# - title: "Research"
+#   href: "/research/"
+
+- title: "Publications"
+  href: "/publications/"
+
   # subcategories:
   #   - subtitle: "Projects"
   #     subhref: "/research/projects/"
