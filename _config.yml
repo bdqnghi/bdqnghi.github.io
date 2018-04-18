@@ -26,3 +26,11 @@ markdown: kramdown
 # Other Options
 permalink: blog/:year/:month/:title/
 excerpt_separator: "<!--more-->"
+
+plugins:
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-117832171-1          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
