@@ -45,9 +45,10 @@ Full list of my publications can be found <a href="/publications/" target="_blan
 
 ## Projects
 
-- Neural network modeling for programming language
-- Neural machine translation for programming language
-- API mappings across languages
+- API mappings across languages.
+- Neural network modeling for programming language.
+- Combination of neural machine translation and program analysis for programming language translation.
+
 <!-- <center> <em><a class="tosu"> Scroll down for news! </a></em></center> -->
 
 <!-- ## News -->
