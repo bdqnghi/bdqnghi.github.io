@@ -26,7 +26,7 @@ Hi, welcome to my personal page. I'm a second year Ph.D Student at <a href="http
 
 ## Background
 <p align="justify" style="max-width:600px">
-I obtained a Bachelor Degree in <a href="http://www.apcs.hcmus.edu.vn/Default.aspx?alias=www.apcs.hcmus.edu.vn/en" target="_blank">Advanced Program Computer Science</a>, which is a honour program at <a href="http://web.hcmus.edu.vn/en/index.php" target="_blank">Ho Chi Minh University of Science</a>. After that, I worked as a software engineer in the industry for 3 years.
+I obtained a Bachelor Degree in <a href="http://www.apcs.hcmus.edu.vn/Default.aspx?alias=www.apcs.hcmus.edu.vn/en" target="_blank">Advanced Program Computer Science</a>, which is a honour program at <a href="http://web.hcmus.edu.vn/en/index.php" target="_blank">Ho Chi Minh University of Science</a>. At HCMUS, I conducted my thesis under the supervision of <a href="https://dblp.org/pers/hd/d/Dinh:Tien_Ba">Prof.Dinh Ba Tien</a>. After that, I worked as a software engineer in the industry for 3 years.
 </p>
 
 ## Research Interests
