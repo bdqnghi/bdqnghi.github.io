@@ -10,7 +10,7 @@ Ph.D. Student, Information Systems <br>
 Singapore Management University <br>
 
 <em>Curriculum Vitae: </em><a href="/files/CV_new.pdf" target="_blank">PDF</a>  <small>(April, 2017)</small> <br>
-<em>Email: </em><a href="mailto:dqnbui.2016@phdis.smu.edu.sg">dqnbui.2016@phdis.smu.edu.sg</a> | <a href="mailto:bdqnghi@gmail.com">bdqnghi@gmail.com</a> <br>
+<em>Email: </em><a>dqnbui dot 2016 at phdis dot smu dot edu dot sg</a> | <a>bdqnghi at gmail dot com</a> <br>
 <em>Office: </em>SIS Research Center, School of Information Systems, Singapore Management University<br>
 <!-- <p><a href="http://doodle.com/dhawaljoh" target="_blank">Meet me!</a> | <a href="http://flask.io/yoUm1" target="_blank">Assign me a task!</a> (please let me know you've added something!)</p> -->
 <hr width="600px">
