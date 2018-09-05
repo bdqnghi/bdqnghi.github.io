@@ -38,11 +38,12 @@ In this era, software data is ubiquitous. These data are available publicly on G
 
 <br>
 
-Full list of my publications can be found <a href="/publications/" target="_blank">here</a>.
+Full list of my publications can be found <a href="https://scholar.google.com.sg/citations?user=QwybxYsAAAAJ&hl=ens" target="_blank">here</a>.
 <br>
 
 </p>
 
+<a href="https://clustrmaps.com/site/1ad1p" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=McQNhkf8Yz9_O9RxR6737fb3TmJs5kCW-Tm-aoQaocc&cl=ffffff"></a>
 <!-- <center> <em><a class="tosu"> Scroll down for news! </a></em></center> -->
 
 <!-- ## News -->
