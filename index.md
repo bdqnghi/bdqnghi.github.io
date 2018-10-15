@@ -32,9 +32,8 @@ I'm focusing on employing the theory of graph-based and tree-based modeling for 
 </p>
 ## Keywords
 <p align="justify" style="max-width:600px">
-source code modeling, natural language processing, , API translation, tree-based learning, graph-based learning, neural networks
+source code modeling, natural language processing, API translation, tree-based learning, graph-based learning, neural networks
 </p>
-<br>
 Full list of my publications can be found <a href="https://scholar.google.com.sg/citations?user=QwybxYsAAAAJ&hl=ens" target="_blank">here</a>.
 <br>
 <a href="https://clustrmaps.com/site/1ad1p" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=McQNhkf8Yz9_O9RxR6737fb3TmJs5kCW-Tm-aoQaocc&cl=ffffff"></a>
