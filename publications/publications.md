@@ -8,4 +8,4 @@ permalink: /publications/
 
 - <span style="color:blue">**[ICSE'18]**</span> **Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code**, by <span style="color:blue">Nghi D. Q. Bui, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 40th International Conference on Software Engineering: New Ideas and Emerging Technologies Results Track (NIER), Gothenburg, Sweden, 2018 <a href="/files/icse-18-nier.pdf" target="_blank"> [PDF]</a> <a href="https://github.com/bdqnghi/hierarchical-programming-language-mapping" target="_blank"> [Code]</a>
 <br>
-<span style="color:red">**[RANK:A*]**</span> - <span style="color:red">*(ACM SIGSOFT Distinguished paper award)*</span>
+<span style="color:red">**[CONFERENCE RANK:A*]**</span> - <span style="color:red">*(ACM SIGSOFT Distinguished paper award)*</span>
