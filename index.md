@@ -24,11 +24,20 @@ I obtained a Bachelor Degree in <a href="http://www.apcs.hcmus.edu.vn/Default.as
 </p>
 ## Research Interests
 <p align="justify" style="max-width:600px">
-My interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. I am interested in employing the power of Machine Learning to software engineering and programming languages to solve challenging software engineering problem.
+My interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. Concretely, I am interested in employing the power of Machine Learning to software engineering and programming languages to solve challenging software engineering problem.
 </p>
 ## Projects
+### Learning Program Representation
 <p align="justify" style="max-width:600px">
-I'm focusing on employing the theory of graph-based and tree-based deep learning for programming languages. Programming languages, as well as natural languages, are both considered as the sequence of text. But the programming languages expose a richer structural information in a form of the Abstract Syntax Tree (AST). In addition, the elements in the AST are well-connected with each other through many form of dependencies, such as def-use, control flow, data flow. As such, the source code of programming languages can also be described in the form of graphs, where the edges in the graph represent for  different type of relations between the elements. This leads to the consequence that modeling source code using a tree-based model or graph-based model usually can produce richer and more useful features than the sequence-based model. The features extracted can be useful in tasks, such as program classification, variable naming, variable misuse detection, etc.
+I'm focusing on employing the theory of graph-based and tree-based deep learning for learning software program representation (or code modeling). Programming languages, as well as natural languages, are both considered as the sequence of text. But the programming languages expose a richer structural information in a form of the Abstract Syntax Tree (AST). In addition, the elements in the AST are well-connected with each other through many form of dependencies, such as def-use, control flow, data flow. As such, the source code of programming languages can also be described in the form of graphs, where the edges in the graph represent for  different type of relations between the elements. This leads to the consequence that modeling source code using a tree-based model or graph-based model usually can produce richer and more useful features than the sequence-based model. The features extracted can be useful in tasks, such as program classification, variable naming, variable misuse detection, etc.
+</p>
+### Unsupervised Cross-Domains Adaptation
+<p align="justify" style="max-width:600px">
+I'm also interested in working with the cross-domain problems. The cross-domain problems are the ones which involve 2 or more domains in a learning task, in which the cross-domains can be cross-languages, cross-projects, or cross code and text modeling, e.g programming language translation, cross-language API mappings, cross-language program classification, etc.  Usually, to adapt 2 domains, e.g mapping APIs from one language into another, transferring bug prediction model learn from a project to another, etc, one needs a lot of parallel data to build the cross-domains model. Such parallel data may not available all the time, and requires a lot of human effort to label the data, which can be seen as a lot of prior knowledge to build the model. As such, there is a need for the techniques that can adapt the domains with at least prior knowledge as possible, or without prior knowledge at all.
+</p>
+### Building interpretability blocks for learning program representation
+<p align="justify" style="max-width:600px">
+As the third wave of AI is coming, someday the computer will have the ability to program itself. Program representation learning is one of the core technique to reach such a goal. Many techniques have been proposed to learn the representation of the program, but lack of the interpretable ability. As a result, no one understands how the Deep Learning model for program representation works, which resulting in the hesitation to adopt such techniques to solve real-world problems. To bridge this gap, the need to build the interpretable neural networks for program representation is obvious. We hypothesize that to build such an interpretable mechanism, this mechanism should be built around the structural representation of the source code, e.g Abstract Syntax Tree.
 </p>
 ## Keywords
 <p align="justify" style="max-width:600px">
@@ -37,24 +46,3 @@ source code modeling, natural language processing, API translation, tree-based l
 Full list of my publications can be found <a href="https://scholar.google.com.sg/citations?user=QwybxYsAAAAJ&hl=ens" target="_blank">here</a>.
 <br>
 <a href="https://clustrmaps.com/site/1ad1p" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=McQNhkf8Yz9_O9RxR6737fb3TmJs5kCW-Tm-aoQaocc&cl=ffffff"></a>
-<!-- <center> <em><a class="tosu"> Scroll down for news! </a></em></center> -->
-<!-- ## News -->
-
-<!-- <table style="white-space: nowrap;">
-<tr>
-<td width="75"><b>Feb, 17'</b></td>
-<td>Attending <a href="https://www.aaai.org/Conferences/AAAI/aaai17.php" target="_b">AAAI, 2017</a></td>
-</tr>
-<tr>
-<td><b>Nov, 16'</b></td>
-<td>TAing <a href="https://classes.soe.ucsc.edu/cmps140/Winter17/" target="_blank">CMPS 140</a> in Winter, 17</td>
-</tr>
-<tr>
-<td><b>Feb, 16'</b></td>
-<td>Attending UC Santa Cruz starting Fall, 16</td>
-</tr>
-<tr>
-<td><b>Older</b></td>
-<td><a href='news-archive' target="_blank">Archive</a></td>
-</tr>
-</table> -->
