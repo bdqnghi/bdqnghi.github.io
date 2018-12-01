@@ -5,7 +5,7 @@ layout: default
 <!-- {% include image.html url="/images/me2.jpeg" caption="Dhawal Joharapurkar" width=275 align="right" %} -->
 
 <a href="/images/me3.png" target="_blank"><img src="images/me3.png" alt="Nghi Bui" style="width:275px;" align="right"></a>
-# Nghi D. Q. Bui  
+# Nghi D. Q. BUI  
 
 Ph.D. Student, Information Systems <br>
 Singapore Management University <br>
