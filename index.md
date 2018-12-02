@@ -25,7 +25,7 @@ I obtained a Bachelor Degree in <a href="http://www.apcs.hcmus.edu.vn/Default.as
 </p>
 ## Research Interests
 <p align="justify" style="width:100%">
-My interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. Concretely, I am interested in employing the power of Machine Learning to software engineering and programming languages to solve challenging software engineering problem.
+My interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. Concretely, I am interested in employing the power of Machine Learning to solve challenging software engineering problem.
 </p>
 ## Projects
 ### Program Representation Learning
