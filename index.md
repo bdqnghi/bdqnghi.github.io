@@ -8,7 +8,7 @@ layout: default
 
 Ph.D. Student, Information Systems <br>
 Singapore Management University <br>
-<em>Curriculum Vitae: </em><a href="/files/CV_new.pdf" target="_blank">PDF</a>  <small>(April, 2017)</small> <br>
+<em>Curriculum Vitae: </em><a href="/files/CV_new.pdf" target="_blank">PDF</a>  <small>(December, 2018)</small> <br>
 <em>Email: </em><a>dqnbui dot 2016 at phdis dot smu dot edu dot sg</a> | <a>bdqnghi at gmail dot com</a> <br>
 <em>Office: </em>Block 18, Level 4, SIS Research Center, School of Information Systems, Singapore Management University<br>
 
