@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include image.html url="/images/me.png" caption="Me when I was in Korean" width=350 align="right" %}
+{% include image.html url="/images/me.png" caption="Me when I was in Korea" width=350 align="right" %}
 
 # Nghi D. Q. BUI  
 
@@ -31,14 +31,6 @@ Singapore Management University <br>
     </li>
     {% endif %}
 
-    {% if site.linkedin_username %}
-    <li>
-        {% include icon-linkedin.html  username=site.linkedin_username %}
-        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
-            <i class="fa fa-linkedin" style="color:gray"></i> {{ site.linkedin_username }}
-        </a>
-    </li>
-    {% endif %}
 
    <!--  {% if site.google_scholar_id %}
     <li>
