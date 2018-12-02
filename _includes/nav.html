@@ -1,15 +1,14 @@
 <ul class="menu">
-{% for dhawal in site.data.menu %}
-    {% if dhawal.subcategories != null %}
-    <li><a href="{{ dhawal.href }}" class="page-link">{{ dhawal.title }}</a>
-    <ul class="sub-menu">
-    {% for subcategory in dhawal.subcategories %}
-    <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
-    {% endfor %}
-    </ul>
-    {% else %}
-     <li><a href="{{ dhawal.href }}" class="page-link">{{ dhawal.title }}</a>
-    {% endif %}
-    </li>
-    {% endfor %}
-    </ul>
+    {% for element in site.data.menu %} {% if element.subcategories != null %}
+    <li>
+        <a href="{{ element.href }}" class="page-link">{{ element.title }}</a>
+        <ul class="sub-menu">
+            {% for subcategory in element.subcategories %}
+            <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <li><a href="{{ element.href }}" class="page-link">{{ element.title }}</a> {% endif %}
+        </li>
+        {% endfor %}
+</ul>

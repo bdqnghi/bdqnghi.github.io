@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Nghi Bui
+title: Nghi D. Q. Bui
 email: bdqnghi@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  Nghi Bui's academic website.
@@ -17,8 +17,8 @@ future: true # allows future dated posts
 #social networks
 twitter_username: QuocNghi91
 github_username: bdqnghi
-facebook_username: x.tiger91
 linkedin_username: quocnghi
+google_scholar_id: QwybxYsAAAAJ
 
 # Build settings
 markdown: kramdown

@@ -4,7 +4,6 @@ title: CV
 permalink: /cv/
 ---
 
-Please find my latest CV below. 
+I embed a current version of my CV below. You can also [download the PDF here](/files/CV_new.pdf).
 
-<a href="/files/CV_new.pdf" target="_blank">PDF</a>
-Last updated: 2016-02-07
+<iframe src="https://bdqnghi.github.io/files/CV_new.pdf" class="gde-frame" style="height: 1000px; width: 100%; border: none;" scrolling="yes"></iframe>
