@@ -80,7 +80,7 @@ As the third wave of AI is coming, someday the computer will have the ability to
 </p>
 ## Keywords
 <p align="justify" >
-source code modeling, natural language processing, API translation, tree-based learning, graph-based learning, neural networks
+source code modeling, natural language processing, structure-based learning, neural networks, domain adaptation
 </p>
 
 
