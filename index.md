@@ -12,9 +12,16 @@ Hi, welcome to my personal page. I'm a third year Ph.D Candidate at <a href="htt
 I obtained a Bachelor Degree in <a href="http://www.apcs.hcmus.edu.vn/Default.aspx?alias=www.apcs.hcmus.edu.vn/en" target="_blank">Advanced Program Computer Science</a>, which is a honour program at <a href="http://web.hcmus.edu.vn/en/index.php" target="_blank">Ho Chi Minh University of Science</a>. At HCMUS, I conducted my undergraduate thesis under the supervision of <a href="https://dblp.org/pers/hd/d/Dinh:Tien_Ba">Prof. Dinh Ba Tien</a>. After that, I worked as a software engineer in the industry for 3 years.
 
 ## Research Interests
-<p align="justify" >
+
 My interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. Concretely, I am interested in employing the power of Machine Learning to solve challenging software engineering problem.
-</p>
+
+## News
+
+- 30-Nov-2018: Our paper "Bilateral Dependency Neural Networks for Cross-Language Algorithm Classification" has been accepted at <a href="https://saner2019.github.io/" target="_blank">SANER 2019, Hangzhou, China</a>.
+- 20-Feb-2018: Our paper "Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code" has received the <a href="https://www.icse2018.org/info/awards" target="_blank"> ACM SIGSOFT Distinguished Paper Award</a>.
+- 20-Oct-2017: Our paper "Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code" has been accepted at <a href="https://www.icse2018.org/" target="_blank">ICSE 2018, Gothenburg, Sweden</a>.
+
+
 
 
 
