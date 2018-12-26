@@ -3,7 +3,7 @@
 /* .site-nav {
     float: right;
     line-height: 40px;
-		margin-top: 15px;
+        margin-top: 15px;
 
     .menu-icon {
         display: none;
@@ -76,15 +76,6 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-
-   position:fixed;
-   bottom:0;
-   width:100%;
-   padding-top:20px;
-   padding-bottom:25px;
-   height:20px;   /* Height of the footer */
-   background:$grey-color-light;
-   line-height:5%;
 }
 
 .footer-heading {
@@ -112,18 +103,18 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -154,8 +145,6 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-    padding-top:80px;
-    padding-bottom:70px;
 }
 
 .page-heading {
@@ -181,10 +170,6 @@
     font-size: 24px;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
 
 /**
@@ -198,9 +183,8 @@ h1 /* .post-title */ {
 /*    font-size: 42px; */
     letter-spacing: -1px;
     line-height: 1;
-		font-family: 'Titillium Web', sans-serif;
-		color: #522d80;
-        color: #b00000;
+        font-family: 'Titillium Web', sans-serif;
+        color: #522d80;
 
     @include media-query($on-laptop) {
 /*        font-size: 36px; */
@@ -211,8 +195,8 @@ h1 /* .post-title */ {
     margin-bottom: $spacing-unit;
 
     h2 {
-		font-family: 'Titillium Web', sans-serif;
-	font-weight: 500;
+        font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
 /*        font-size: 32px; */
 
         @include media-query($on-laptop) {
@@ -221,7 +205,7 @@ h1 /* .post-title */ {
     }
 
     h3 {
-		font-style: italic;
+        font-style: italic;
 /*        font-size: 26px; */
 
         @include media-query($on-laptop) {
@@ -238,47 +222,114 @@ h1 /* .post-title */ {
     }
 }
 
-						.footnotes ol li {list-style-type:decimal;}
-						.footnotes ol {font-size:.85em; color:#666666;}	
-	
+                        .footnotes ol li {list-style-type:decimal;}
+                        .footnotes ol {font-size:.85em; color:#666666;} 
+    
 html {
   overflow-y: scroll;
 }
 
 ul.listing {
-	list-style-type: none;
-	margin-left: 0px;
+    list-style-type: none;
+    margin-left: 0px;
 }
 
 ul.listing li.listing-seperator {
-	padding-top: 15px;
-	font-weight: bold;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 1.17em;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.17em;
 }
 
 ul.listing li.listing-item time {
 
-	color: #333;
-	font-weight: 500;
-	text-transform: uppercase;
-	padding-right: 10px;
+    color: #333;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 10px;
 }
 
 ul.listing li.listing-item a {
-	color: $clemson-purple;
-	font-weight: 400;
-	font-family: 'Titillium Web', sans-serif;
+    color: $clemson-purple;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
 }
 
-p {
-  text-align: justify;
+
+/*------ archive type stuff ------ */
+
+ul#archive {
+       list-style-type: none;
+       margin: 0 0 1em 0;
+       padding: 0;
 }
 
-ol {
-  text-align: justify;
+ul#archive li {
+       border-top: #999 1px dotted;
+       border-bottom: #999 1px dotted;
+       padding: .1em 0 .1em .5em;
+       background: #fff;
 }
 
-ul {
-  text-align: justify;
+ul#archive  h2 {
+    padding-top: .5em }
+
+ul#archive li.alt {
+       background: #f6f6f6;
 }
+
+.archiveposturl {
+       display: block;
+
+       color: #333;
+}
+
+.archiveposturl:hover {
+
+}
+
+ul#archive li span a {
+       color: $clemson-purple;
+    font-weight: bold;
+font-family: 'Titillium Web', sans-serif;
+}
+
+
+ul#archive li span.postlower {
+    font-size: 85%
+
+}
+
+ul#archive li span.postlower a {
+    color: #07c;
+    font-weight: normal;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+
+}
+
+article ul {
+  list-style-type: none;
+}
+
+article ul > li:before {
+  content: "–"; /* en dash */
+  position: absolute;
+  margin-left: -1.1em; 
+}
+
+article ul#archive > li:before {
+  list-style-type: none;
+  content: none;
+}
+
+
+/* ul#archive li span {
+       color: #000;
+       font-size: 85%;
+}
+
+
+
+ul#archive li span a:hover {
+       border-bottom: #bdbdbd 1px solid;
+} */

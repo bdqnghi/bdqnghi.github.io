@@ -4,12 +4,11 @@
 .site-header {
     border-top: 0px solid $grey-color-dark;
     border-bottom: 4px solid $clemson-purple;
-    min-height: 36px;
-    background: $clemson-orange;
+    min-height: 56px;
+    background: #8A2908;
     // Positioning context for the mobile navigation icon
-    position: fixed;
-    width:100%;
-    z-index: 99;
+    position: relative;
+
 }
 
 .site-title {
@@ -33,8 +32,7 @@
 }
 
 .site-header .wrapper {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 20px;
     position: relative;
 }
 
@@ -107,7 +105,7 @@ color: #522d80;
 
 
 .sub-menu {
-    border: 5px solid transparent;
+    border: 3px solid transparent;
     border-top: 0;
     /* bg and border colors set in header */
     box-shadow: 0 2px 2px rgba(0,0,0,0.4);

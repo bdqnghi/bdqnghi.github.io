@@ -1,6 +1,9 @@
 - title: "About"
   href: "/"
 
+- title: "Research"
+  href: "/research/"
+
 - title: "CV"
   href: "/cv/"
 
@@ -9,6 +12,9 @@
 
 - title: "Publications"
   href: "/publications/"
+
+
+
 
   # subcategories:
   #   - subtitle: "Projects"
