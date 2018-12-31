@@ -21,6 +21,8 @@ Intuitively, Deep Learning alone is not enough to learn the rich structural and 
 - **How can we properly interpret the Deep Learning model for the programming language?** 
 Despite widespread adoption, Deep Learning (DL) models remain mostly black boxes. The problem is even more severe in the software engineering field, where most of the DL-based model is built based on some human heuristics with try and error. Understanding the reasons and able to interpret the predictions is quite important in assessing trust, which is fundamental if one plans to take action based on a prediction. I'm doing some studies to find the connection between the human and the DL-based model on how they understand the source code.
 
+More details about the projects I am working can be found [here](/research/). 
+
 ## News
 
 - 30-Nov-2018: Our paper "Bilateral Dependency Neural Networks for Cross-Language Algorithm Classification" has been accepted at <a href="https://saner2019.github.io/" target="_blank">SANER 2019, Hangzhou, China</a>.
