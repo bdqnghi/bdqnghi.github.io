@@ -16,8 +16,10 @@ I obtained a Bachelor Degree in <a href="http://www.apcs.hcmus.edu.vn/Default.as
 My interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. I am interested in employing the power of Machine Learning to solve challenging software engineering problem.
 
 Concretely, I'm focusing on answering the two fundamental questions:
-- **How to build a good representation learning model for programming language?** Intuitively, Deep Learning alone is not enough to learn the rich structural and semantic features that hide inside the code. As such, my goal is to combine Deep Learning and Program Analysis to leverage the best of both that can lift up the performance of a specific software engineering task.
-- **How can we properly interpret the Deep Learning model for the programming language?** Despite widespread adoption, Deep Learning (DL) models remain mostly black boxes. The problem is even more severe in the software engineering field, where most of the DL-based model is built based on some human heuristics with try and error. Understanding the reasons and able to interpret the predictions is quite important in assessing trust, which is fundamental if one plans to take action based on a prediction. I'm doing some studies to find the connection between the human and the DL-based model on how they understand the source code.
+- **How to build a good representation learning model for programming language?** 
+Intuitively, Deep Learning alone is not enough to learn the rich structural and semantic features that hide inside the code. As such, my goal is to combine Deep Learning and Program Analysis to leverage the best of both that can lift up the performance of a specific software engineering task.
+- **How can we properly interpret the Deep Learning model for the programming language?** 
+Despite widespread adoption, Deep Learning (DL) models remain mostly black boxes. The problem is even more severe in the software engineering field, where most of the DL-based model is built based on some human heuristics with try and error. Understanding the reasons and able to interpret the predictions is quite important in assessing trust, which is fundamental if one plans to take action based on a prediction. I'm doing some studies to find the connection between the human and the DL-based model on how they understand the source code.
 
 ## News
 
