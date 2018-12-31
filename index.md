@@ -21,7 +21,7 @@ Intuitively, Deep Learning alone is not enough to learn the rich structural and 
 - **How can we properly interpret the Deep Learning model for the programming language?** 
 Despite widespread adoption, Deep Learning (DL) models remain mostly black boxes. The problem is even more severe in the software engineering field, where most of the DL-based model is built based on some human heuristics with try and error. Understanding the reasons and able to interpret the predictions is quite important in assessing trust, which is fundamental if one plans to take action based on a prediction. I'm doing some studies to find the connection between the human and the DL-based model on how they understand the source code.
 
-More details about the projects I am working can be found [here](/research/). 
+More details about the projects I am working on can be found [here](/research/). 
 
 ## News
 
