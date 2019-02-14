@@ -24,7 +24,7 @@ Despite widespread adoption, Deep Learning (DL) models remain mostly black boxes
 More details about the projects I am working on can be found [here](/research/). 
 
 ## News
-- **February-2019**: Our paper "Towards Zero Knowledge Learning for Cross Language API Mappings" has been accepted at <a href="https://2019.icse-conferences.org/track/icse-2019-ACM-Student-Research" target="_blank">ACM Student Research Competition Track (SRC), ICSE 2019, Montreal, Canada,</a>.
+- **Feb-2019**: Our paper "Towards Zero Knowledge Learning for Cross Language API Mappings" has been accepted at <a href="https://2019.icse-conferences.org/track/icse-2019-ACM-Student-Research" target="_blank">ACM Student Research Competition Track (SRC), ICSE 2019, Montreal, Canada,</a>.
 - **Nov-2018**: Our paper "Bilateral Dependency Neural Networks for Cross-Language Algorithm Classification" has been accepted at <a href="https://saner2019.github.io/" target="_blank">Research Track, SANER 2019, Hangzhou, China</a>.
 - **Feb-2018**: Our paper "Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code" has received the <a href="https://www.icse2018.org/info/awards" target="_blank"> ACM SIGSOFT Distinguished Paper Award</a>.
 - **Oct-2017**: Our paper "Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code" has been accepted at <a href="https://www.icse2018.org/" target="_blank">New Ideas and Emerging Technologies Results Track (NIER), ICSE 2018, Gothenburg, Sweden</a>.
