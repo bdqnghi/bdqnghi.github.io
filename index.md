@@ -9,8 +9,6 @@ permalink: /
 
 I'm a third-year Ph.D. Candidate in Computer Science at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems, Singapore Management University (SIS)</a>. I started my Ph.D at August, 2016. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>.
 
-I obtained a Bachelor Degree in <a href="http://www.apcs.hcmus.edu.vn/Default.aspx?alias=www.apcs.hcmus.edu.vn/en" target="_blank">Advanced Program Computer Science</a>, which is an honour program at <a href="http://web.hcmus.edu.vn/en/index.php" target="_blank">Ho Chi Minh University of Science (HCMUS)</a>. At HCMUS, I did my undergraduate thesis under the supervision of <a href="https://dblp.org/pers/hd/d/Dinh:Tien_Ba" target="_blank">Prof. Dinh Ba Tien</a>.
-
 ## Research Interests
 
 My interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. I am interested in employing the power of Machine Learning to solve challenging software engineering problem.
