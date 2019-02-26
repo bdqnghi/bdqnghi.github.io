@@ -7,9 +7,9 @@ permalink: /
 {% include image.html url="/images/me.png" caption="Me when I was in Korea" width=230 align="right" %}
 
 
-I'm a third year Ph.D Candidate in Computer Science at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems, Singapore Management University (SIS)</a>. I started my Ph.D at August, 2016. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>.
+I'm a third-year Ph.D. Candidate in Computer Science at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems, Singapore Management University (SIS)</a>. I started my Ph.D at August, 2016. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>.
 
-I obtained a Bachelor Degree in <a href="http://www.apcs.hcmus.edu.vn/Default.aspx?alias=www.apcs.hcmus.edu.vn/en" target="_blank">Advanced Program Computer Science</a>, which is a honour program at <a href="http://web.hcmus.edu.vn/en/index.php" target="_blank">Ho Chi Minh University of Science (HCMUS)</a>. At HCMUS, I did my undergraduate thesis under the supervision of <a href="https://dblp.org/pers/hd/d/Dinh:Tien_Ba" target="_blank">Prof. Dinh Ba Tien</a>.
+I obtained a Bachelor Degree in <a href="http://www.apcs.hcmus.edu.vn/Default.aspx?alias=www.apcs.hcmus.edu.vn/en" target="_blank">Advanced Program Computer Science</a>, which is an honour program at <a href="http://web.hcmus.edu.vn/en/index.php" target="_blank">Ho Chi Minh University of Science (HCMUS)</a>. At HCMUS, I did my undergraduate thesis under the supervision of <a href="https://dblp.org/pers/hd/d/Dinh:Tien_Ba" target="_blank">Prof. Dinh Ba Tien</a>.
 
 ## Research Interests
 
@@ -17,7 +17,7 @@ My interests lie at the intersection of Software Mining, Natural Language Proces
 
 Concretely, I'm focusing on answering the two fundamental questions:
 - **How to build good representation learning models for source code?** 
-Recently, many work proposed to use Deep Learning to solve a wide range of sofware engineering tasks. But, Deep Learning alone is not enough to learn the rich structural and semantic features that hide inside the code. As such, my goal is to combine Deep Learning and Program Analysis to leverage the best of both that can lift up the performance of a specific software engineering task.
+Recently, many works proposed to use Deep Learning to solve a wide range of software engineering tasks. But, Deep Learning alone is not enough to learn the rich structural and semantic features that hide inside the code. As such, my goal is to combine Deep Learning and Program Analysis to leverage the best of both that can lift up the performance of a specific software engineering task.
 - **How can we properly interpret the Deep Learning models that are used for source code modeling?** 
 Despite widespread adoption, Deep Learning (DL) models remain mostly black boxes. The problem is even more severe in the software engineering field, where most of the DL-based model is built based on some human heuristics with try and error. Understanding the reasons and able to interpret the predictions is quite important in assessing trust, which is fundamental if one plans to take action based on a prediction. I'm doing some studies to find the connection between the human and the DL-based model on how they understand the source code.
 
