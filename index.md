@@ -28,6 +28,9 @@ More details about the projects I am working on can be found [here](/research/).
 - **Oct-2017**: Our paper "Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code" has been accepted at <a href="https://www.icse2018.org/" target="_blank">New Ideas and Emerging Technologies Results Track (NIER), ICSE 2018, Gothenburg, Sweden</a>.
 
 
+## Awards
+- SIGSOFT CAPS Travel Grant Award - ICSE 2019
+- ACM SIGSOFT Distinguished Paper Award - ICSE 2018
 
 
 
