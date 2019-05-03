@@ -3,7 +3,10 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-## For conference ranking, please refer to: <a href="http://portal.core.edu.au/conf-ranks/" target="_blank"> Portal </a>
+## For conference ranking, please refer to: 
+- <a href="http://portal.core.edu.au/conf-ranks/" target="_blank"> Australia Computer Science Ranking Portal </a>
+- <a href="http://www.cs.jhu.edu/~taochen/SoC_Conference_Ranking.html" target="_blank"> NUS Computer Science Conference Ranking </a>
+
 # Conference Papers
 - <span style="color:blue">**[ICSE'19]**</span> **Towards Zero Knowledge Learning for Cross Language API Mappings**, by <span style="color:blue">Nghi D. Q. BUI</span>, in Proceedings of the IEEE/ACM 41th International Conference on Software Engineering: ACM Student Research Competition Track (SRC), Montreal, Canada, 2019 <span style="color:#9400D3">(To Appear)</span> <a href="/files/ICSE_2019_SRC.pdf" target="_blank"> [PDF]</a>
 <br>
