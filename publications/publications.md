@@ -8,7 +8,7 @@ permalink: /publications/
 - <a href="http://www.cs.jhu.edu/~taochen/SoC_Conference_Ranking.html" target="_blank"> NUS Computer Science Conference Ranking </a>
 
 # Conference Papers
-- <span style="color:blue">**[FSE'19]**</span> **Learning Cross-Language API Mappings with Little Knowledge**, by <span style="color:blue">Nghi D. Q. BUI, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track, Tallinn, Estonia, 2019 <span style="color:#9400D3">(To Appear)</span> <a href="/files/FSE_2019.pdf" target="_blank"> [PDF]</a>
+- <span style="color:blue">**[FSE'19]**</span> **SAR: Learning Cross-Language API Mappings with Little Knowledge**, by <span style="color:blue">Nghi D. Q. BUI, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track, Tallinn, Estonia, 2019 <span style="color:#9400D3">(To Appear)</span> <a href="/files/FSE_2019.pdf" target="_blank"> [PDF]</a>
 <br>
 - <span style="color:blue">**[ICSE'19]**</span> **Towards Zero Knowledge Learning for Cross Language API Mappings**, by <span style="color:blue">Nghi D. Q. BUI</span>, in Proceedings of the IEEE/ACM 41th International Conference on Software Engineering: ACM Student Research Competition Track (SRC), Montreal, Canada, 2019 <span style="color:#9400D3">(To Appear)</span> <a href="/files/ICSE_2019_SRC.pdf" target="_blank"> [PDF]</a>
 <br>
