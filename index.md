@@ -9,7 +9,7 @@ permalink: /
 I'm a third-year Ph.D. Candidate in Computer Science at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. I recieved the SMU full scholarship and started my Ph.D at August, 2016. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I'm also working closely with <a href="http://www.open.ac.uk/people/yy66" target="_blank">Prof.Yijun Yu</a> from <a href="http://www.open.ac.uk/" target="_blank">The Open University, UK</a>.
 ## Research Interests
 
-My interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. I am interested in employing the power of Machine Learning to solve challenging software engineering problem.
+My interests lie at the intersection of Software Mining, Natural Language Processing, and Machine Learning. Concretely, I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems.
 
 Concretely, I'm focusing on answering the two fundamental questions:
 - **How to build good representation learning models for source code?** 
