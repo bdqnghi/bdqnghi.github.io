@@ -6,10 +6,10 @@ permalink: /
 
 {% include image.html url="/images/me.jpg" caption="Me when I was in Montreal" width=230 align="right" %}
 
-I'm a third-year Ph.D. Candidate in Computer Science at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. I recieved the SMU full scholarship and started my Ph.D at August, 2016. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I'm also working closely with <a href="http://www.open.ac.uk/people/yy66" target="_blank">Prof.Yijun Yu</a> from <a href="http://mcs.open.ac.uk/yy66/index.php" target="_blank">The Open University, UK</a>.
+I'm a third-year Ph.D. Candidate in Computer Science at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. I received the SMU full scholarship and started my Ph.D in August, 2016. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I'm also working closely with <a href="http://www.open.ac.uk/people/yy66" target="_blank">Prof.Yijun Yu</a> from <a href="http://mcs.open.ac.uk/yy66/index.php" target="_blank">The Open University, UK</a>.
 ## Research Interests
 
-I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems. My primary focus of research is to analyze source code data from software programs to better understand its behaviors, and propose the Machine Learning model to mine knowledge from existing software artifacts as a stage forward to reduce software maintenance cost; and help software developers to understand the source code better
+I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems. My primary focus of research is to analyze source code data from software programs to better understand its behaviors, and propose the Machine Learning model to mine knowledge from existing software artifacts as a stage forward to reduce software maintenance cost, and help software developers to understand the source code better
 
 Concretely, in my Ph.D. Thesis, I'm focusing on answering the two fundamental questions:
 - **How to build good representation learning models for source code?** 
