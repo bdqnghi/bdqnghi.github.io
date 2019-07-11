@@ -20,19 +20,19 @@ Despite widespread adoption, Deep Learning (DL) models remain mostly black boxes
 More details about the projects I am working on can be found [here](/research/). 
 
 ## News
-- **May-2019**: I got a Bronze Medal in the ACM Student Research Competition, ICSE 2019.
-- **May-2019**: Our paper "SAR: Learning Cross-Language API Mappings with Little Knowledge" has been accepted as a full paper at <a href="https://esec-fse19.ut.ee/" target="_blank">Research Track, FSE 2019, Tallinn, Estonia.</a> See you all in beautiful Tallinn :).
-- **Feb-2019**: My paper "Towards Zero Knowledge Learning for Cross Language API Mappings" has been accepted at <a href="https://2019.icse-conferences.org/track/icse-2019-ACM-Student-Research" target="_blank">ACM Student Research Competition Track (SRC), ICSE 2019, Montreal, Canada,</a>.
-- **Nov-2018**: Our paper "Bilateral Dependency Neural Networks for Cross-Language Algorithm Classification" has been accepted at <a href="https://saner2019.github.io/" target="_blank">Research Track, SANER 2019, Hangzhou, China</a>.
-- **Feb-2018**: Our paper "Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code" has received the <a href="https://www.icse2018.org/info/awards" target="_blank"> ACM SIGSOFT Distinguished Paper Award</a>.
-- **Oct-2017**: Our paper "Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code" has been accepted at <a href="https://www.icse2018.org/" target="_blank">New Ideas and Emerging Technologies Results Track (NIER), ICSE 2018, Gothenburg, Sweden</a>.
+* **May-2019**: I got a Bronze Medal in the ACM Student Research Competition, ICSE 2019.
+* **May-2019**: Our paper "SAR: Learning Cross-Language API Mappings with Little Knowledge" has been accepted as a full paper at <a href="https://esec-fse19.ut.ee/" target="_blank">Research Track, FSE 2019, Tallinn, Estonia.</a> See you all in beautiful Tallinn :).
+* **Feb-2019**: My paper "Towards Zero Knowledge Learning for Cross Language API Mappings" has been accepted at <a href="https://2019.icse-conferences.org/track/icse-2019-ACM-Student-Research" target="_blank">ACM Student Research Competition Track (SRC), ICSE 2019, Montreal, Canada,</a>.
+* **Nov-2018**: Our paper "Bilateral Dependency Neural Networks for Cross-Language Algorithm Classification" has been accepted at <a href="https://saner2019.github.io/" target="_blank">Research Track, SANER 2019, Hangzhou, China</a>.
+* **Feb-2018**: Our paper "Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code" has received the <a href="https://www.icse2018.org/info/awards" target="_blank"> ACM SIGSOFT Distinguished Paper Award</a>.
+* **Oct-2017**: Our paper "Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code" has been accepted at <a href="https://www.icse2018.org/" target="_blank">New Ideas and Emerging Technologies Results Track (NIER), ICSE 2018, Gothenburg, Sweden</a>.
 
 
 ## Awards
-- SIGSOFT CAPS Travel Grant Award - ESEC/FSE 2019
-- Bronze Medal in the ACM Student Research Competition, ICSE 2019
-- SIGSOFT CAPS Travel Grant Award - ICSE 2019
-- ACM SIGSOFT Distinguished Paper Award - ICSE 2018
+* SIGSOFT CAPS Travel Grant Award - ESEC/FSE 2019
+* Bronze Medal in the ACM Student Research Competition, ICSE 2019
+* SIGSOFT CAPS Travel Grant Award - ICSE 2019
+* ACM SIGSOFT Distinguished Paper Award - ICSE 2018
 
 
 
