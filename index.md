@@ -29,6 +29,7 @@ More details about the projects I am working on can be found [here](/research/).
 
 
 ## Awards
+* SMU Presidential Doctoral Fellowship, 2019
 * SIGSOFT CAPS Travel Grant Award - ESEC/FSE 2019
 * Bronze Medal in the ACM Student Research Competition, ICSE 2019
 * SIGSOFT CAPS Travel Grant Award - ICSE 2019
