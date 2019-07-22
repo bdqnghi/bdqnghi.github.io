@@ -20,7 +20,8 @@ Despite widespread adoption, Deep Learning (DL) models remain mostly black boxes
 More details about the projects I am working on can be found [here](/research/). 
 
 ## News
-* **May-2019**: I got a Bronze Medal in the ACM Student Research Competition, ICSE 2019.
+* **Jul-2019**: Got the prestigious <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#presidential" target="_blank">Presidential Doctoral Fellowship award</a> from SMU!! 
+* **May-2019**: Got a Bronze Medal in the ACM Student Research Competition, ICSE 2019.
 * **May-2019**: Our paper "SAR: Learning Cross-Language API Mappings with Little Knowledge" has been accepted as a full paper at <a href="https://esec-fse19.ut.ee/" target="_blank">Research Track, FSE 2019, Tallinn, Estonia.</a> See you all in beautiful Tallinn :).
 * **Feb-2019**: My paper "Towards Zero Knowledge Learning for Cross Language API Mappings" has been accepted at <a href="https://2019.icse-conferences.org/track/icse-2019-ACM-Student-Research" target="_blank">ACM Student Research Competition Track (SRC), ICSE 2019, Montreal, Canada,</a>.
 * **Nov-2018**: Our paper "Bilateral Dependency Neural Networks for Cross-Language Algorithm Classification" has been accepted at <a href="https://saner2019.github.io/" target="_blank">Research Track, SANER 2019, Hangzhou, China</a>.
