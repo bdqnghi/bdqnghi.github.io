@@ -25,7 +25,7 @@ Despite widespread adoption, Deep Learning (DL) models remain mostly black boxes
 More details about the projects I am working on can be found [here](/research/). 
 
 ## News
-* **August-2019**: Our paper "AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation" has been accepted at <a href="https://2019.ase-conferences.org/" target="_blank">Research Track, New Ideas Papers at ASE 2019, San Diego, California, United States.</a>
+* **Aug-2019**: Our paper "AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation" has been accepted at <a href="https://2019.ase-conferences.org/" target="_blank">Research Track, New Ideas Papers at ASE 2019, San Diego, California, United States.</a>
 * **July-2019**: Got the prestigious <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#presidential" target="_blank">Presidential Doctoral Fellowship award</a> from SMU!! 
 * **May-2019**: Got a Bronze Medal in the ACM Student Research Competition, ICSE 2019.
 * **May-2019**: Our paper "SAR: Learning Cross-Language API Mappings with Little Knowledge" has been accepted as a full paper at <a href="https://esec-fse19.ut.ee/" target="_blank">Research Track, FSE 2019, Tallinn, Estonia.</a> See you all in beautiful Tallinn :).
