@@ -8,7 +8,7 @@ permalink: /
 
 I'm a fourth-year Ph.D. Candidate in Computer Science at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. I received the SMU full scholarship and started my Ph.D in August, 2016. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. 
 
-For this term, I will be a visiting scholar at <a href="http://www.open.ac.uk/" target="_blank">The Open University, UK</a> to collaborate with <a href="http://www.open.ac.uk/people/yy66" target="_blank">Prof.Yijun Yu</a>; and <a href="http://www.bristol.ac.uk/engineering/people/meng-wang/index.html" target="_blank">Prof.Meng Wang</a> from <a href="http://www.bristol.ac.uk/" target="_blank">The University of Bristol, UK </a>to work on the topic: "Deep Learning for Big Code Analysis".
+For this term, I will be a visiting scholar at 2 places: <a href="http://www.open.ac.uk/" target="_blank">The Open University, UK</a> and <a href="http://www.bristol.ac.uk/" target="_blank">The University of Bristol, UK </a>to collaborate with <a href="http://www.open.ac.uk/people/yy66" target="_blank">Prof.Yijun Yu</a>; and <a href="http://www.bristol.ac.uk/engineering/people/meng-wang/index.html" target="_blank">Prof.Meng Wang</a> to work on the topic: "Deep Learning for Big Code Analysis".
 
 ## Research Interests
 
