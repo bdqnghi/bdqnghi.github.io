@@ -19,13 +19,13 @@ I am interested in the application of Artificial Intelligence (AI) to solve chal
 - Code Generation: to generate the source code given certain information, e.g. natural language text instruction
 - Code Search: to enable searching on the large codebase, which makes it easier for the developer to maintain the source code.
 
-Concretely, in my Ph.D. Thesis, I'm focusing on answering the two fundamental questions:
-- **How to build good representation learning models for source code?** 
-Recently, many works proposed to use Deep Learning to solve a wide range of software engineering tasks. But, Deep Learning alone is not enough to learn the rich structural and semantic features that hide inside the code. As such, my goal is to combine Deep Learning and Program Analysis to leverage the best of both that can lift up the performance of a specific software engineering task.
-- **How can we properly interpret the Deep Learning models that are used for source code modeling?** 
-Despite widespread adoption, Deep Learning (DL) models remain mostly black boxes. The problem is even more severe in the software engineering field, where most of the DL-based model is built based on some human heuristics with try and error. Understanding the reasons and able to interpret the predictions is quite important in assessing trust, which is fundamental if one plans to take action based on a prediction. I'm doing some studies to find the connection between the human and the DL-based model on how they understand the source code.
-
 More details about the projects I am working on can be found [here](/research/). 
+
+## Tools:
+- Bi-TBCNN (https://github.com/bdqnghi/bi-tbcnn): a neural network for cross-language algorithm classification, this tool can also be used for cross-language clone detection
+- SAR (https://github.com/bdqnghi/SAR_API_mapping): a tool for cross-language API mappings without the need of parallel data, which is built based on the idea of Generative Adversarial Networks
+- Graph-AST (https://github.com/bdqnghi/graph-ast): a tool to provide the graph representation of a program based on the Abstract Syntax Tree
+- Graph Classification (https://github.com/bdqnghi/ggnn.tensorflow): a tool to classify graph
 
 ## News
 * **Aug-2019**: Get into Dean's List of SMU Postgraduate Program for the outstanding research output in the Academic year of 2018 and 2019

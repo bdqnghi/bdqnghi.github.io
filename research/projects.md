@@ -6,6 +6,13 @@ permalink: /research/
 
 ## Projects
 
+
+Concretely, in my Ph.D. Thesis, I'm focusing on answering the two fundamental questions:
+- **How to build good representation learning models for source code?** 
+Recently, many works proposed to use Deep Learning to solve a wide range of software engineering tasks. But, Deep Learning alone is not enough to learn the rich structural and semantic features that hide inside the code. As such, my goal is to combine Deep Learning and Program Analysis to leverage the best of both that can lift up the performance of a specific software engineering task.
+- **How can we properly interpret the Deep Learning models that are used for source code modeling?** 
+Despite widespread adoption, Deep Learning (DL) models remain mostly black boxes. The problem is even more severe in the software engineering field, where most of the DL-based model is built based on some human heuristics with try and error. Understanding the reasons and able to interpret the predictions is quite important in assessing trust, which is fundamental if one plans to take action based on a prediction. I'm doing some studies to find the connection between the human and the DL-based model on how they understand the source code.
+
 ### Program Representation Learning
 <p align="justify" >
 I'm focusing on employing the theory of graph-based and tree-based deep learning to learn the representation of software program (or code modeling). Programming languages, as well as natural languages, are both considered as the sequence of text. But the programming languages expose richer structural information in a form of the Abstract Syntax Tree (AST). In addition, the elements in the AST are well-connected with each other through many forms of dependencies, such as def-use, control flow, data flow. As such, the source code of programming languages can also be described in the form of graphs, where the edges in the graph represent a different type of relations between the elements. This leads to the consequence that modeling source code using a tree-based model or graph-based model usually can produce richer and more useful features than the sequence-based model. The features extracted can be useful in tasks, such as program classification [<a href="/files/SANER_2019_bilateral_dependency.pdf" target="_blank">SANER'19</a>], variable naming, variable misuse detection, etc.
