@@ -22,10 +22,10 @@ I am interested in the application of Artificial Intelligence (AI) to solve chal
 More details about the projects I am working on can be found [here](/research/). 
 
 ## Tools:
-- Bi-TBCNN (https://github.com/bdqnghi/bi-tbcnn): a neural network for cross-language algorithm classification, this tool can also be used for cross-language clone detection
-- SAR (https://github.com/bdqnghi/SAR_API_mapping): a tool for cross-language API mappings without the need of parallel data, which is built based on the idea of Generative Adversarial Networks
-- Graph-AST (https://github.com/bdqnghi/graph-ast): a tool to provide the graph representation of a program based on the Abstract Syntax Tree
-- Graph Classification (https://github.com/bdqnghi/ggnn.tensorflow): a tool to classify graph
+- Bi-TBCNN (<a href="https://github.com/bdqnghi/bi-tbcnn" target="_blank">https://github.com/bdqnghi/bi-tbcnn</a>): a neural network for cross-language algorithm classification, this tool can also be used for cross-language clone detection.
+- SAR (<a href="https://github.com/bdqnghi/SAR_API_mapping" target="_blank">https://github.com/bdqnghi/SAR_API_mapping</a>): a tool for cross-language API mappings without the need of parallel data, which is built based on the idea of Generative Adversarial Networks.
+- Graph-AST (<a href="https://github.com/bdqnghi/graph-ast" target="_blank">https://github.com/bdqnghi/graph-ast</a>): a tool to provide the graph representation of a program based on the Abstract Syntax Tree.
+- Graph Classification (<a href="https://github.com/bdqnghi/ggnn.tensorflow" target="_blank">https://github.com/bdqnghi/ggnn.tensorflow</a>): a tool to classify graph.
 
 ## News
 * **Aug-2019**: Get into Dean's List of SMU Postgraduate Program for the outstanding research output in the Academic year of 2018 and 2019
