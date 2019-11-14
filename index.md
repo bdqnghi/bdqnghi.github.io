@@ -28,6 +28,7 @@ More details about the projects I am working on can be found [here](/research/).
 - Graph Classification (<a href="https://github.com/bdqnghi/ggnn.tensorflow" target="_blank">https://github.com/bdqnghi/ggnn.tensorflow</a>): a tool to classify graph.
 
 ## News
+* **Oct-2019**: Our paper "TreeCaps:Tree-Structured Capsule Networks for Program Source Code Processing" has been accepted at <a href="https://nips.cc/" target="_blank">NeurIPS Workshop on ML for Systems, 2019, Vancouver, Canada </a> !!!.
 * **Aug-2019**: Get into Dean's List of SMU Postgraduate Program for the outstanding research output in the Academic year of 2018 and 2019
 * **Aug-2019**: Our paper "AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation" has been accepted at <a href="https://2019.ase-conferences.org/" target="_blank">Research Track, New Ideas Papers at ASE 2019, San Diego, California, United States.</a>
 * **July-2019**: Got the prestigious <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#presidential" target="_blank">Presidential Doctoral Fellowship award</a> from SMU!! 
