@@ -26,7 +26,7 @@ More details about the projects I am working on can be found [here](/research/).
 - Bi-TBCNN (<a href="https://github.com/bdqnghi/bi-tbcnn" target="_blank">https://github.com/bdqnghi/bi-tbcnn</a>): a neural network for cross-language algorithm classification, this tool can also be used for cross-language clone detection.
 - SAR (<a href="https://github.com/bdqnghi/SAR_API_mapping" target="_blank">https://github.com/bdqnghi/SAR_API_mapping</a>): a tool for cross-language API mappings without the need of parallel data, which is built based on the idea of Generative Adversarial Networks.
 - Graph-AST (<a href="https://github.com/bdqnghi/graph-ast" target="_blank">https://github.com/bdqnghi/graph-ast</a>): a tool to provide the graph representation of a program based on the Abstract Syntax Tree.
-- Graph Classification (<a href="https://github.com/bdqnghi/ggnn.tensorflow" target="_blank">https://github.com/bdqnghi/ggnn.tensorflow</a>): given that a program can be represented as a graph representation, this tool can be used classify to classify program in a form of graphs. 
+- Graph Classification (<a href="https://github.com/bdqnghi/ggnn.tensorflow" target="_blank">https://github.com/bdqnghi/ggnn.tensorflow</a>): given that a program can be represented as a graph , this tool can be used to classify programs in form of graphs. 
 
 ## News
 * **Oct-2019**: Our paper "TreeCaps:Tree-Structured Capsule Networks for Program Source Code Processing" has been accepted at <a href="https://nips.cc/" target="_blank">NeurIPS Workshop on ML for Systems, 2019, Vancouver, Canada </a> !!!.
