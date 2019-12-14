@@ -10,7 +10,7 @@ I'm a fourth-year Ph.D. Candidate in Computer Science at <a href="https://sis.sm
 
 For this term, I will be a visiting scholar at 2 places: <a href="http://www.open.ac.uk/" target="_blank">The Open University, UK</a> and <a href="http://www.bristol.ac.uk/" target="_blank">The University of Bristol, UK </a>to collaborate with <a href="http://www.open.ac.uk/people/yy66" target="_blank">Prof.Yijun Yu</a> and <a href="http://www.bristol.ac.uk/engineering/people/meng-wang/index.html" target="_blank">Prof.Meng Wang</a> to work on the topic: "Deep Learning for Big Code Analysis".
 
-Dissertation Committees: <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Prof. Lingxiao Jiang</a>, <a http://www.mysmu.edu/faculty/davidlo/">Prof. David Lo</a>, <a href="http://www.mysmu.edu/faculty/jingjiang/" target="_blank">Prof. Jing Jiang</a> and <a http://mcs.open.ac.uk/yy66/index.php" target="_blank">Prof. Yijun Yu</a>.  
+Dissertation Committees: <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Prof. Lingxiao Jiang</a>, <a href="http://www.mysmu.edu/faculty/davidlo/" target="_blank">Prof. David Lo</a>, <a href="http://www.mysmu.edu/faculty/jingjiang/" target="_blank">Prof. Jing Jiang</a> and <a href="http://mcs.open.ac.uk/yy66/index.php" target="_blank">Prof. Yijun Yu</a>.  
 
 ## Research Interests
 
