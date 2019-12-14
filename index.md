@@ -10,6 +10,8 @@ I'm a fourth-year Ph.D. Candidate in Computer Science at <a href="https://sis.sm
 
 For this term, I will be a visiting scholar at 2 places: <a href="http://www.open.ac.uk/" target="_blank">The Open University, UK</a> and <a href="http://www.bristol.ac.uk/" target="_blank">The University of Bristol, UK </a>to collaborate with <a href="http://www.open.ac.uk/people/yy66" target="_blank">Prof.Yijun Yu</a> and <a href="http://www.bristol.ac.uk/engineering/people/meng-wang/index.html" target="_blank">Prof.Meng Wang</a> to work on the topic: "Deep Learning for Big Code Analysis".
 
+Dissertation Committees: <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Prof. Lingxiao Jiang</a>, <a http://www.mysmu.edu/faculty/davidlo/">Prof. David Lo</a>, <a href="http://www.mysmu.edu/faculty/jingjiang/" target="_blank">Prof. Jing Jiang</a> and <a http://mcs.open.ac.uk/yy66/index.php" target="_blank">Prof. Yijun Yu</a>.  
+
 ## Research Interests
 
 I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**). My primary focus of research is to analyze source code data from software programs to better understand its behaviors, and propose the Machine Learning model to mine knowledge from existing software artifacts as a stage forward to reduce software maintenance cost, and help software developers to understand the source code better. This field has a wide range of applications, such as:
