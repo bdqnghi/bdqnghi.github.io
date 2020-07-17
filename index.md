@@ -12,7 +12,7 @@ I'll join Huawei Research, Ireland as a Research Scientist in Fall 2020 in Trust
 
 ## Research Interests
 
-I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**). My primary focus of research is to analyze source code data from software programs to better understand its behaviors, and propose the Machine Learning model to mine knowledge from existing software artifacts as a stage forward to reduce software maintenance cost, and help software developers to understand the source code better. This field has a wide range of applications, such as:
+I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**). My primary focus of research is to analyze source code data from software programs to better understand the behaviors, and propose the Machine Learning model to mine knowledge from existing software artifacts as a stage forward to reduce software maintenance cost, and help software developers to understand the source code better. This field has a wide range of applications, such as:
 - Intelligent Code Completion: to suggest the next tokens a developer intends to enter after only a few characters have been typed into an IDE
 - Code Summarization: to generate the documentation for source code automatically.
 - Program Translation: to translate (or migrate a program from one language to another)
