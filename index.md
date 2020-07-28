@@ -36,12 +36,12 @@ More details about the projects I am working on can be found [here](/research/).
 
 
 ## Awards
-* Get into Dean's List of SMU Postgraduate Program, 2019
-* SMU Presidential Doctoral Fellowship, 2019
+* Get into **Dean's List** of SMU Postgraduate Program, 2019
+* SMU **Presidential Doctoral Fellowship**, 2019
 * SIGSOFT CAPS Travel Grant Award - ESEC/FSE 2019
-* Bronze Medal in the ACM Student Research Competition, ICSE 2019
+* **Bronze Medal** in the ACM Student Research Competition, ICSE 2019
 * SIGSOFT CAPS Travel Grant Award - ICSE 2019
-* ACM SIGSOFT Distinguished Paper Award - ICSE 2018
+* ACM SIGSOFT **Distinguished Paper Award** - ICSE 2018
 
 
 
