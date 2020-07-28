@@ -20,7 +20,7 @@ I am interested in the application of Artificial Intelligence (AI) to solve chal
 - Code Generation: to generate the source code given certain information, e.g. natural language text instruction
 - Code Search: to enable searching on the large codebase, which makes it easier for the developer to maintain the source code.
 
-More details about the projects I am working on can be found [here](/research/). 
+More details about the projects I am working on can be found [here](/research/) and my [Github](https://github.com/bdqnghi)
 
 ## News
 * **Oct-2019**: Our paper "TreeCaps:Tree-Structured Capsule Networks for Program Source Code Processing" has been accepted at <a href="https://nips.cc/" target="_blank">NeurIPS Workshop on ML for Systems, 2019, Vancouver, Canada </a> !!!.
