@@ -6,7 +6,7 @@ permalink: /
 
 {% include image.html url="/images/me.jpg" caption="Me when I was in Montreal" width=230 align="right" %}
 
-I'm a fourth-year Ph.D. Candidate in Computer Science at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. I received the SMU full scholarship and started my Ph.D in August, 2016. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I used to be the visiting scholar at University of Bristol, UK and The Open University, UK under the supervision of Dr.Meng Wang and Dr.Yijun Yu.
+I received the Ph.D in Computer Science at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I used to be the visiting scholar at University of Bristol, UK and The Open University, UK under the supervision of Dr.Meng Wang and Dr.Yijun Yu.
 
 I'll join Huawei Research, Ireland as a Research Scientist in Fall 2020 in Trusted Software Engineering and Security Lab, focusing on building intelligent software systems.
 
