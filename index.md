@@ -23,6 +23,7 @@ I am interested in the application of Artificial Intelligence (AI) to solve chal
 More details about the projects I am working on can be found [here](/research/) and in my [Github](https://github.com/bdqnghi).
 
 ## News
+* **December-2019**: I am invited to give a talk about "Machine Learning for Software" at School of Computing & Communications, the Open University, UK.
 * **Oct-2019**: Our paper "TreeCaps:Tree-Structured Capsule Networks for Program Source Code Processing" has been accepted at <a href="https://nips.cc/" target="_blank">NeurIPS Workshop on ML for Systems, 2019, Vancouver, Canada </a> !!!.
 * **Aug-2019**: Get into Dean's List of SMU Postgraduate Program for the outstanding research output in the Academic year of 2018 and 2019
 * **Aug-2019**: Our paper "AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation" has been accepted at <a href="https://2019.ase-conferences.org/" target="_blank">Research Track, New Ideas Papers at ASE 2019, San Diego, California, United States.</a>
