@@ -7,9 +7,10 @@ permalink: /publications/
 - <a href="http://portal.core.edu.au/conf-ranks/" target="_blank"> Australia Computer Science Ranking Portal </a>
 - <a href="http://www.cs.jhu.edu/~taochen/SoC_Conference_Ranking.html" target="_blank"> NUS Computer Science Conference Ranking </a>
 
+# Preprint
+- **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, arXiv preprint arXiv:2008.01566, <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
 # Conference Papers
-- **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, arXiv preprint arXiv:2008.01566, <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 - <span style="color:blue">**[ASE'19]**</span> **AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE 2019), Research Track, New Ideas Papers, San Diego, California, United States, 2019 <span style="color:#AB2F15">(Rank A)</span><a href="/files/ASE_2019_NIER.pdf" target="_blank"> [PDF]</a>
 <br>
 - <span style="color:blue">**[ESEC/FSE'19]**</span> **SAR: Learning Cross-Language API Mappings with Little Knowledge**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track, Tallinn, Estonia, 2019 <span style="color:#AB2F15">(Rank A*)</span> <a href="/files/FSE_2019.pdf" target="_blank"> [PDF]</a> <a href="https://github.com/bdqnghi/SAR_API_mapping" target="_blank"> [Code]</a>
