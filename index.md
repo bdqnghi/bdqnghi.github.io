@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-{% include image.html url="/images/me.jpg" caption="Me when I was in Montreal" width=230 align="right" %}
+{% include image.html url="/images/me.png" caption="Me when I was in Edinburgh" width=230 align="right" %}
 
 I received the Ph.D in Computer Science at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I used to be the visiting scholar at University of Bristol, UK and The Open University, UK under the supervision of Dr.Meng Wang and Dr.Yijun Yu.
 
