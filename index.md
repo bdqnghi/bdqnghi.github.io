@@ -6,13 +6,13 @@ permalink: /
 
 {% include image.html url="/images/me.png" caption="Me when I was in Edinburgh" width=230 align="right" %}
 
-I received the Ph.D in Computer Science at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I used to be the visiting scholar at University of Bristol, UK and The Open University, UK under the supervision of Dr.Meng Wang and Dr.Yijun Yu.
+I received the Ph.D in Computer Science at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I used to be the visiting scholar at the University of Bristol, UK, and The Open University, UK under the supervision of Prof.Meng Wang and Prof.Yijun Yu.
 
 I'll join Huawei Research, Ireland as a Research Scientist in Fall 2020 in Trusted Software Engineering and Security Lab, focusing on building intelligent software systems.
 
 ## Research Interests
 
-I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**). My primary focus of research is to analyze source code data from software programs to better understand the behaviors, and propose the Machine Learning model to mine knowledge from existing software artifacts as a stage forward to reduce software maintenance cost, and help software developers to understand the source code better. This field has a wide range of applications, such as:
+I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**). Towards the goal of automated programming, my primary focus of research is to study large scale, free source code data (Big Code) that is freely accessible on Github, Bitbucket, etc., to better understand the behaviors of software artifacts, and to introduce Machine Learning model to mine knowledge from these artifacts. This is a stage forward to reduce software maintenance costs, and help software developers to understand the source code better. This field has a wide range of applications, such as:
 - Intelligent Code Completion: to suggest the next tokens a developer intends to type when coding
 - Code Summarization: to generate the documentation for source code automatically.
 - Program Translation: to translate (or migrate a program from one language to another)
