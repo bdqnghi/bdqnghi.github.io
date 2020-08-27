@@ -11,7 +11,8 @@ permalink: /publications/
 
 # Preprint
 - **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, arXiv preprint arXiv:2008.01566, <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
-
+- **TreeCaps:Tree-based Capsule Networks for Source Code Processing**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span> <span style="color:#AB2F15">(Under Review at NeurIPS'20)</span>
+<br>
 # Conference Papers
 - <span style="color:blue">**[ASE'19]**</span> **AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE 2019), Research Track, New Ideas Papers, San Diego, California, United States, 2019 <span style="color:#AB2F15">(Rank A)</span><a href="/files/ASE_2019_NIER.pdf" target="_blank"> [PDF]</a>
 <br>
@@ -24,6 +25,4 @@ permalink: /publications/
 - <span style="color:blue">**[ICSE'18]**</span> **Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code**, by <span style="color:blue">**Nghi D. Q. BUI**, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 40th International Conference on Software Engineering: New Ideas and Emerging Technologies Results Track (NIER), Gothenburg, Sweden, 2018 <span style="color:#AB2F15">(Rank A*)</span> <a href="https://www.icse2018.org/info/awards" style="color:red" target="_blank"> (Award: ACM SIGSOFT Distinguished Paper Award) </a> <a href="/files/ICSE_2018_NIER.pdf" target="_blank"> [PDF]</a> <a href="https://github.com/bdqnghi/hierarchical-programming-language-mapping" target="_blank"> [Code]</a>
 
 # Workshop Papers
-- <span style="color:blue">**[NeurIPS'19]**</span> **TreeCaps:Tree-Structured Capsule Networks for Program Source Code Processing**, by <span style="color:blue">Vinoj JAYASUNDARA, **Nghi D. Q. BUI**, Lingxiao JIANG, David LO</span>, in Workshop on Machine Learning for Systems,  33rd Conference on Neural Information Processing Systems (NeurIPS) 2019, Vancouver, Canada<a href="https://arxiv.org/pdf/1910.12306.pdf" target="_blank"> [PDF]</a>
-<br>
 - <span style="color:blue">**[NL4SE-AAAI'18]**</span> **Cross-Language Learning for Program Classification Using Bilateral Tree-Based Convolutional Neural Networks**, by <span style="color:blue">**Nghi D. Q. BUI**, Lingxiao JIANG, and Yijun YU</span>. In the proceedings of the 32nd AAAI Conference on Artificial Intelligence (AAAI) Workshop on Natural Language Processing for Software Engineering (NL4SE), New Orleans, Lousiana, USA, 2018.  <a href="/files/AAAI_18_cross_language_learning.pdf" target="_blank"> [PDF]</a> <a href="https://github.com/bdqnghi/bi-tbcnn" target="_blank"> [Code]</a>
