@@ -7,7 +7,7 @@ permalink: /publications/
 - <a href="http://portal.core.edu.au/conf-ranks/" target="_blank"> Australia Computer Science Ranking Portal </a>
 - <a href="http://www.cs.jhu.edu/~taochen/SoC_Conference_Ranking.html" target="_blank"> NUS Computer Science Conference Ranking </a>
 
-<span style="color:red">**Rank A***</span>: ICSE, FSE, NeurIPS, AAAI   &nbsp;   &nbsp;  &nbsp;   <span style="color:red">**Rank A**</span>: ASE
+<span style="color:red">**Rank A***</span>: ICSE (3), FSE (1)  &nbsp;   &nbsp;  &nbsp;   <span style="color:red">**Rank A**</span>: ASE (1)
 
 # Preprint
 - **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, arXiv preprint arXiv:2008.01566, <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
