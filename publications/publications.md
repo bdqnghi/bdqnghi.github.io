@@ -7,13 +7,11 @@ permalink: /publications/
 - <a href="http://portal.core.edu.au/conf-ranks/" target="_blank"> Australia Computer Science Ranking Portal </a>
 - <a href="http://www.cs.jhu.edu/~taochen/SoC_Conference_Ranking.html" target="_blank"> NUS Computer Science Conference Ranking </a>
 
-<span style="color:red">**Rank A***</span>: ICSE (2), FSE (1)  &nbsp;   &nbsp;  &nbsp;   <span style="color:red">**Rank A**</span>: ASE (1)
-
 # Preprint
 - **Efficient Framework for Learning Code Representations through Semantic-Preserving Program Transofmation**, by <span style="color:blue">**Nghi D. Q. BUI**</span> <span style="color:#AB2F15">(Under Review)</span>
 - **Learning Distributed Representations of Code Snippets from Unlabeled Data**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span> <span style="color:#AB2F15">(Under Review)</span>
 - **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, arXiv preprint arXiv:2008.01566, <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
-- **TreeCaps:Tree-based Capsule Networks for Source Code Processing**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span> <span style="color:#AB2F15">(Under Review at NeurIPS'20)</span>
+- **TreeCaps:Tree-based Capsule Networks for Source Code Processing**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span> <span style="color:#AB2F15">(Under Review)</span>
 <br>
 
 # Conference Papers
