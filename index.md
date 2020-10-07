@@ -13,6 +13,7 @@ I'll join Huawei Research, Ireland as a Research Scientist in Winter 2020 in Tru
 ## Research Interests
 
 I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**). Towards the goal of automated programming, my primary focus of research is to study large scale, free source code data (Big Code) that is freely accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to introduce Machine Learning model to mine knowledge from these systems. This is a stage forward to reduce software maintenance costs, and help software developers to understand the source code better. 
+
 More details about the projects I am working on can be found [here](/research/) and in my [Github](https://github.com/bdqnghi).
 
 ## News
