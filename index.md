@@ -10,6 +10,8 @@ I received the Ph.D in Computer Science (2020) at <a href="https://sis.smu.edu.s
 
 I'll join Huawei Research, Ireland as a Research Scientist in Winter 2020 in Trusted Software Engineering and Security Lab, focusing on building intelligent software systems.
 
+Our Software Analytics Research (SOAR) group at SMU now has multiple new openings for research engineers and postdocs in software engineering and cybersecurity, see <a href="https://soarsmu.github.io/">our website</a> for more information about the vacancies.
+
 ## Research Interests
 
 I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**). Towards the goal of automated programming, my primary focus of research is to study large scale, free source code data (Big Code) that is freely accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to introduce Machine Learning model to mine knowledge from these systems. This is a stage forward to reduce software maintenance costs, and help software developers to understand the source code better. 
