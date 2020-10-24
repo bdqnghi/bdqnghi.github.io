@@ -8,9 +8,9 @@ permalink: /
 
 I received the Ph.D in Computer Science (2020) at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I'm also working closely with <a href="http://www.open.ac.uk/people/yy66">Prof.Yijun Yu</a> from The Open University, UK.
 
-I'll join Huawei Research, Ireland as a Research Scientist in Winter 2020 in Trusted Software Engineering and Security Lab, focusing on building intelligent software systems.
+I'll join <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Research, Ireland</a> as a Research Scientist in Winter 2020 in Trusted Software Engineering and Security Lab, focusing on building intelligent software systems.
 
-Our Software Analytics Research (SOAR) group at SMU now has multiple new openings for research engineers and postdocs in software engineering and cybersecurity, see <a href="https://soarsmu.github.io/">our website</a> for more information about the vacancies.
+Our Software Analytics Research (SOAR) group at SMU now has multiple new openings for research engineers and postdocs in software engineering and cybersecurity, see <a href="https://soarsmu.github.io/vacancies" target="_blank">our website</a> for more information about the vacancies.
 
 ## Research Interests
 
