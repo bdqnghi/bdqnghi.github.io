@@ -31,7 +31,7 @@ More details about the projects I am working on can be found [here](/research/) 
 * **Nov-2018**: Paper "Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code" has been accepted at <a href="https://www.icse2018.org/" target="_blank"> the 40th International Conference on Software Engineering: New Ideas and Emerging Technologies Results Track (NIER), Gothenburg, Sweden, 2018 </a> !!!.
 
 ## Awards
-* Get into **Dean's List** of SMU Postgraduate Program, 2019
+* Get into **Dean's List** for Outstanding Research Achievement at SMU Postgraduate Program, 2019
 * SMU **Presidential Doctoral Fellowship**, 2019
 * SIGSOFT CAPS Travel Grant Award - ESEC/FSE 2019
 * **Bronze Medal** in the ACM Student Research Competition, ICSE 2019
