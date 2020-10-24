@@ -19,7 +19,7 @@ I am interested in the application of Artificial Intelligence (AI) to solve chal
 More details about the projects I am working on can be found [here](/research/) and in my [Github](https://github.com/bdqnghi).
 
 ## News
-* **Oct-2020**: I'll serve as a Program Commitee member of the <a href="https://conf.researchr.org/track/msr-2021/msr-2021-mining-challenge#Call-for-Mining-Challenge-Papers" target="_blank">Mining Challenge Track, Mining Sotware Repositories (MSR 2021)</a>.
+* **Oct-2020**: I'll serve as a Program Commitee member of the <a href="https://conf.researchr.org/track/msr-2021/msr-2021-mining-challenge#Call-for-Mining-Challenge-Papers" target="_blank">Mining Challenge Track, Mining Sotware Repositories (MSR 2021), Madrid, Spain</a>.
 * **Dec-2019**: I am invited to give a talk about "Machine Learning for Software" at School of Computing & Communications, the Open University, UK.
 * **Oct-2019**: Paper "TreeCaps:Tree-Structured Capsule Networks for Program Source Code Processing" has been accepted at <a href="https://nips.cc/" target="_blank">NeurIPS Workshop on ML for Systems, 2019, Vancouver, Canada </a> !!!.
 * **Aug-2019**: Get into Dean's List of SMU Postgraduate Program for the outstanding research output in the Academic year of 2018 and 2019
