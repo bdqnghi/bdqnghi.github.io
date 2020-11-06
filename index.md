@@ -32,7 +32,7 @@ More details about the projects I am working on can be found [here](/research/) 
 
 ## Awards
 * Get into **Dean's List** for Outstanding Research Achievement at SMU Postgraduate Program, 2019
-* SMU **Presidential Doctoral Fellowship**, 2019
+* SMU <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#computing" target="_blank">**Presidential Doctoral Fellowship**</a>, 2019
 * SIGSOFT CAPS Travel Grant Award - ESEC/FSE 2019
 * **Bronze Medal** in the ACM Student Research Competition, ICSE 2019
 * SIGSOFT CAPS Travel Grant Award - ICSE 2019
