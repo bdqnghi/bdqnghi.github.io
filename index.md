@@ -6,7 +6,7 @@ permalink: /
 
 {% include image.html url="/images/me.png" caption="Me when I was in Edinburgh" width=230 align="right" %}
 
-I received the Ph.D in Computer Science (2020) at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. At SIS, I'm fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I'm also working closely with <a href="http://www.open.ac.uk/people/yy66">Prof.Yijun Yu</a> from The Open University, UK.
+I received the Ph.D in Computer Science (2020) at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. At SIS, I was fortunate to receive the <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#computing" target="_blank">**SMU Presidential Doctoral Fellowship in Computing**</a> and was advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I'm also working closely with <a href="http://www.open.ac.uk/people/yy66">Prof.Yijun Yu</a> from The Open University, UK.
 
 I'm a Research Scientist at <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Research, Ireland</a> in Trusted Software Engineering and Security Lab, focusing on building intelligent software systems.
 
