@@ -6,7 +6,7 @@ permalink: /
 
 {% include image.html url="/images/me.png" caption="Me when I was in Edinburgh" width=230 align="right" %}
 
-I received the Ph.D in Computer Science (2020) at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a>. At SIS, I was fortunate to receive the <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#computing" target="_blank">SMU Presidential Doctoral Fellowship in Computing</a> and was advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I'm also working closely with <a href="http://www.open.ac.uk/people/yy66">Prof.Yijun Yu</a> from The Open University, UK.
+I received the Ph.D in Computer Science (2020) at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Information Systems (SIS), Singapore Management University (SMU)</a> (Rank 84 Overral, Rank 21 in Software Engineering on  <a href="http://csrankings.org/#/index?soft&world" target="_blank">CSRanking</a>). At SIS, I was fortunate to receive the <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#computing" target="_blank">SMU Presidential Doctoral Fellowship in Computing</a> and was advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I'm also working closely with <a href="http://www.open.ac.uk/people/yy66">Prof.Yijun Yu</a> from The Open University, UK.
 
 I'm now a Research Scientist at <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Research, Ireland</a> in Trusted Software Engineering and Security Lab, focusing on building intelligent software systems.
 
@@ -14,7 +14,7 @@ Our Software Analytics Research (SOAR) group at SMU now has multiple new opening
 
 ## Research Interests
 
-I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**). Towards the goal of automated programming, my primary focus of research is to study large scale, free source code data (Big Code) that is freely accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to introduce Machine Learning model to mine knowledge from these systems. This is a stage forward to reduce software maintenance costs, and help software developers to understand the source code better. 
+My interests lie at the intersection of Software Engineering, Machine Learning and Programming Languages. Specifically, I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**). Towards the goal of automated programming, my primary focus of research is to study large scale, free source code data (Big Code) that is freely accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to introduce Machine Learning model to mine knowledge from these systems. This is a stage forward to reduce software maintenance costs, and help software developers to understand the source code better. 
 
 More details about the projects I am working on can be found [here](/research/) and in my [Github](https://github.com/bdqnghi).
 
