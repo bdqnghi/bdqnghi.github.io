@@ -10,7 +10,7 @@ permalink: /publications/
 # Preprint
 - **Efficient Framework for Learning Code Representations through Semantic-Preserving Program Transofmation**, by <span style="color:blue">**Nghi D. Q. BUI**</span> <span style="color:#AB2F15">(Under Review)</span>
 - **Learning Distributed Representations of Code Snippets from Unlabeled Data**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span> <span style="color:#AB2F15">(Under Review)</span>
-- **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, arXiv preprint arXiv:2008.01566, <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
+- **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, arXiv preprint arXiv:2008.01566, <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [Preprint]</a>
 - **TreeCaps:Tree-based Capsule Networks for Source Code Processing**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span> <span style="color:#AB2F15">(Under Review)</span><a href="https://arxiv.org/pdf/2009.09777.pdf" target="_blank"> [Preprint]</a>
 <br>
 
