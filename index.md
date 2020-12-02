@@ -19,6 +19,7 @@ My interests lie at the intersection of Software Engineering, Machine Learning a
 More details about the projects I am working on can be found [here](/research/) and in my [Github](https://github.com/bdqnghi).
 
 ## News
+* **Dec-2020**: Paper "TreeCaps:Tree-based Capsule Networks for Source Code Processing" has been accepted at <a href="https://aaai.org/Conferences/AAAI-21/" target="_blank">as a full paper, Main Track at AAAI 2021</a>!!!
 * **Oct-2020**: I'll serve as a Program Commitee member of the <a href="https://conf.researchr.org/track/msr-2021/msr-2021-mining-challenge#Call-for-Mining-Challenge-Papers" target="_blank">Mining Challenge Track, Mining Sotware Repositories (MSR 2021), Madrid, Spain</a>.
 * **Dec-2019**: I am invited to give a talk about "Machine Learning for Software" at School of Computing & Communications, the Open University, UK.
 * **Oct-2019**: Paper "TreeCaps:Tree-Structured Capsule Networks for Program Source Code Processing" has been accepted at <a href="https://nips.cc/" target="_blank">NeurIPS Workshop on ML for Systems, 2019, Vancouver, Canada </a> !!!.
