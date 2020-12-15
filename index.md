@@ -19,7 +19,7 @@ My interests lie at the intersection of Software Engineering, Machine Learning a
 More details about the projects I am working on can be found [here](/research/) and in my [Github](https://github.com/bdqnghi).
 
 ## News
-* **Dec-2020**: Our paper "InferCode: Self-Supervised Learning of Code Representations by Predicting Subtrees" has been accepted as a full paper, Research Track at <a href="https://conf.researchr.org/home/icse-2021/" target="_blank">ICSE 2021, Madrid, Spain</a>!
+* **Dec-2020**: Our paper "InferCode: Self-Supervised Learning of Code Representations by Predicting Subtrees" has been accepted as a full paper, Technical Track at <a href="https://conf.researchr.org/home/icse-2021/" target="_blank">ICSE 2021, Madrid, Spain</a>!
 * **Dec-2020**: Our paper "TreeCaps:Tree-based Capsule Networks for Source Code Processing" has been accepted as a full paper, Main Track at <a href="https://aaai.org/Conferences/AAAI-21/" target="_blank">AAAI 2021, Vancouver, Canada</a>!
 * **Oct-2020**: I'll serve as a Program Commitee member of the <a href="https://conf.researchr.org/track/msr-2021/msr-2021-mining-challenge#Call-for-Mining-Challenge-Papers" target="_blank">Mining Challenge Track, Mining Sotware Repositories (MSR 2021), Madrid, Spain</a>.
 * **Dec-2019**: I am invited to give a talk about "Machine Learning for Software" at School of Computing & Communications, the Open University, UK.
