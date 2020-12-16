@@ -8,11 +8,12 @@ permalink: /publications/
 - <a href="http://www.cs.jhu.edu/~taochen/SoC_Conference_Ranking.html" target="_blank"> NUS Computer Science Conference Ranking </a>
 
 # Preprint
-- **Learning Distributed Representations of Code Snippets from Unlabeled Data**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span> <span style="color:#AB2F15">(Under Review)</span>
 - **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, arXiv preprint arXiv:2008.01566, <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [Preprint]</a>
 
 # Conference Papers
-- <span style="color:blue">**[AAAI'21]**</span> **TreeCaps:Tree-based Capsule Networks for Source Code Processing**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 35th AAAI Conference on Artificial Intelligence (AAAI), Full Paper, Main Track <span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/pdf/2009.09777.pdf" target="_blank"> [Preprint]</a> (To appear) <span style="color:#8B008B">-Acceptance Rate: 21% (1692/7911)</span>
+- <span style="color:blue">**[ICSE'21]**</span> **InferCode: Self-Supervised Learning of Code Representations by Predicting Subtrees**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 43th International Conference on Software Engineering, Full Paper, Technical Track, Madrid, Spain, 2021 <span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/pdf/2012.07023.pdf" target="_blank"> [Preprint]</a> (To appear) <span style="color:#8B008B">- Acceptance Rate: 22.9% (138/602)</span>
+<br>
+- <span style="color:blue">**[AAAI'21]**</span> **TreeCaps:Tree-based Capsule Networks for Source Code Processing**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 35th AAAI Conference on Artificial Intelligence (AAAI), Full Paper, Main Track, Vancouver, Canada, 2021 <span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/pdf/2009.09777.pdf" target="_blank"> [Preprint]</a> (To appear) <span style="color:#8B008B">- Acceptance Rate: 21% (1692/7911)</span>
 <br>
 - <span style="color:blue">**[ASE'19]**</span> **AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE), New Ideas Papers, San Diego, California, United States, 2019 <span style="color:#AB2F15">(Rank A)</span><a href="/files/ASE_2019_NIER.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"> - Acceptance Rate: 22.7% (93/409)</span>
 <br>
