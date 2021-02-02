@@ -10,8 +10,6 @@ I received the Ph.D in Computer Science (2020) at <a href="https://sis.smu.edu.s
 
 I'm now a Research Scientist at <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Research, Ireland</a> in the Trustworthy Software Engineering and Open Source Lab, focusing on building intelligent software systems.
 
-Our Software Analytics Research (SOAR) group at SMU now has multiple new openings for research engineers and postdocs in software engineering and cybersecurity, see <a href="https://soarsmu.github.io/vacancies" target="_blank">our website</a> for more information about the vacancies.
-
 ## Research Interests
 
 My interests lie at the intersection of Software Engineering, Machine Learning and Programming Languages. Specifically, I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**). Towards the goal of automated programming, my primary focus of research is to study large scale, free source code data (Big Code) that is freely accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to introduce Machine Learning model to mine knowledge from these systems. This is a step forward in reducing software maintenance costs, and help software developers to understand the source code better. 
