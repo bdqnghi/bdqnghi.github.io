@@ -48,7 +48,7 @@ permalink: /publications/
 <span style="color:#AB2F15">(Rank A*)</span> <a href="https://www.icse2018.org/info/awards" style="color:red" target="_blank"> (Award: ACM SIGSOFT Distinguished Paper Award) </a> <a href="/files/ICSE_2018_NIER.pdf" target="_blank"> [PDF]</a> <a href="https://github.com/bdqnghi/hierarchical-programming-language-mapping" target="_blank"> [Code]</a> <span style="color:#8B008B"> - Acceptance Rate: 26.3% (25/95)</span>
 
 # Workshop Papers
-- <span style="color:blue">**[MLSys-NeurIPS'19]**</span> **TreeCaps: Tree-Structured Capsule Networks for Program Source Code Processing**, by <span style="color:blue">Vinoj JAYASUNDARA, Nghi Duy Quoc BUI, Lingxiao JIANG, David LO/span>. In NeurIPS Workshop on ML for Systems 2019.
+- <span style="color:blue">**[MLSys-NeurIPS'19]**</span> **TreeCaps: Tree-Structured Capsule Networks for Program Source Code Processing**, by <span style="color:blue">Vinoj JAYASUNDARA, **Nghi D. Q. BUI**, Lingxiao JIANG, David LO</span>. In NeurIPS Workshop on ML for Systems 2019.
 <br>
 <br>
 - <span style="color:blue">**[NL4SE-AAAI'18]**</span> **Cross-Language Learning for Program Classification Using Bilateral Tree-Based Convolutional Neural Networks**, by <span style="color:blue">**Nghi D. Q. BUI**, Lingxiao JIANG, and Yijun YU</span>. In the proceedings of the 32nd AAAI Conference on Artificial Intelligence (AAAI) Workshop on Natural Language Processing for Software Engineering (NL4SE), New Orleans, Lousiana, USA, 2018.  <a href="/files/AAAI_18_cross_language_learning.pdf" target="_blank"> [PDF]</a> <a href="https://github.com/bdqnghi/bi-tbcnn" target="_blank"> [Code]</a>
