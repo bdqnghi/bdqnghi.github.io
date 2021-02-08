@@ -8,7 +8,7 @@ permalink: /
 
 I received the Ph.D in Computer Science (2020) at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Computing & Information Systems (SCIS), Singapore Management University (SMU)</a> (Rank 84 Overrall, Rank 21 in Software Engineering Research on  <a href="http://csrankings.org/#/index?soft&world" target="_blank">CSRanking</a>). At SCIS, I was fortunate to receive the <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#computing" target="_blank">SMU Presidential Doctoral Fellowship in Computing</a> and was advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank">Associate Prof. Lingxiao Jiang</a>. I'm also working closely with <a href="http://www.open.ac.uk/people/yy66">Prof.Yijun Yu</a> from The Open University, UK.
 
-I'm now a Research Scientist at <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Research, Ireland</a> in the Trustworthy Software Engineering and Open Source Lab, focusing on building intelligent software systems.
+I'm now a Research Scientist at <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Research, Ireland</a> at the <a href="https://trusted-programming.github.io/" target="_blank">Trustworthy Open-Source Software Engineering Lab</a>, focusing on building intelligent software systems.
 
 ## Research Interests
 
