@@ -10,7 +10,9 @@ permalink: /publications/
 **Flagship**: ICSE(3), FSE(1), AAAI(1)   &nbsp; &nbsp;    **Top**: ASE(1), SANER(1)
 
 # Journal
-- **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at Journal of Information and Software Technology, <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [Preprint]</a>
+- **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology.
+<br>
+<a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [Preprint]</a>
 
 # Conference Papers
 - <span style="color:blue">**[ICSE'21]**</span> **InferCode: Self-Supervised Learning of Code Representations by Predicting Subtrees**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 43th International Conference on Software Engineering, Full Paper, Technical Track, Madrid, Spain, 2021.
