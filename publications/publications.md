@@ -9,8 +9,8 @@ permalink: /publications/
 
 **Flagship**: ICSE(3), FSE(1), AAAI(1)   &nbsp; &nbsp;    **Top**: ASE(1), SANER(1)
 
-# Preprint
-- **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, arXiv preprint arXiv:2008.01566, <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [Preprint]</a>
+# Journal
+- **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at Journal of Information and Software Technology, <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [Preprint]</a>
 
 # Conference Papers
 - <span style="color:blue">**[ICSE'21]**</span> **InferCode: Self-Supervised Learning of Code Representations by Predicting Subtrees**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 43th International Conference on Software Engineering, Full Paper, Technical Track, Madrid, Spain, 2021.
@@ -20,7 +20,7 @@ permalink: /publications/
 <br>
 - <span style="color:blue">**[AAAI'21]**</span> **TreeCaps:Tree-based Capsule Networks for Source Code Processing**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 35th AAAI Conference on Artificial Intelligence (AAAI), Full Paper, Main Track, Vancouver, Canada, 2021. 
 <br>
-<span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/pdf/2009.09777.pdf" target="_blank"> [Preprint]</a> (To appear) <span style="color:#8B008B">- Acceptance Rate: 21% (1692/7911)</span>
+<span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/pdf/2009.09777.pdf" target="_blank"> [Preprint]</a><span style="color:#8B008B">- Acceptance Rate: 21% (1692/7911)</span>
 <br>
 <br>
 - <span style="color:blue">**[ASE'19]**</span> **AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE), New Ideas Papers, San Diego, California, United States, 2019.
