@@ -9,7 +9,7 @@ permalink: /publications/
 
 **Flagship**: ICSE(3), FSE(1), AAAI(1)   &nbsp; &nbsp;    **Top**: ASE(1), SANER(1)
 
-# Journal
+# Journal P
 - **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology.
 <br>
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [Preprint]</a>
