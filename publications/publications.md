@@ -18,6 +18,11 @@ Publications: (<a href="https://scholar.google.com/citations?user=QwybxYsAAAAJ&h
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [Preprint]</a>
 
 # Conference Papers
+- <span style="color:blue">**[SIGIR'21]**</span> **Self-Supervised Learning for Code Retrieval and Summarization through Semantic-Preserving Program Transformations**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 44th ACM Conference on Research and Development in Information Retrieval (SIGIR), Full Paper, 2021.
+<br>
+<span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/abs/2009.02731" target="_blank"> [Preprint]</a> (To appear) <span style="color:#8B008B">- Acceptance Rate: 21% (151/720)</span>
+<br>
+<br>
 - <span style="color:blue">**[ICSE'21]**</span> **InferCode: Self-Supervised Learning of Code Representations by Predicting Subtrees**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 43th International Conference on Software Engineering, Full Paper, Technical Track, Madrid, Spain, 2021.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span> <a href="/files/ICSE_2021.pdf" target="_blank"> [Preprint]</a> (To appear) <span style="color:#8B008B">- Acceptance Rate: 22.9% (138/602)</span>
