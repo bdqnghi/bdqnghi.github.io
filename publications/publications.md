@@ -30,7 +30,7 @@ Publications: (<a href="https://scholar.google.com/citations?user=QwybxYsAAAAJ&h
 <br>
 - <span style="color:blue">**[AAAI'21]**</span> **TreeCaps:Tree-based Capsule Networks for Source Code Processing**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 35th AAAI Conference on Artificial Intelligence (AAAI), Full Paper, Main Track, Vancouver, Canada, 2021. 
 <br>
-<span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/pdf/2009.09777.pdf" target="_blank"> [Preprint]</a><span style="color:#8B008B">- Acceptance Rate: 21% (1692/7911)</span>
+<span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/pdf/2009.09777.pdf" target="_blank"> [PDF]</a><span style="color:#8B008B">- Acceptance Rate: 21% (1692/7911)</span>
 <br>
 <br>
 - <span style="color:blue">**[ASE'19]**</span> **AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE), New Ideas Papers, San Diego, California, United States, 2019.
