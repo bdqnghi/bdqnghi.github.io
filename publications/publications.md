@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 ## For conference ranking, please refer to: 
-- <a href="http://portal.core.edu.au/conf-ranks/" target="_blank"> The Computing Research and Education Association of Australia </a>
+- <a href="http://portal.core.edu.au/conf-ranks/" target="_blank"> Portal Ranking: The Computing Research and Education Association of Australia. </a>
 
 <br>
 Publications: (<a href="https://scholar.google.com/citations?user=QwybxYsAAAAJ&hl=en" target="_blank"> Google Scholar </a>, <a href="https://dblp.uni-trier.de/pid/207/7870.html" target="_blank"> DBLP </a>, <a href="https://www.researchgate.net/profile/Nghi-Bui-2" target="_blank"> Research Gate </a>) 
