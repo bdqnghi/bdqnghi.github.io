@@ -23,7 +23,7 @@ Publications: (<a href="https://scholar.google.com/citations?user=QwybxYsAAAAJ&h
 <br>
 - <span style="color:blue">**[ICSE'21]**</span> **InferCode: Self-Supervised Learning of Code Representations by Predicting Subtrees**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 43th International Conference on Software Engineering, Full Paper, Technical Track, Madrid, Spain, 2021.
 <br>
-<span style="color:#AB2F15">(Rank A*)</span> <a href="/files/ICSE_2021.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B">- Acceptance Rate: 22.9% (138/602)</span>
+<span style="color:#AB2F15">(Rank A*)</span> <a href="/files/ICSE_2021.pdf" target="_blank"> [PDF]</a> <a href="https://github.com/bdqnghi/infercode" target="_blank"> [Code]</a><span style="color:#8B008B">- Acceptance Rate: 22.9% (138/602)</span>
 <br>
 <br>
 - <span style="color:blue">**[AAAI'21]**</span> **TreeCaps:Tree-based Capsule Networks for Source Code Processing**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 35th AAAI Conference on Artificial Intelligence (AAAI), Full Paper, Main Track, Vancouver, Canada, 2021. 
