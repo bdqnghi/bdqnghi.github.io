@@ -8,7 +8,7 @@ permalink: /publications/
 <br>
 Publications: (<a href="https://scholar.google.com/citations?user=QwybxYsAAAAJ&hl=en" target="_blank"> Google Scholar </a>, <a href="https://dblp.uni-trier.de/pid/207/7870.html" target="_blank"> DBLP </a>, <a href="https://www.researchgate.net/profile/Nghi-Bui-2" target="_blank"> Research Gate </a>) 
 
-**Flagship**: ICSE(2), FSE(1), ASE(1), AAAI(1), SIGIR(1)   &nbsp; &nbsp;    **Top**: SANER(1)
+**Flagship (A*)**: ICSE(2), FSE(1), ASE(1), AAAI(1), SIGIR(1)   &nbsp; &nbsp;    **Top (A)**: SANER(1)
 
 # Journal Papers
 - **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology.
