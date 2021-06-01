@@ -4,8 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 ## For conference ranking, please refer to: 
-- <a href="http://portal.core.edu.au/conf-ranks/" target="_blank"> Australia Computer Science Ranking Portal </a>
-- <a href="http://www.cs.jhu.edu/~taochen/SoC_Conference_Ranking.html" target="_blank"> NUS Computer Science Conference Ranking </a>
+- <a href="http://portal.core.edu.au/conf-ranks/" target="_blank"> The Computing Research and Education Association of Australia </a>
 
 <br>
 Publications: (<a href="https://scholar.google.com/citations?user=QwybxYsAAAAJ&hl=en" target="_blank"> Google Scholar </a>, <a href="https://dblp.uni-trier.de/pid/207/7870.html" target="_blank"> DBLP </a>, <a href="https://www.researchgate.net/profile/Nghi-Bui-2" target="_blank"> Research Gate </a>) 
@@ -17,7 +16,7 @@ Publications: (<a href="https://scholar.google.com/citations?user=QwybxYsAAAAJ&h
 <br>
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
-# Conference Papers
+# Conference Papers (Full)
 - <span style="color:blue">**[SIGIR'21]**</span> **Self-Supervised Learning for Code Retrieval and Summarization through Semantic-Preserving Program Transformations**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 44th ACM Conference on Research and Development in Information Retrieval (SIGIR), Full Paper, 2021.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/abs/2009.02731" target="_blank"> [PDF]</a> (To appear) <span style="color:#8B008B">- Acceptance Rate: 21% (151/720)</span>
@@ -33,24 +32,25 @@ Publications: (<a href="https://scholar.google.com/citations?user=QwybxYsAAAAJ&h
 <span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/pdf/2009.09777.pdf" target="_blank"> [PDF]</a><span style="color:#8B008B">- Acceptance Rate: 21% (1692/7911)</span>
 <br>
 <br>
-- <span style="color:blue">**[ASE'19]**</span> **AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE), New Ideas Papers, San Diego, California, United States, 2019.
-<br>
-<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2019_NIER.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"> - Acceptance Rate: 22.7% (93/409)</span>
-<br>
-<br>
 - <span style="color:blue">**[ESEC/FSE'19]**</span> **SAR: Learning Cross-Language API Mappings with Little Knowledge**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track, Tallinn, Estonia, 2019.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span> <a href="/files/FSE_2019.pdf" target="_blank"> [PDF]</a> <a href="https://github.com/bdqnghi/SAR_API_mapping" target="_blank"> [Code]</a> <span style="color:#8B008B"> - Acceptance Rate: 24.4% (74/303) </span>
 <br>
 <br>
+- <span style="color:blue">**[SANER'19]**</span> **Bilateral Dependency Neural Networks for Cross-Language Algorithm Classification**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in the 26th edition of the IEEE/ACM International Conference on Software Analysis, Evolution and Reengineering, Research Track, Hangzhou, China, 2019.
+<br>
+<span style="color:#AB2F15">(Rank A)</span> <a href="/files/SANER_2019_bilateral_dependency.pdf" target="_blank"> [PDF]</a> <a href="https://github.com/bdqnghi/bi-tbcnn" target="_blank"> [Code]</a> <span style="color:#8B008B"> - Acceptance Rate: 27% (40/148) </span>
+
+
+# Conference Papers (Short)
 - <span style="color:blue">**[ICSE'19]**</span> **Towards Zero Knowledge Learning for Cross Language API Mappings**, by <span style="color:blue">**Nghi D. Q. BUI**</span>, in Proceedings of the IEEE/ACM 41th International Conference on Software Engineering: ACM Student Research Competition Track (SRC), Montreal, Canada, 2019.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span>  <span style="color:red">(Award: Bronze Medal)</span> <a href="/files/ICSE_2019_SRC.pdf" target="_blank">[PDF]</a> <a href="/files/ICSE_2019_poster.pdf" target="_blank">[Poster]</a> <span style="color:#8B008B"> - Acceptance Rate: 45.2% (19/42)</span>
 <br>
 <br>
-- <span style="color:blue">**[SANER'19]**</span> **Bilateral Dependency Neural Networks for Cross-Language Algorithm Classification**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in the 26th edition of the IEEE/ACM International Conference on Software Analysis, Evolution and Reengineering, Research Track, Hangzhou, China, 2019.
+- <span style="color:blue">**[ASE'19]**</span> **AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE), New Ideas Papers, San Diego, California, United States, 2019.
 <br>
-<span style="color:#AB2F15">(Rank A)</span> <a href="/files/SANER_2019_bilateral_dependency.pdf" target="_blank"> [PDF]</a> <a href="https://github.com/bdqnghi/bi-tbcnn" target="_blank"> [Code]</a> <span style="color:#8B008B"> - Acceptance Rate: 27% (40/148) </span>
+<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2019_NIER.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"> - Acceptance Rate: 22.7% (93/409)</span>
 <br>
 <br>
 - <span style="color:blue">**[ICSE'18]**</span> **Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code**, by <span style="color:blue">**Nghi D. Q. BUI**, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 40th International Conference on Software Engineering: New Ideas and Emerging Technologies Results Track (NIER), Gothenburg, Sweden, 2018.
