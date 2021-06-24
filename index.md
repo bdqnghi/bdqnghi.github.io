@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-{% include image.html url="/images/me.png" caption="Me when I was in Edinburgh" width=250 align="right" %}
+{% include image.html url="/images/me.png" caption="Me when I was in Edinburgh" width=200 align="right" %}
 
 I completed the Ph.D in Computer Science (2020) at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Computing & Information Systems (SCIS), Singapore Management University (SMU)</a> (Rank 84 Overrall, Rank 21 in Software Engineering Research on  <a href="http://csrankings.org/#/index?soft&world" target="_blank">CSRanking</a>). At SCIS, I was fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank"> Prof. Lingxiao Jiang</a>. I also received tremendous guidance from <a href="http://www.open.ac.uk/people/yy66" target="_blank">Prof.Yijun Yu</a> from The Open University, UK. During my Ph.D, I was grateful to receive the  <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#computing" target="_blank"> Presidential Doctoral Fellowship in Computing</a>.
 
