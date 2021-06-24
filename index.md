@@ -1,6 +1,6 @@
 ---
 layout: page
-
+title: Nghi D. Q. Bui (Ph.D.)
 permalink: /
 ---
 
