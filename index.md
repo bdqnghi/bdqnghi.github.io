@@ -1,11 +1,12 @@
 ---
 layout: page
-title: About
+
 permalink: /
 ---
 
 {% include image.html url="/images/me.png" caption="Me when I was in Edinburgh" width=200 align="right" %}
 
+## About
 I completed the Ph.D in Computer Science (2020) at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Computing & Information Systems (SCIS), Singapore Management University (SMU)</a> (Rank 84 Overrall, Rank 21 in Software Engineering Research on  <a href="http://csrankings.org/#/index?soft&world" target="_blank">CSRanking</a>). At SCIS, I was fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank"> Prof. Lingxiao Jiang</a>. I also received tremendous guidance from <a href="http://www.open.ac.uk/people/yy66" target="_blank">Prof.Yijun Yu</a> from The Open University, UK. During my Ph.D, I was grateful to receive the  <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#computing" target="_blank"> Presidential Doctoral Fellowship in Computing</a>.
 
 I'm now a Research Scientist at the <a href="https://trusted-programming.github.io/" target="_blank">Trustworthy Open-Source Software Engineering Lab</a> affiliated with <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Ireland Research Center</a>, focusing on building intelligent software systems.
@@ -14,7 +15,17 @@ I'm now a Research Scientist at the <a href="https://trusted-programming.github.
 
 My interests lie at the intersection of Software Engineering, Machine Learning and Programming Languages. Specifically, I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**). Towards the goal of automated programming, my primary focus of research is to study large scale, free source code data (Big Code) that is freely accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to introduce Machine Learning model to mine knowledge from these systems. This is a step forward in reducing software maintenance costs, and help software developers to understand the source code better. 
 
-More details about the projects I am working on can be found [here](/research/) and in my [Github](https://github.com/bdqnghi).
+You can have at the open-source software that I created on my [Github](https://github.com/bdqnghi){:target="_blank"}.
+
+## Higlighted Publications
+
+[**TreeCaps:Tree-based Capsule Networks for Source Code Processing**](https://arxiv.org/pdf/2009.09777.pdf), AAAI 2021.
+<br>
+[**InferCode: Self-Supervised Learning of Code Representations by Predicting Subtrees**](https://bdqnghi.github.io/files/ICSE_2021.pdf), ICSE 2021.
+<br>
+[**Self-Supervised Learning for Code Retrieval and Summarization through Semantic-Preserving Program Transformations**](https://arxiv.org/pdf/2009.02731.pdf), SIGIR 2021.
+<br>
+
 
 ## News
 * **Apr-2020**: Our paper "Corder: Self-Supervised Learning for Code Retrieval and Summarization through Semantic-Preserving Program Transformations" has been accepted as a full paper at <a href="https://sigir.org/sigir2021/" target="_blank">SIGIR 2021</a>!
