@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 
+title: Nghi D. Q. Bui (Ph.D)
 email: bdqnghi@gmail.com | dqnbui.2016@smu.edu.sg
 description: > # this means to ignore newlines until "baseurl:"
  Nghi Bui's academic website.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://bdqnghi.github.com" # the base hostname & protocol for your site
+url: "http://bdqnghi.github.io" # the base hostname & protocol for your site
 future: true # allows future dated posts
 jobtitle: "Ph.D in Computer Science"
 
