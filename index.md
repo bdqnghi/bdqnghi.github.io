@@ -13,7 +13,7 @@ I'm now a Research Scientist at the <a href="https://trusted-programming.github.
 
 ## Research Interests
 
-My interests lie at the intersection of Software Engineering, Machine Learning and Programming Languages. Specifically, I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**). Towards the goal of automated programming, my primary focus of research is to study large scale, free source code data (Big Code) that is freely accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to introduce Machine Learning model to mine knowledge from these systems. This is a step forward in reducing software maintenance costs, and help software developers to understand the source code better. 
+My interests lie at the intersection of Software Engineering, Machine Learning and Programming Languages. Specifically, I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**), such as **large-scale code search, code summarization, program synthesis, bug detection, program repair, etc**. Towards the goal of automated programming, my primary focus of research is to study large scale, free source code data (Big Code) that is freely accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to introduce Machine Learning model to mine knowledge from these systems. This is a step forward in reducing software maintenance costs, and help software developers to understand the source code better. 
 
 More details of my research can be found in my [Github](https://github.com/bdqnghi){:target="_blank"}.
 
