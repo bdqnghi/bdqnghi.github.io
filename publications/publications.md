@@ -7,7 +7,7 @@ permalink: /publications/
 - <a href="http://portal.core.edu.au/conf-ranks/" target="_blank"> Portal Ranking: The Computing Research and Education Association of Australasia. </a>
 <br>
 
-**Flagship (A*)**: ICSE(2), FSE(1), ASE(1), AAAI(1), SIGIR(1)   &nbsp; &nbsp;    **Top (A)**: SANER(1)
+<span style="color:red">**Flagship (A*)**</span>: ICSE(2), FSE(1), ASE(1), AAAI(1), SIGIR(1)   &nbsp; &nbsp;    <span style="color:red">**Top (A)**</span>: SANER(1)
 
 # Journal Papers
 - **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology.
