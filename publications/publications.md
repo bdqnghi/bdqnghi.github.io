@@ -5,6 +5,8 @@ permalink: /publications/
 ---
 ## For conference ranking, please refer to: 
 - <a href="http://portal.core.edu.au/conf-ranks/" target="_blank"> Portal Ranking: The Computing Research and Education Association of Australasia. </a>
+- <a href="https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/" target="_blank"> China Computer Federation (CCF). </a>
+- <a href="https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng" target="_blank"> Google Scholar Metrics. </a>
 <br>
 
 <span style="color:red">**Flagship (A*)**</span>: ICSE(2), FSE(1), ASE(1), AAAI(1), SIGIR(1)   &nbsp; &nbsp;    <span style="color:red">**Top (A)**</span>: SANER(1)
@@ -27,7 +29,7 @@ permalink: /publications/
 <br>
 - <span style="color:blue">**[AAAI'21]**</span> **TreeCaps:Tree-based Capsule Networks for Source Code Processing**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 35th AAAI Conference on Artificial Intelligence (AAAI), Full Paper, Main Track, Vancouver, Canada, 2021. 
 <br>
-<span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/pdf/2009.09777.pdf" target="_blank"> [PDF]</a><a href="https://github.com/bdqnghi/treecaps" target="_blank"> [Code]</a><span style="color:#8B008B">- Acceptance Rate: 21% (1692/7911)</span>
+<span style="color:#AB2F15">(Rank A*)</span> <a href="/files/AAAI_2021.pdf" target="_blank"> [PDF]</a><a href="https://github.com/bdqnghi/treecaps" target="_blank"> [Code]</a><span style="color:#8B008B">- Acceptance Rate: 21% (1692/7911)</span>
 <br>
 <br>
 - <span style="color:blue">**[ESEC/FSE'19]**</span> **SAR: Learning Cross-Language API Mappings with Little Knowledge**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track, Tallinn, Estonia, 2019.
