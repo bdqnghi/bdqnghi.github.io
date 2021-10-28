@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 ## For conference ranking, please refer to: 
 - <a href="http://portal.core.edu.au/conf-ranks/" target="_blank"> Portal Ranking: The Computing Research and Education Association of Australasia. </a>
-- <a href="https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/" target="_blank"> China Computer Federation. </a>
+- <a href="https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/" target="_blank"> China Computer Federation (CCF). </a>
 - <a href="https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng" target="_blank"> Google Scholar Metrics. </a>
 <br>
 
