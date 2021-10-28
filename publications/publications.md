@@ -29,7 +29,7 @@ permalink: /publications/
 <br>
 - <span style="color:blue">**[AAAI'21]**</span> **TreeCaps:Tree-based Capsule Networks for Source Code Processing**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 35th AAAI Conference on Artificial Intelligence (AAAI), Full Paper, Main Track, Vancouver, Canada, 2021. 
 <br>
-<span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/pdf/2009.09777.pdf" target="_blank"> [PDF]</a><a href="https://github.com/bdqnghi/treecaps" target="_blank"> [Code]</a><span style="color:#8B008B">- Acceptance Rate: 21% (1692/7911)</span>
+<span style="color:#AB2F15">(Rank A*)</span> <a href="/files/AAAI_2021.pdf" target="_blank"> [PDF]</a><a href="https://github.com/bdqnghi/treecaps" target="_blank"> [Code]</a><span style="color:#8B008B">- Acceptance Rate: 21% (1692/7911)</span>
 <br>
 <br>
 - <span style="color:blue">**[ESEC/FSE'19]**</span> **SAR: Learning Cross-Language API Mappings with Little Knowledge**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track, Tallinn, Estonia, 2019.
