@@ -11,7 +11,10 @@ I completed the Ph.D in Computer Science (2020) at <a href="https://sis.smu.edu.
 
 During my Ph.D, I was fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank"> Prof. Lingxiao Jiang</a>. I also received tremendous guidance from <a href="http://www.open.ac.uk/people/yy66" target="_blank">Prof.Yijun Yu</a> from The Open University, UK. I was grateful to receive the  <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#computing" target="_blank"> Presidential Doctoral Fellowship in Computing</a> and the SMU Dean's List for outstanding research achievement.  I am the first author of a few publications in top-tier academic conferences across different domains in Computer Science, such as software engineering (<a href="http://www.icse-conferences.org/" target="_blank">ICSE</a> , <a href="https://www.esec-fse.org" target="_blank">ESEC/FSE</a>,  <a href="https://conf.researchr.org/series/ase" target="_blank">ASE</a>), artificial intelligence (<a href="https://www.aaai.org/Conferences/conferences.php" target="_blank">AAAI</a>) and information retrieval (<a href="https://sigir.org/" target="_blank">SIGIR</a>). 
 
-I'm now a Research Scientist at the <a href="https://trusted-programming.github.io/" target="_blank">Trustworthy Open-Source Software Engineering Lab</a> affiliated with <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Ireland Research Center</a>, focusing on building intelligent software systems.
+(Past) Affliations: 
+- Research Scientist - <a href="https://soarsmu.github.io/" target="_blank">Software Analytics Research Group, SMU.</a>
+- Research Scientist - <a href="https://trusted-programming.github.io/" target="_blank">Trustworthy Open-Source Software Engineering Lab</a>, <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Ireland Research Center</a>.
+- AI Scientist - FSoft AI Lab.
 
 ## Research Interests
 
