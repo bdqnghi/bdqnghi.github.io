@@ -14,7 +14,7 @@ During my Ph.D, I was fortunate to be advised by <a href="http://www.mysmu.edu/f
 (Past) Affliations: 
 - Research Scientist - <a href="https://soarsmu.github.io/" target="_blank">Software Analytics Research Group, SMU.</a>
 - Research Scientist - <a href="https://trusted-programming.github.io/" target="_blank">Trustworthy Open-Source Software Engineering Lab</a>, <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Ireland Research Center</a>.
-- AI Scientist - FSoft AI Lab.
+- AI Scientist/Mentor - FSoft AI Lab.
 
 ## Research Interests
 
