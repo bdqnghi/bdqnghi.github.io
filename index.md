@@ -17,6 +17,11 @@ My interests lie at the intersection of Software Engineering, Machine Learning, 
 
 More details of my research can be found in my [Github](https://github.com/bdqnghi){:target="_blank"}.
 
+(Past) Affiliations:
+- Research Scientist - <a href="https://soarsmu.github.io/" target="_blank">Software Engineering Research Group, SMU</a>.
+- AI Residency Supervisor - <a href="https://ai.fpt-software.com/ai-residency/" target="_blank">FSoft AI Lab</a>.
+- Research Scientist - <a href="https://trusted-programming.github.io/" target="_blank">Trustworthy Open-Source Software Engineering Lab</a>, <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Ireland Research Center</a>.
+
 ## Higlighted Publications
 
 [**TreeCaps:Tree-based Capsule Networks for Source Code Processing**](https://arxiv.org/pdf/2009.09777.pdf), AAAI 2021.
