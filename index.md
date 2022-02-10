@@ -11,16 +11,17 @@ I completed the Ph.D in Computer Science (2020) at <a href="https://sis.smu.edu.
 
 During my Ph.D, I was fortunate to be advised by <a href="http://www.mysmu.edu/faculty/lxjiang/" target="_blank"> Prof. Lingxiao Jiang</a>. I also received tremendous guidance from <a href="http://www.open.ac.uk/people/yy66" target="_blank">Prof.Yijun Yu</a> from The Open University, UK. I was grateful to receive the  <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#computing" target="_blank"> Presidential Doctoral Fellowship in Computing</a> and the SMU Dean's List for outstanding research achievement.  I am the first author of a few publications in **top-tier academic conferences** across different domains in Computer Science, such as software engineering (<a href="http://www.icse-conferences.org/" target="_blank">ICSE</a> , <a href="https://www.esec-fse.org" target="_blank">ESEC/FSE</a>,  <a href="https://conf.researchr.org/series/ase" target="_blank">ASE</a>), artificial intelligence (<a href="https://www.aaai.org/Conferences/conferences.php" target="_blank">AAAI</a>) and information retrieval (<a href="https://sigir.org/" target="_blank">SIGIR</a>). 
 
+(Past) Affiliations:
+- Research Scientist - <a href="https://soarsmu.github.io/" target="_blank">Software Engineering Research Group, SMU</a>.
+- AI Residency Supervisor - <a href="https://ai.fpt-software.com/ai-residency/" target="_blank">FSoft AI Lab</a>.
+- Research Scientist - <a href="https://trusted-programming.github.io/" target="_blank">Trustworthy Open-Source Software Engineering Lab</a>, <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Ireland Research Center</a>.
+
 ## Research Interests
 
 My interests lie at the intersection of Software Engineering, Machine Learning, Programming Languages and Natural Language Processing. Specifically, I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**), such as **large-scale code search, code summarization, program synthesis, bug detection, program repair, etc**. Towards the goal of automated programming, my primary focus of research is to study large scale, free source code data (Big Code) that is freely accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to introduce Machine Learning model to mine knowledge from these systems. This is a step forward in reducing software maintenance costs, and help software developers to understand the source code better. 
 
 More details of my research can be found in my [Github](https://github.com/bdqnghi){:target="_blank"}.
 
-(Past) Affiliations:
-- Research Scientist - <a href="https://soarsmu.github.io/" target="_blank">Software Engineering Research Group, SMU</a>.
-- AI Residency Supervisor - <a href="https://ai.fpt-software.com/ai-residency/" target="_blank">FSoft AI Lab</a>.
-- Research Scientist - <a href="https://trusted-programming.github.io/" target="_blank">Trustworthy Open-Source Software Engineering Lab</a>, <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Ireland Research Center</a>.
 
 ## Higlighted Publications
 
