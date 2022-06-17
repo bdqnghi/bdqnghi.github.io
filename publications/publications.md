@@ -12,12 +12,7 @@ permalink: /publications/
 
 <span style="color:red">**Flagship (A*)**</span>: ICSE(2), FSE(1), ASE(1), AAAI(1), SIGIR(1)   &nbsp; &nbsp;    <span style="color:red">**Top (A)**</span>: SANER(1)
 
-# Journal Papers
-- **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology.
-<br>
-<a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
-
-# Conference Papers (Full)
+# Arxiv
 - **Learning to Represent Programs with Code Hierarchies**, by <span style="color:blue">Minh Nguyen, **Nghi D. Q. BUI**</span>.
 <br>
 <a href="https://arxiv.org/pdf/2205.15479.pdf" target="_blank"> [PDF]</a>
@@ -28,6 +23,12 @@ permalink: /publications/
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 <br> 
 <br>
+# Journal Papers
+- **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology.
+<br>
+<a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
+
+# Conference Papers (Full)
 - <span style="color:blue">**[SIGIR'21]**</span> **Self-Supervised Learning for Code Retrieval and Summarization through Semantic-Preserving Program Transformations**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 44th ACM Conference on Research and Development in Information Retrieval (SIGIR), Full Paper, 2021.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/abs/2009.02731" target="_blank"> [PDF]</a><span style="color:#8B008B">- Acceptance Rate: 21% (151/720)</span>
