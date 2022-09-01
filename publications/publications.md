@@ -17,12 +17,7 @@ permalink: /publications/
 <br>
 <a href="https://arxiv.org/pdf/2205.15479.pdf" target="_blank"> [PDF]</a>
 <br> 
-<br>
-- **Towards Using Data-Centric Approach for Better Code Representation Learning**, by <span style="color:blue">Anh T.V Dau, Thang Nguyen Duc, Hoang Thanh Tung, **Nghi D. Q. BUI**</span>.
-<br>
-<a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
-<br> 
-<br>
+
 
 # Journal Papers
 - **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology.
@@ -56,7 +51,14 @@ permalink: /publications/
 
 
 # Conference Papers (Short)
+- <span style="color:blue">**[ASE'22]**</span> **Towards Using Data-Centric Approach for Better Code Representation Learning***, by <span style="color:blue">Anh T.V Dau, **Nghi D. Q. BUI**, Thang Nguyen Duc, Hoang Thanh Tung, </span>, in Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, 2022, Michigan, US.
+<br>
+<br> 
+- <span style="color:blue">**[ASE'22]**</span> **Towards Robust Models of Code via Energy-Based Learning on Auxiliary Datasets**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun Yu</span>, in Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, 2022, Michigan, US.
+<br>
+<br>
 - <span style="color:blue">**[ICSE'19]**</span> **Towards Zero Knowledge Learning for Cross Language API Mappings**, by <span style="color:blue">**Nghi D. Q. BUI**</span>, in Proceedings of the IEEE/ACM 41th International Conference on Software Engineering: ACM Student Research Competition Track (SRC), Montreal, Canada, 2019.
+<br>
 <br>
 <span style="color:#AB2F15">(Rank A*)</span>  <span style="color:red">(Award: Bronze Medal)</span> <a href="/files/ICSE_2019_SRC.pdf" target="_blank">[PDF]</a> <a href="/files/ICSE_2019_poster.pdf" target="_blank">[Poster]</a> <span style="color:#8B008B"> - Acceptance Rate: 45.2% (19/42)</span>
 <br>
