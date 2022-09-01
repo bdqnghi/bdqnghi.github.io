@@ -59,7 +59,6 @@ permalink: /publications/
 <br>
 - <span style="color:blue">**[ICSE'19]**</span> **Towards Zero Knowledge Learning for Cross Language API Mappings**, by <span style="color:blue">**Nghi D. Q. BUI**</span>, in Proceedings of the IEEE/ACM 41th International Conference on Software Engineering: ACM Student Research Competition Track (SRC), Montreal, Canada, 2019.
 <br>
-<br>
 <span style="color:#AB2F15">(Rank A*)</span>  <span style="color:red">(Award: Bronze Medal)</span> <a href="/files/ICSE_2019_SRC.pdf" target="_blank">[PDF]</a> <a href="/files/ICSE_2019_poster.pdf" target="_blank">[Poster]</a> <span style="color:#8B008B"> - Acceptance Rate: 45.2% (19/42)</span>
 <br>
 <br>
