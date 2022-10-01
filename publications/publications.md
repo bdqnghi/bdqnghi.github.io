@@ -10,10 +10,10 @@ permalink: /publications/
 - <a href="https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng" target="_blank"> Google Scholar Metrics. </a>
 <br>
 
-<span style="color:red">**Flagship (A*)**</span>: ICSE(2), FSE(1), ASE(1), AAAI(1), SIGIR(1)   &nbsp; &nbsp;    <span style="color:red">**Top (A)**</span>: SANER(1)
+<span style="color:red">**Flagship (A*)**</span>: ICSE(3), FSE(1), ASE(3), AAAI(1), SIGIR(1)   &nbsp; &nbsp;    <span style="color:red">**Top (A)**</span>: SANER(1)
 
 # Arxiv
-- **Learning to Represent Programs with Code Hierarchies**, by <span style="color:blue">Minh Nguyen, **Nghi D. Q. BUI**</span>.
+- **Learning to Represent Programs with Code Hierarchies**, by <span style="color:blue">Minh H. Nguyen, **Nghi D. Q. Bui**, Truong Son Hy, Long Tran-Thanh, Risi Kondor</span>.
 <br>
 <a href="https://arxiv.org/pdf/2205.15479.pdf" target="_blank"> [PDF]</a>
 <br> 
