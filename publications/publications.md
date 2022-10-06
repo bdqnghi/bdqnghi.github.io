@@ -25,6 +25,11 @@ permalink: /publications/
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
 # Conference Papers (Full)
+- <span style="color:blue">**[EMNLP'2022]**</span> **Detect-Localize-Repair: A Unified Framework for Learning to Debug with CodeT5**, by <span style="color:blue">**Nghi D. Q. BUI**, Yue Wang, Steven Hoi</span>, in Proceedings of the The 2022 Conference on Empirical Methods in Natural Language Processing, Full Paper in Findings Track, Abu Dhabi, United Arab Emirates, 2022 (To Appear).
+<br>
+<span style="color:#AB2F15">(Rank A*)</span> <a href="" target="_blank"> [PDF]</a><span style="color:#8B008B">- Acceptance Rate: (To update) </span>
+<br>
+<br>
 - <span style="color:blue">**[SIGIR'21]**</span> **Self-Supervised Learning for Code Retrieval and Summarization through Semantic-Preserving Program Transformations**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 44th ACM Conference on Research and Development in Information Retrieval (SIGIR), Full Paper, 2021.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/abs/2009.02731" target="_blank"> [PDF]</a><span style="color:#8B008B">- Acceptance Rate: 21% (151/720)</span>
