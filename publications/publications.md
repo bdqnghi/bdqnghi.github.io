@@ -56,10 +56,14 @@ permalink: /publications/
 
 
 # Conference Papers (Short)
-- <span style="color:blue">**[ASE'22]**</span> **Towards Using Data-Centric Approach for Better Code Representation Learning***, by <span style="color:blue">Anh T.V Dau, **Nghi D. Q. BUI**, Thang Nguyen Duc, Hoang Thanh Tung, </span>, in Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, 2022, Michigan, US.
+- <span style="color:blue">**[ASE'22]**</span> **Towards Using Data-Centric Approach for Better Code Representation Learning***, by <span style="color:blue">Anh T.V Dau (Co-first Author), **Nghi D. Q. BUI (Co-first Author)**, Thang Nguyen Duc, Hoang Thanh Tung, </span>, in Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, Late-Breaking Results Track, 2022, Michigan, US.
+<br>
+<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
 <br>
 <br> 
-- <span style="color:blue">**[ASE'22]**</span> **Towards Robust Models of Code via Energy-Based Learning on Auxiliary Datasets**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun Yu</span>, in Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, 2022, Michigan, US.
+- <span style="color:blue">**[ASE'22]**</span> **Towards Robust Models of Code via Energy-Based Learning on Auxiliary Datasets**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun Yu</span>, in Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, 2022, Late-Breaking Results Track, Michigan, US.
+<br>
+<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_OOD_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"> </span>
 <br>
 <br>
 - <span style="color:blue">**[ICSE'19]**</span> **Towards Zero Knowledge Learning for Cross Language API Mappings**, by <span style="color:blue">**Nghi D. Q. BUI**</span>, in Proceedings of the IEEE/ACM 41th International Conference on Software Engineering: ACM Student Research Competition Track (SRC), Montreal, Canada, 2019.
