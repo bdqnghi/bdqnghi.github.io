@@ -25,7 +25,7 @@ permalink: /publications/
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
 # Conference Papers (Full)
-- <span style="color:blue">**[EMNLP'2022]**</span> **Detect-Localize-Repair: A Unified Framework for Learning to Debug with CodeT5**, by <span style="color:blue">**Nghi D. Q. BUI**, Yue Wang, Steven Hoi</span>, in Proceedings of the The 2022 Conference on Empirical Methods in Natural Language Processing, Full Paper in Findings Track, Abu Dhabi, United Arab Emirates, 2022 (To Appear).
+- <span style="color:blue">**[EMNLP'22]**</span> **Detect-Localize-Repair: A Unified Framework for Learning to Debug with CodeT5**, by <span style="color:blue">**Nghi D. Q. BUI**, Yue Wang, Steven Hoi</span>, in Proceedings of the The 2022 Conference on Empirical Methods in Natural Language Processing, Full Paper in Findings Track, Abu Dhabi, United Arab Emirates, 2022 (To Appear).
 <br>
 <span style="color:#AB2F15">(Rank A*)</span> <a href="" target="_blank"> [PDF]</a><span style="color:#8B008B">- Acceptance Rate: (To update) </span>
 <br>
