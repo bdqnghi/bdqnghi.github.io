@@ -13,12 +13,12 @@ During my Ph.D, I was fortunate to be advised by <a href="http://www.mysmu.edu/f
 
 (Past) Affiliations:
 - Research Scientist - <a href="https://soarsmu.github.io/" target="_blank">Software Engineering Research Group, SMU</a>.
-- AI Residency Supervisor - <a href="https://ai.fpt-software.com/ai-residency/" target="_blank">FSoft AI Lab</a>.
+- AI Residency Supervisor/Chief Scientist - <a href="https://ai.fpt-software.com/ai-residency/" target="_blank">FSoft AI Lab</a>.
 - Lead Research Scientist - <a href="https://trusted-programming.github.io/" target="_blank">Trustworthy Open-Source Software Engineering Lab</a>, <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Ireland Research Center</a>.
 
 ## Research Interests
 
-My interests lie at the intersection of Software Engineering, Machine Learning, Programming Languages and Natural Language Processing. Specifically, I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**), such as **large-scale code search, code summarization, program synthesis, bug detection, program repair, etc**. Towards the goal of automated programming, my primary focus of research is to study large scale, free source code data (Big Code) that is freely accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to introduce Machine Learning model to mine knowledge from these systems. This is a step forward in reducing software maintenance costs, and help software developers to understand the source code better. 
+My interests lie at the intersection of Software Engineering, Deep Learning, Programming Languages and Natural Language Processing. Specifically, I am interested in the application of Artificial Intelligence (AI) to solve challenging problems for software systems (aka **Machine Learning for Code**), such as **code generation, code search, code summarization, program synthesis, automated bug detection & program repair, code migration, AI-based software testing etc**. Towards the goal of automated programming, my primary focus of research is to study large scale, free source code data (Big Code) that is freely accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to adapt recent advances in Deep Learning, such as Graph Neural Networks, Large Language Models (GPT, T5, BERT), Causal AI, to mine knowledge from these systems. This is a step forward in reducing software maintenance costs, and help software developers to write and understand source code better. 
 
 More details of my research can be found in my [Github](https://github.com/bdqnghi){:target="_blank"}.
 
