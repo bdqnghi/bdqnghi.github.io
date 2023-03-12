@@ -14,7 +14,7 @@ During my Ph.D, I was fortunate to be advised by <a href="http://www.mysmu.edu/f
 (Past) Affiliations:
 - Research Scientist - <a href="https://soarsmu.github.io/" target="_blank">Software Engineering Research Group, SMU</a>.
 - AI Residency Supervisor/Chief Scientist - <a href="https://ai.fpt-software.com/ai-residency/" target="_blank">FSoft AI Lab</a>.
-- Lead Research Scientist - <a href="https://trusted-programming.github.io/" target="_blank">Trustworthy Open-Source Software Engineering Lab</a>, <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Ireland Research Center</a>.
+- Principal Research Scientist - <a href="https://trusted-programming.github.io/" target="_blank">Trustworthy Open-Source Software Engineering Lab</a>, <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Ireland Research Center</a>.
 
 ## Research Interests
 
