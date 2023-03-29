@@ -34,7 +34,7 @@ More details of my research can be found in my [Github](https://github.com/bdqng
 
 
 ## News
-* **Jun-2022**: Our paper "Detect-Localize-Repair: A Unified Framework for Learning to Debug with CodeT5" with my collaborators at Salesforce Research has been accepted as a full paper at <a href="[https://sigir.org/sigir2021/](https://2022.emnlp.org/)" target="_blank">EMNLP 2022</a>!
+<!-- * **Jun-2022**: Our paper "Detect-Localize-Repair: A Unified Framework for Learning to Debug with CodeT5" with my collaborators at Salesforce Research has been accepted as a full paper at <a href="[https://sigir.org/sigir2021/](https://2022.emnlp.org/)" target="_blank">EMNLP 2022</a>! -->
 * **Apr-2020**: Our paper "Corder: Self-Supervised Learning for Code Retrieval and Summarization through Semantic-Preserving Program Transformations" has been accepted as a full paper at <a href="https://sigir.org/sigir2021/" target="_blank">SIGIR 2021</a>!
 * **Dec-2020**: Our paper "InferCode: Self-Supervised Learning of Code Representations by Predicting Subtrees" has been accepted as a full paper, Technical Track at <a href="https://conf.researchr.org/home/icse-2021/" target="_blank">ICSE 2021, Madrid, Spain</a>!
 * **Dec-2020**: Our paper "TreeCaps:Tree-based Capsule Networks for Source Code Processing" has been accepted as a full paper, Main Track at <a href="https://aaai.org/Conferences/AAAI-21/" target="_blank">AAAI 2021, Vancouver, Canada</a>!
