@@ -16,6 +16,14 @@ permalink: /publications/
 - **Learning to Represent Programs with Code Hierarchies**, by <span style="color:blue">Minh H. Nguyen, **Nghi D. Q. Bui**, Truong Son Hy, Long Tran-Thanh, Risi Kondor</span>.
 <br>
 <a href="https://arxiv.org/pdf/2205.15479.pdf" target="_blank"> [PDF]</a>
+<br>
+- **CodeT5+: Open Code Large Language Models for Code Understanding and Generation**, by <span style="color:blue">Yue Wang, Hung Le, Akhilesh Deepak Gotmare **Nghi D. Q. Bui**, Junnan Li, Steven Hoi</span>.
+<br>
+<a href="https://arxiv.org/abs/2305.07922" target="_blank"> [PDF]</a>
+<br>
+- **CodeTF: One-Stop Transformer-based Library for CodeLLMs**, by <span style="color:blue">**Nghi D. Q. Bui**, Henry Le, Yue Wang, Akhilesh Deepak Gotmare, Junnan Li, Steven Hoi</span>.
+<br>
+<a href="https://arxiv.org/abs/2306.00029" target="_blank"> [PDF]</a>
 <br> 
 
 
@@ -25,11 +33,11 @@ permalink: /publications/
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
 # Conference Papers (Full)
-<!-- - <span style="color:blue">**[EMNLP'22]**</span> **Detect-Localize-Repair: A Unified Framework for Learning to Debug with CodeT5**, by <span style="color:blue">**Nghi D. Q. BUI**, Yue Wang, Steven Hoi</span>, in Proceedings of the The 2022 Conference on Empirical Methods in Natural Language Processing, Full Paper in Findings Track, Abu Dhabi, United Arab Emirates, 2022 (To Appear).
+<span style="color:blue">**[EMNLP'22]**</span> **Detect-Localize-Repair: A Unified Framework for Learning to Debug with CodeT5**, by <span style="color:blue">**Nghi D. Q. BUI**, Yue Wang, Steven Hoi</span>, in Proceedings of the The 2022 Conference on Empirical Methods in Natural Language Processing, Full Paper in Findings Track, Abu Dhabi, United Arab Emirates, 2022 (To Appear).
 <br>
 <span style="color:#AB2F15">(Rank A*)</span> <a href="" target="_blank"> [PDF]</a><span style="color:#8B008B">- Acceptance Rate: (To update) </span>
 <br>
-<br> -->
+<br>
 - <span style="color:blue">**[SIGIR'21]**</span> **Self-Supervised Learning for Code Retrieval and Summarization through Semantic-Preserving Program Transformations**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 44th ACM Conference on Research and Development in Information Retrieval (SIGIR), Full Paper, 2021.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span> <a href="https://arxiv.org/abs/2009.02731" target="_blank"> [PDF]</a><span style="color:#8B008B">- Acceptance Rate: 21% (151/720)</span>
@@ -56,6 +64,16 @@ permalink: /publications/
 
 
 # Conference Papers (Short)
+- <span style="color:blue">**[ACL'23]**</span> **Better Language Models of Code through Self-Improvement***, by <span style="color:blue">Hung Quoc To, **Nghi D. Q. BUI (Co-first Author)**, Jin Guo, Tien N. Nguyen, </span>, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
+<br>
+<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
+<br>
+<br>
+- <span style="color:blue">**[ACL'23]**</span> **Class-based Influence Functions for Error Detection***, by <span style="color:blue">Nguyen Duc-Thang, Hoang Thanh Tung, Quan Tran, Huu Tien Dang, Nguyen Ngoc Hieu, Anh T.V. Dau, **Nghi D. Q. BUI** </span>, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
+<br>
+<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
+<br>
+<br> 
 - <span style="color:blue">**[ASE'22]**</span> **Towards Using Data-Centric Approach for Better Code Representation Learning***, by <span style="color:blue">Anh T.V Dau (Co-first Author), **Nghi D. Q. BUI (Co-first Author)**, Thang Nguyen Duc, Hoang Thanh Tung, </span>, in Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, Late-Breaking Results Track, 2022, Michigan, US.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
