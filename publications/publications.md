@@ -13,9 +13,9 @@ permalink: /publications/
 <span style="color:red">**Flagship (A*)**</span>: ICSE(3), FSE(1), ASE(3), AAAI(1), SIGIR(1), ACL(2), EMNLP(1)   &nbsp; &nbsp;    <span style="color:red">**Top (A)**</span>: SANER(1)
 
 # Arxiv
-- **Learning to Represent Programs with Code Hierarchies**, by <span style="color:blue">Minh H. Nguyen, **Nghi D. Q. Bui**, Truong Son Hy, Long Tran-Thanh, Risi Kondor</span>.
+- **The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation**, by <span style="color:blue">Dung Nguyen Manh, Nam Le Hai, Anh T. V. Dau, Anh Minh Nguyen, Khanh Nghiem, Jin Guo, **Nghi D. Q. Bui** </span>.
 <br>
-<a href="https://arxiv.org/pdf/2205.15479.pdf" target="_blank"> [PDF]</a>
+<a href="https://arxiv.org/abs/2305.06156" target="_blank"> [PDF]</a>
 <br>
 - **CodeT5+: Open Code Large Language Models for Code Understanding and Generation**, by <span style="color:blue">Yue Wang, Hung Le, Akhilesh Deepak Gotmare, **Nghi D. Q. Bui**, Junnan Li, Steven Hoi</span>.
 <br>
@@ -24,7 +24,11 @@ permalink: /publications/
 - **CodeTF: One-Stop Transformer-based Library for CodeLLMs**, by <span style="color:blue">**Nghi D. Q. Bui**, Henry Le, Yue Wang, Akhilesh Deepak Gotmare, Junnan Li, Steven Hoi</span>.
 <br>
 <a href="https://arxiv.org/abs/2306.00029" target="_blank"> [PDF]</a>
-<br> 
+<br>
+- **Learning to Represent Programs with Code Hierarchies**, by <span style="color:blue">Minh H. Nguyen, **Nghi D. Q. Bui**, Truong Son Hy, Long Tran-Thanh, Risi Kondor</span>.
+<br>
+<a href="https://arxiv.org/pdf/2205.15479.pdf" target="_blank"> [PDF]</a>
+<br>
 
 
 # Journal Papers
