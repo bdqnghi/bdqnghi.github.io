@@ -17,7 +17,7 @@ permalink: /publications/
 <br>
 <a href="https://arxiv.org/pdf/2205.15479.pdf" target="_blank"> [PDF]</a>
 <br>
-- **CodeT5+: Open Code Large Language Models for Code Understanding and Generation**, by <span style="color:blue">Yue Wang, Hung Le, Akhilesh Deepak Gotmare **Nghi D. Q. Bui**, Junnan Li, Steven Hoi</span>.
+- **CodeT5+: Open Code Large Language Models for Code Understanding and Generation**, by <span style="color:blue">Yue Wang, Hung Le, Akhilesh Deepak Gotmare, **Nghi D. Q. Bui**, Junnan Li, Steven Hoi</span>.
 <br>
 <a href="https://arxiv.org/abs/2305.07922" target="_blank"> [PDF]</a>
 <br>
