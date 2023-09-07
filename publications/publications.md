@@ -68,7 +68,7 @@ permalink: /publications/
 
 
 # Conference Papers (Short)
-- <span style="color:blue">**[ACL'23]**</span> **Better Language Models of Code through Self-Improvement***, by <span style="color:blue">Hung Quoc To, **Nghi D. Q. BUI (Co-first Author)**, Jin Guo, Tien N. Nguyen, </span>, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
+- <span style="color:blue">**[ACL'23]**</span> **Better Language Models of Code through Self-Improvement***, by <span style="color:blue">Hung Quoc To, **Nghi D. Q. BUI (Co-first Author)**, Jin Guo, Tien N. Nguyen, </span> in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
 <br>
