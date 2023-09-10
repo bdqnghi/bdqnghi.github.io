@@ -36,12 +36,6 @@ More details of my research can be found in my [Github](https://github.com/bdqng
 [**Self-Supervised Learning for Code Retrieval and Summarization through Semantic-Preserving Program Transformations**](https://arxiv.org/pdf/2009.02731.pdf), SIGIR 2021.
 <br>
 
-## Media
-
-- CodeTF on [YCombinator](https://news.ycombinator.com/item?id=36233881), [Syncedreview](https://syncedreview.com/2023/06/13/salesforce-ais-codetf-library-facilitates-easy-llm-integration-for-code-intelligence-tasks), [Marktechpost](https://www.marktechpost.com/2023/06/06/salesforce-ai-research-introduces-codetf-a-one-stop-transformer-library-for-code-large-language-models-codellm/)
-- CodeT5+ on [Marktechpost](https://www.marktechpost.com/2023/05/20/salesforce-ai-introduces-codet5-a-new-family-of-open-code-large-language-models-with-an-encoder-decoder-architecture/)
-
-
 ## Awards
 * **Dean's List** for Outstanding Research Achievement at SMU Postgraduate Program, 2019
 * SMU <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#computing" target="_blank">**Presidential Doctoral Fellowship**</a>, 2019
