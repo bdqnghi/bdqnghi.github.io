@@ -27,11 +27,11 @@ More details of my research can be found in my [Github](https://github.com/bdqng
 
 * [**CodeT5+: Open Code Large Language Models for Code Understanding and Generation**](https://arxiv.org/pdf/2305.07922.pdf)
 <br>
-[on [**Marktechpost**](https://www.marktechpost.com/2023/05/20/salesforce-ai-introduces-codet5-a-new-family-of-open-code-large-language-models-with-an-encoder-decoder-architecture/)].
+[on [Marktechpost](https://www.marktechpost.com/2023/05/20/salesforce-ai-introduces-codet5-a-new-family-of-open-code-large-language-models-with-an-encoder-decoder-architecture/)].
 <br>
 * [**CodeTF: One-Stop Transformer-based Library for CodeLLMs**](https://arxiv.org/pdf/2306.00029.pdf)
 <br>
-[on [**YCombinator**](https://news.ycombinator.com/item?id=36233881), [**Syncedreview**](https://syncedreview.com/2023/06/13/salesforce-ais-codetf-library-facilitates-easy-llm-integration-for-code-intelligence-tasks), [**Marktechpost**](https://www.marktechpost.com/2023/06/06/salesforce-ai-research-introduces-codetf-a-one-stop-transformer-library-for-code-large-language-models-codellm/)].
+[on [YCombinator](https://news.ycombinator.com/item?id=36233881), [Syncedreview](https://syncedreview.com/2023/06/13/salesforce-ais-codetf-library-facilitates-easy-llm-integration-for-code-intelligence-tasks), [Marktechpost](https://www.marktechpost.com/2023/06/06/salesforce-ai-research-introduces-codetf-a-one-stop-transformer-library-for-code-large-language-models-codellm/)].
 <br>
 * [**TreeCaps:Tree-based Capsule Networks for Source Code Processing**](https://arxiv.org/pdf/2009.09777.pdf), AAAI 2021.
 <br>
