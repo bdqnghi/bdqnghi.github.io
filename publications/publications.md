@@ -32,7 +32,7 @@ permalink: /publications/
 
 
 # Journal Papers
-- **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology.
+- **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology, 2020.
 <br>
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
