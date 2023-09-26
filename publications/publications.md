@@ -37,12 +37,12 @@ permalink: /publications/
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
 # Conference Papers
-- <span style="color:blue">**[ACL'23]**</span> **Better Language Models of Code through Self-Improvement***, by <span style="color:blue">Hung Quoc To, **Nghi D. Q. BUI (Co-first Author)**, Jin Guo, Tien N. Nguyen, Short Paper Track , </span> in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
+- <span style="color:blue">**[ACL'23]**</span> **Better Language Models of Code through Self-Improvement***, by <span style="color:blue">Hung Quoc To, **Nghi D. Q. BUI (Co-first Author)**, Jin Guo, Tien N. Nguyen </span>, Short Paper Track, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
 <br>
 <br>
-- <span style="color:blue">**[ACL'23]**</span> **Class-based Influence Functions for Error Detection***, by <span style="color:blue">Nguyen Duc-Thang, Hoang Thanh Tung, Quan Tran, Huu Tien Dang, Nguyen Ngoc Hieu, Anh T.V. Dau, **Nghi D. Q. BUI** , Short Paper Track, </span>, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
+- <span style="color:blue">**[ACL'23]**</span> **Class-based Influence Functions for Error Detection***, by <span style="color:blue">Nguyen Duc-Thang, Hoang Thanh Tung, Quan Tran, Huu Tien Dang, Nguyen Ngoc Hieu, Anh T.V. Dau, **Nghi D. Q. BUI** </span>, Short Paper Track, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
 <br>
