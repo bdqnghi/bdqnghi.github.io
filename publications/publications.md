@@ -36,10 +36,30 @@ permalink: /publications/
 <br>
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
-# Conference Papers (Full)
+# Conference Papers
+- <span style="color:blue">**[ACL'23]**</span> **Better Language Models of Code through Self-Improvement***, by <span style="color:blue">Hung Quoc To, **Nghi D. Q. BUI (Co-first Author)**, Jin Guo, Tien N. Nguyen, </span> in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
+<br>
+<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
+<br>
+<br>
+- <span style="color:blue">**[ACL'23]**</span> **Class-based Influence Functions for Error Detection***, by <span style="color:blue">Nguyen Duc-Thang, Hoang Thanh Tung, Quan Tran, Huu Tien Dang, Nguyen Ngoc Hieu, Anh T.V. Dau, **Nghi D. Q. BUI** </span>, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
+<br>
+<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
+<br>
+<br> 
 - <span style="color:blue">**[EMNLP'22]**</span> **Detect-Localize-Repair: A Unified Framework for Learning to Debug with CodeT5**, by <span style="color:blue">**Nghi D. Q. BUI**, Yue Wang, Steven Hoi</span>, in Proceedings of the The 2022 Conference on Empirical Methods in Natural Language Processing, Full Paper in Findings Track, Abu Dhabi, United Arab Emirates, 2022 (To Appear).
 <br>
 <span style="color:#AB2F15">(Rank A*)</span> <a href="" target="_blank"> [PDF]</a><span style="color:#8B008B">- Acceptance Rate: (To update) </span>
+<br>
+<br>
+- <span style="color:blue">**[ASE'22]**</span> **Towards Using Data-Centric Approach for Better Code Representation Learning***, by <span style="color:blue">Anh T.V Dau (Co-first Author), **Nghi D. Q. BUI (Co-first Author)**, Thang Nguyen Duc, Hoang Thanh Tung, </span>, in Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, Late-Breaking Results Track, 2022, Michigan, US.
+<br>
+<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
+<br>
+<br> 
+- <span style="color:blue">**[ASE'22]**</span> **Towards Robust Models of Code via Energy-Based Learning on Auxiliary Datasets**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun Yu</span>, in Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, 2022, Late-Breaking Results Track, Michigan, US.
+<br>
+<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_OOD_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"> </span>
 <br>
 <br>
 - <span style="color:blue">**[SIGIR'21]**</span> **Self-Supervised Learning for Code Retrieval and Summarization through Semantic-Preserving Program Transformations**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in Proceedings of the 44th ACM Conference on Research and Development in Information Retrieval (SIGIR), Full Paper, 2021.
@@ -65,27 +85,6 @@ permalink: /publications/
 - <span style="color:blue">**[SANER'19]**</span> **Bilateral Dependency Neural Networks for Cross-Language Algorithm Classification**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG</span>, in the 26th edition of the IEEE/ACM International Conference on Software Analysis, Evolution and Reengineering, Research Track, Hangzhou, China, 2019.
 <br>
 <span style="color:#AB2F15">(Rank A)</span> <a href="/files/SANER_2019_bilateral_dependency.pdf" target="_blank"> [PDF]</a> <a href="https://github.com/bdqnghi/bi-tbcnn" target="_blank"> [Code]</a> <span style="color:#8B008B"> - Acceptance Rate: 27% (40/148) </span>
-
-
-# Conference Papers (Short)
-- <span style="color:blue">**[ACL'23]**</span> **Better Language Models of Code through Self-Improvement***, by <span style="color:blue">Hung Quoc To, **Nghi D. Q. BUI (Co-first Author)**, Jin Guo, Tien N. Nguyen, </span> in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
-<br>
-<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
-<br>
-<br>
-- <span style="color:blue">**[ACL'23]**</span> **Class-based Influence Functions for Error Detection***, by <span style="color:blue">Nguyen Duc-Thang, Hoang Thanh Tung, Quan Tran, Huu Tien Dang, Nguyen Ngoc Hieu, Anh T.V. Dau, **Nghi D. Q. BUI** </span>, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
-<br>
-<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
-<br>
-<br> 
-- <span style="color:blue">**[ASE'22]**</span> **Towards Using Data-Centric Approach for Better Code Representation Learning***, by <span style="color:blue">Anh T.V Dau (Co-first Author), **Nghi D. Q. BUI (Co-first Author)**, Thang Nguyen Duc, Hoang Thanh Tung, </span>, in Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, Late-Breaking Results Track, 2022, Michigan, US.
-<br>
-<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"></span>
-<br>
-<br> 
-- <span style="color:blue">**[ASE'22]**</span> **Towards Robust Models of Code via Energy-Based Learning on Auxiliary Datasets**, by <span style="color:blue">**Nghi D. Q. BUI**, Yijun Yu</span>, in Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, 2022, Late-Breaking Results Track, Michigan, US.
-<br>
-<span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_OOD_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B"> </span>
 <br>
 <br>
 - <span style="color:blue">**[ICSE'19]**</span> **Towards Zero Knowledge Learning for Cross Language API Mappings**, by <span style="color:blue">**Nghi D. Q. BUI**</span>, in Proceedings of the IEEE/ACM 41th International Conference on Software Engineering: ACM Student Research Competition Track (SRC), Montreal, Canada, 2019.
@@ -101,6 +100,7 @@ permalink: /publications/
 - <span style="color:blue">**[ICSE'18]**</span> **Hierarchical Learning of Cross-Language Mappings through Distributed Vector Representations for Code**, by <span style="color:blue">**Nghi D. Q. BUI**, Lingxiao JIANG</span>, in Proceedings of the IEEE/ACM 40th International Conference on Software Engineering: New Ideas and Emerging Technologies Results Track (NIER), Gothenburg, Sweden, 2018.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span> <a href="https://www.icse2018.org/info/awards" style="color:red" target="_blank"> (Award: ACM SIGSOFT Distinguished Paper Award) </a> <a href="/files/ICSE_2018_NIER.pdf" target="_blank"> [PDF]</a> <a href="https://github.com/bdqnghi/hierarchical-programming-language-mapping" target="_blank"> [Code]</a> <span style="color:#8B008B"> - Acceptance Rate: 26.3% (25/95)</span>
+
 
 # Workshop Papers
 - <span style="color:blue">**[MLSys-NeurIPS'19]**</span> **TreeCaps: Tree-Structured Capsule Networks for Program Source Code Processing**, by <span style="color:blue">Vinoj JAYASUNDARA, **Nghi D. Q. BUI**, Lingxiao JIANG, David LO</span>. In NeurIPS Workshop on ML for Systems 2019.
