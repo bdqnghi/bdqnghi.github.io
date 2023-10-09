@@ -29,22 +29,22 @@ permalink: /publications/
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
 # Conference Papers
-- <span style="color:blue">**[EMNLP'23]**</span> **The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation**, by <span style="color:blue">Dung Nguyen Manh, Nam Le Hai, Anh T. V. Dau, Anh Minh Nguyen, Khanh Nghiem, Jin Guo, **Nghi D. Q. Bui** </span>, in Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, Singapore.
+- <span style="color:blue">**[EMNLP'23]**</span> **The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation**, by <span style="color:blue">Dung Nguyen Manh, Nam Le Hai, Anh T. V. Dau, Anh Minh Nguyen, Khanh Nghiem, Jin Guo, **Nghi D. Q. Bui** </span>, Long Findings, in Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, Singapore.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span><a href="https://arxiv.org/abs/2305.06156" target="_blank"> [PDF]</a>
 <br>
 <br> 
-- <span style="color:blue">**[EMNLP'23]**</span> **CodeT5+: Open Code Large Language Models for Code Understanding and Generation**, by <span style="color:blue">Yue Wang, Hung Le, Akhilesh Deepak Gotmare, **Nghi D. Q. Bui**, Junnan Li, Steven Hoi</span>, in Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, Singapore.
+- <span style="color:blue">**[EMNLP'23]**</span> **CodeT5+: Open Code Large Language Models for Code Understanding and Generation**, by <span style="color:blue">Yue Wang, Hung Le, Akhilesh Deepak Gotmare, **Nghi D. Q. Bui**, Junnan Li, Steven Hoi</span>, Long Main, in Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, Singapore.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span><a href="https://arxiv.org/abs/2305.07922" target="_blank"> [PDF]</a>
 <br>
 <br> 
-- <span style="color:blue">**[ACL'23]**</span> **Better Language Models of Code through Self-Improvement**, by <span style="color:blue">Hung Quoc To, **Nghi D. Q. BUI (Co-first Author)**, Jin Guo, Tien N. Nguyen </span>, Short Paper Track, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
+- <span style="color:blue">**[ACL'23]**</span> **Better Language Models of Code through Self-Improvement**, by <span style="color:blue">Hung Quoc To, **Nghi D. Q. BUI (Co-first Author)**, Jin Guo, Tien N. Nguyen </span>, Short Findings, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B">- Acceptance Rate: 19.1% (189/992)</span>
 <br>
 <br>
-- <span style="color:blue">**[ACL'23]**</span> **Class-based Influence Functions for Error Detection**, by <span style="color:blue">Nguyen Duc-Thang, Hoang Thanh Tung, Quan Tran, Huu Tien Dang, Nguyen Ngoc Hieu, Anh T.V. Dau, **Nghi D. Q. BUI** </span>, Short Paper Track, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
+- <span style="color:blue">**[ACL'23]**</span> **Class-based Influence Functions for Error Detection**, by <span style="color:blue">Nguyen Duc-Thang, Hoang Thanh Tung, Quan Tran, Huu Tien Dang, Nguyen Ngoc Hieu, Anh T.V. Dau, **Nghi D. Q. BUI** </span>, Short Main, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span><a href="/files/ASE_2022_noise_detection.pdf" target="_blank"> [PDF]</a> <span style="color:#8B008B">- Acceptance Rate: 19.1% (189/992)</span>
 <br>
