@@ -12,7 +12,7 @@ permalink: /miscellaneous/
 - <a href="https://betanews.com/2023/12/04/software-testers-turn-to-ai-to-improve-productivity/" target="_blank"> Software testers turn to AI to improve productivity.</a>
 - <a href="https://www.computerworld.com/article/3711404/heres-why-half-of-developers-will-soon-use-ai-augmented-software.html" target="_blank"> Half of developers will soon use AI-augmented software.</a>
 - <a href="https://github.blog/2023-11-08-the-state-of-open-source-and-ai/" target="_blank"> State of AI in Software Development, Github.</a>
-- <a href="https://arxiv.org/pdf/2306.15033.pdf" target="_blank"> Sea Change in Software Development: Economic and Productivity Analysis of the AI-Powered Developer Lifecycle, from Github and Havard Business Revie.</a>
+- <a href="https://arxiv.org/pdf/2306.15033.pdf" target="_blank"> Sea Change in Software Development: Economic and Productivity Analysis of the AI-Powered Developer Lifecycle, from Github and Havard Business Review.</a>
 - <a href="https://www.watermelontools.com/post/reimagining-code-review-with-rag-to-save-us-from-lgtm" target="_blank"> WatermelonTools for AI-based Code Review.</a>
 - <a href="https://cio.economictimes.indiatimes.com/news/artificial-intelligence/impact-of-genai-on-software-development/105405709" target="_blank"> Impact of AI on Software Development.</a>
 - <a href="https://www.semafor.com/article/11/08/2023/githubs-ai-coding-assistant-copilot-is-a-moneymaker" target="_blank"> GitHub’s AI coding assistant, Copilot, is a moneymaker.</a>
