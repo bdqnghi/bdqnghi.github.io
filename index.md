@@ -25,7 +25,7 @@ Throughout my research career, I've had the honor of working with brilliant mind
 
 My interests lie at the intersection of Software Engineering, Deep Learning, Programming Languages and Natural Language Processing. Specifically, I am interested in the application of **AI for Software Development** (AI4Code, AI4Software), such as **code generation, code search, code summarization, program synthesis, automated bug detection & program repair, code migration, software testing, etc**. Towards the goal of automated programming, my primary focus of research is to study large scale source code data (Big Code) that is accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to adapt recent advances in Deep Learning, such as Graph Neural Networks, Large Language Models (GPT, T5, BERT), Causal AI, to mine knowledge from these systems. This is a step forward in reducing software maintenance costs, and help software developers to write and understand source code better. 
 
-## Higlighted Publications
+## Highlighted Publications
 
 * [**CodeT5+: Open Code Large Language Models for Code Understanding and Generation**](https://arxiv.org/pdf/2305.07922.pdf)
 <br>
