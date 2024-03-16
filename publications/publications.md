@@ -36,17 +36,17 @@ permalink: /publications/
 # Conference Papers
 - <span style="color:blue">**[EACL'24]**</span> **HierarchyNet: Learning to Summarize Source Code  with Heterogeneous Representations**, by <span style="color:blue">Minh H. Nguyen, **Nghi D. Q. Bui**, Truong Son Hy, Long Tran-Thanh, Tien N. Nguyen</span>, Long Findings, in Proceedings of 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2024), Malta.
 <br>
-<span style="color:#AB2F15">(Rank A)</span><a href="https://arxiv.org/abs/2205.15479" target="_blank"> [PDF]</a>
+<span style="color:#AB2F15">(Rank A)</span><a href="https://arxiv.org/abs/2205.15479" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/HierarchyNet" target="_blank"> [Code]</a>
 <br>
 <br>
 - <span style="color:blue">**[EMNLP'23]**</span> **The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation**, by <span style="color:blue">Dung Nguyen Manh, Nam Le Hai, Anh T. V. Dau, Anh Minh Nguyen, Khanh Nghiem, Jin Guo, **Nghi D. Q. Bui** </span>, Long Findings, in Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, Singapore.
 <br>
-<span style="color:#AB2F15">(Rank A*)</span><a href="https://arxiv.org/abs/2305.06156" target="_blank"> [PDF]</a>
+<span style="color:#AB2F15">(Rank A*)</span><a href="https://arxiv.org/abs/2305.06156" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/TheVault" target="_blank"> [Code]</a>
 <br>
 <br> 
 - <span style="color:blue">**[EMNLP'23]**</span> **CodeT5+: Open Code Large Language Models for Code Understanding and Generation**, by <span style="color:blue">Yue Wang, Hung Le, Akhilesh Deepak Gotmare, **Nghi D. Q. Bui**, Junnan Li, Steven Hoi</span>, Long Main, in Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, Singapore.
 <br>
-<span style="color:#AB2F15">(Rank A*)</span><a href="https://arxiv.org/abs/2305.07922" target="_blank"> [PDF]</a>
+<span style="color:#AB2F15">(Rank A*)</span><a href="https://arxiv.org/abs/2305.07922" target="_blank"> [PDF]</a> <a href="https://github.com/salesforce/CodeT5/tree/main/CodeT5%2B" target="_blank"> [Code]</a>
 <br>
 <br> 
 - <span style="color:blue">**[ACL'23]**</span> **Better Language Models of Code through Self-Improvement**, by <span style="color:blue">Hung Quoc To, **Nghi D. Q. BUI (Co-first Author)**, Jin Guo, Tien N. Nguyen </span>, Short Findings, in Proceedings of The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada.
