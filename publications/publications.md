@@ -34,7 +34,7 @@ permalink: /publications/
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
 # Conference Papers
-- <span style="color:blue">**[EACL'24]**</span> **HierarchyNet: Learning to Summarize Source Code  with Heterogeneous Representations**, by <span style="color:blue">Minh H. Nguyen, **Nghi D. Q. Bui**, Truong Son Hy, Long Tran-Thanh, Tien N. Nguyen</span>, Long Findings, in Proceedings of 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2024).
+- <span style="color:blue">**[EACL'24]**</span> **HierarchyNet: Learning to Summarize Source Code  with Heterogeneous Representations**, by <span style="color:blue">Minh H. Nguyen, **Nghi D. Q. Bui**, Truong Son Hy, Long Tran-Thanh, Tien N. Nguyen</span>, Long Findings, in Proceedings of 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2024), Malta.
 <br>
 <span style="color:#AB2F15">(Rank A)</span><a href="https://arxiv.org/abs/2205.15479" target="_blank"> [PDF]</a>
 <br>
