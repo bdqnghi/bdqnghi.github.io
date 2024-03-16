@@ -15,17 +15,17 @@ permalink: /publications/
 # Arxiv
 - **CodeTF: One-Stop Transformer-based Library for CodeLLMs**, by <span style="color:blue">**Nghi D. Q. Bui**, Henry Le, Yue Wang, Akhilesh Deepak Gotmare, Junnan Li, Steven Hoi</span>.
 <br>
-<a href="https://arxiv.org/abs/2306.00029" target="_blank"> [PDF]</a>
+<a href="https://arxiv.org/abs/2306.00029" target="_blank"> [PDF]</a> <a href="https://github.com/salesforce/CodeTF" target="_blank"> [Code]</a>
 <br>
 <br>
 - **RepoHyper: Better Context Retrieval Is All You Need for Repository-Level Code Completion**, by <span style="color:blue">Huy N. Phan, Hoang N. Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>.
 <br>
-<a href="https://arxiv.org/abs/2403.06095" target="_blank"> [PDF]</a>
+<a href="https://arxiv.org/abs/2403.06095" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/RepoHyper" target="_blank"> [Code]</a>
 <br>
 <br>
 - **Neural Rankers for Code Generation via Inter-Cluster Modeling**, by <span style="color:blue">Hung Quoc To, Minh Huynh Nguyen, **Nghi D. Q. Bui**</span>.
 <br>
-<a href="https://arxiv.org/abs/2311.03366" target="_blank"> [PDF]</a>
+<a href="https://arxiv.org/abs/2311.03366" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/SRank-CodeRanker" target="_blank"> [Code]</a>
 <br>
 
 # Journal Papers
