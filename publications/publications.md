@@ -10,18 +10,23 @@ permalink: /publications/
 - <a href="https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng" target="_blank"> Google Scholar Metrics. </a>
 <br>
 
-<span style="color:red">**Flagship (A*)**</span>: ICSE(3), FSE(1), ASE(3), AAAI(1), SIGIR(1), ACL(2), EMNLP(3)   &nbsp; &nbsp;    <span style="color:red">**Top (A)**</span>: SANER(1)
+<span style="color:red">**Flagship (A*)**</span>: ICSE(3), FSE(1), ASE(3), AAAI(1), SIGIR(1), ACL(2), EMNLP(3)   &nbsp; &nbsp;    <span style="color:red">**Top (A)**</span>: SANER(1), EACL(1)
 
 # Arxiv
 - **CodeTF: One-Stop Transformer-based Library for CodeLLMs**, by <span style="color:blue">**Nghi D. Q. Bui**, Henry Le, Yue Wang, Akhilesh Deepak Gotmare, Junnan Li, Steven Hoi</span>.
 <br>
 <a href="https://arxiv.org/abs/2306.00029" target="_blank"> [PDF]</a>
 <br>
-- **HierarchyNet: Learning to Summarize Source Code  with Heterogeneous Representations**, by <span style="color:blue">Minh H. Nguyen, **Nghi D. Q. Bui**, Truong Son Hy, Long Tran-Thanh, Tien N. Nguyen</span>.
 <br>
-<a href="https://arxiv.org/pdf/2205.15479.pdf" target="_blank"> [PDF]</a>
+- **RepoHyper: Better Context Retrieval Is All You Need for Repository-Level Code Completion**, by <span style="color:blue">Huy N. Phan, Hoang N. Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>.
 <br>
-
+<a href="https://arxiv.org/abs/2403.06095" target="_blank"> [PDF]</a>
+<br>
+<br>
+- **Neural Rankers for Code Generation via Inter-Cluster Modeling**, by <span style="color:blue">Hung Quoc To, Minh Huynh Nguyen, **Nghi D. Q. Bui**</span>.
+<br>
+<a href="https://arxiv.org/abs/2311.03366" target="_blank"> [PDF]</a>
+<br>
 
 # Journal Papers
 - **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology, 2020.
@@ -29,6 +34,11 @@ permalink: /publications/
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
 # Conference Papers
+- <span style="color:blue">**[EACL'24]**</span>**HierarchyNet: Learning to Summarize Source Code  with Heterogeneous Representations**, by <span style="color:blue">Minh H. Nguyen, **Nghi D. Q. Bui**, Truong Son Hy, Long Tran-Thanh, Tien N. Nguyen</span>.
+<br>
+<span style="color:#AB2F15">(Rank A)</span><a href="https://arxiv.org/abs/2205.15479" target="_blank"> [PDF]</a>
+<br>
+<br>
 - <span style="color:blue">**[EMNLP'23]**</span> **The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation**, by <span style="color:blue">Dung Nguyen Manh, Nam Le Hai, Anh T. V. Dau, Anh Minh Nguyen, Khanh Nghiem, Jin Guo, **Nghi D. Q. Bui** </span>, Long Findings, in Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, Singapore.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span><a href="https://arxiv.org/abs/2305.06156" target="_blank"> [PDF]</a>
