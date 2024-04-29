@@ -32,13 +32,4 @@ My interests lie at the intersection of Software Engineering, Deep Learning, Pro
 * [**Self-Supervised Learning for Code Retrieval and Summarization through Semantic-Preserving Program Transformations**](https://arxiv.org/pdf/2009.02731.pdf), SIGIR 2021.
 <br>
 
-## Awards
-* **Dean's List** for Outstanding Research Achievement at SMU Postgraduate Program, 2019
-* SMU <a href="https://graduatestudies.smu.edu.sg/phd/singapore-management-university-smu-phd-financial-assistance-schemes#computing" target="_blank">**Presidential Doctoral Fellowship**</a>, 2019
-* SIGSOFT CAPS Travel Grant Award - ESEC/FSE 2019
-* **Bronze Medal** in the ACM Student Research Competition, ICSE 2019
-* SIGSOFT CAPS Travel Grant Award - ICSE 2019
-* ACM SIGSOFT **Distinguished Paper Award** - ICSE 2018
-
-
 
