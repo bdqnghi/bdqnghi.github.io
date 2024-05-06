@@ -18,7 +18,12 @@ Throughout my research career, I've had the honor of working with brilliant mind
 
 ## Research Interests
 
-My interests lie at the intersection of Software Engineering, Deep Learning, Programming Languages and Natural Language Processing. Specifically, I am interested in the application of **AI for Software Development** (AI4Code, AI4Software), such as **code generation, code search, code summarization, program synthesis, automated bug detection & program repair, code migration, software testing, etc**. Towards the goal of automated programming, my primary focus of research is to study large scale source code data (Big Code) that is accessible on Github, Bitbucket, etc., to better understand the behaviors of software systems, and to adapt recent advances in Deep Learning, such as Graph Neural Networks, Large Language Models (GPT, T5, BERT), Causal AI, to mine knowledge from these systems. This is a step forward in reducing software maintenance costs, and help software developers to write and understand source code better. 
+My research in **AI for Software Development** (AI4Code, AI4Software) centers on building intelligent tools for software engineering with the aim of **automating programming processes** I primarily focus on analyzing large-scale source code data (Big Code) from platforms like GitHub and Bitbucket. This involves studying the behavior of software systems and leveraging recent advancements in Deep Learning—such as Graph Neural Networks, Large Language Models (GPT, T5, BERT), Causal AI, etc., to extract actionable insights from these systems. My work aims to reduce software maintenance costs and enhance developers' abilities to write and understand source code more effectively.
+
+- **Foundation**: Developing large language models tailored for coding (CodeLLMs) to set the groundwork for further enhancements.
+- **Optimization**: Refining CodeLLMs to address challenges like hallucinations and security issues, enhancing trustworthiness, and establishing benchmarking standards.
+- **Application**: Applying and refining CodeLLMs to real-world software engineering tasks such as code generation, code search, code summarization, program synthesis, automated bug detection & program repair, code migration, software testing, etc.
+- **Integration**: Seamlessly integrating these models into the **software development life cycle** to foster effective collaboration between human developers and AI-driven tools, including IDE extensions and low-code/no-code platforms. 
 
 ## Highlighted Publications
 
