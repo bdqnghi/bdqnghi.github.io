@@ -18,7 +18,7 @@ Throughout my research career, I've had the honor of working with brilliant mind
 
 ## Research Interests
 
-My research in **AI for Software Development** (AI4Code, AI4Software) focuses on creating intelligent tools to help developers with real-world software engineering tasks. My work focuses on developing algorithms to train and fine-tune Large Language Models for code (CodeLLMs). In addition, I investigate the integration of CodeLLMs with **multi-agent systems** and traditional **program analysis** methods. This novel approach aims to create coding assistants that integrate seamlessly into the software development lifecycle, improving the overall developer experience.
+My research in **AI for Software Development** (AI4Code, AI4Software) focuses on creating intelligent tools to help developers with real-world software engineering tasks. My work focuses on developing algorithms to train and fine-tune Large Language Models for code (**CodeLLMs**). In addition, I investigate the integration of CodeLLMs with **multi-agent systems** and traditional **program analysis** methods. This novel approach aims to create coding assistants that integrate seamlessly into the software development lifecycle, improving the overall developer experience.
 
 - **Foundation**: Developing large language models tailored for coding (CodeLLMs) to set the groundwork for further enhancements.
 - **Optimization**: Refining CodeLLMs to address challenges like hallucinations and security issues, enhancing trustworthiness, and establishing benchmarking standards.
