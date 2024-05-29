@@ -22,11 +22,6 @@ permalink: /publications/
 <br>
 <a href="https://arxiv.org/abs/2403.06095" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/RepoHyper" target="_blank"> [Code]</a>
 <br>
-<br>
-- **Neural Rankers for Code Generation via Inter-Cluster Modeling**, by <span style="color:blue">Hung Quoc To, Minh Huynh Nguyen, **Nghi D. Q. Bui**</span>.
-<br>
-<a href="https://arxiv.org/abs/2311.03366" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/SRank-CodeRanker" target="_blank"> [Code]</a>
-<br>
 
 # Journal Papers
 - **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology, 2020.
@@ -34,6 +29,11 @@ permalink: /publications/
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
 # Conference Papers
+- <span style="color:blue">**[ACL'24]**</span> **Neural Code Generation Enhance via Functional Overlap Reranking**, by <span style="color:blue">Hung Quoc To, Minh Huynh Nguyen, **Nghi D. Q. Bui**</span>, Long Findings, in Proceedings The 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024), Bangkok, Thailand.
+<br>
+<span style="color:#AB2F15">(Rank A)</span><a href="https://arxiv.org/abs/2311.03366" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/SRank-CodeRanker" target="_blank"> [Code]</a>
+<br>
+<br>
 - <span style="color:blue">**[EACL'24]**</span> **HierarchyNet: Learning to Summarize Source Code  with Heterogeneous Representations**, by <span style="color:blue">Minh H. Nguyen, **Nghi D. Q. Bui**, Truong Son Hy, Long Tran-Thanh, Tien N. Nguyen</span>, Long Findings, in Proceedings of 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2024), Malta.
 <br>
 <span style="color:#AB2F15">(Rank A)</span><a href="https://arxiv.org/abs/2205.15479" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/HierarchyNet" target="_blank"> [Code]</a>
