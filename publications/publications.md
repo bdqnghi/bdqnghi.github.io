@@ -29,7 +29,7 @@ permalink: /publications/
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
 # Conference Papers
-- <span style="color:blue">**[ACL'24]**</span> **Neural Code Generation Enhance via Functional Overlap Reranking**, by <span style="color:blue">Hung Quoc To, Minh Huynh Nguyen, **Nghi D. Q. Bui**</span>, Long Findings, in Proceedings The 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024), Bangkok, Thailand.
+- <span style="color:blue">**[ACL'24]**</span> **Neural Code Generation Enhancement via Functional Overlap Reranking**, by <span style="color:blue">Hung Quoc To, Minh Huynh Nguyen, **Nghi D. Q. Bui**</span>, Long Findings, in Proceedings The 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024), Bangkok, Thailand.
 <br>
 <span style="color:#AB2F15">(Rank A)</span><a href="https://arxiv.org/abs/2311.03366" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/SRank-CodeRanker" target="_blank"> [Code]</a>
 <br>
