@@ -27,7 +27,7 @@ My research in **AI for Software Development** (AI4Code, AI4Software) focuses on
 
 ## Highlighted Publications
 
-* [**CodeT5+: Open Code Large Language Models for Code Understanding and Generation**](https://arxiv.org/pdf/2305.07922.pdf)
+* [**CodeT5+: Open Code Large Language Models for Code Understanding and Generation**](https://arxiv.org/pdf/2305.07922.pdf), EMNLP 2023
 <br>
 [on [Marktechpost](https://www.marktechpost.com/2023/05/20/salesforce-ai-introduces-codet5-a-new-family-of-open-code-large-language-models-with-an-encoder-decoder-architecture/)].
 <br>
