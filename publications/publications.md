@@ -22,6 +22,22 @@ permalink: /publications/
 <br>
 <a href="https://arxiv.org/abs/2403.06095" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/RepoHyper" target="_blank"> [Code]</a>
 <br>
+<br>
+- **AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology**, by <span style="color:blue">Minh Huynh Nguyen, Thang Phan Chau, Phong X. Nguyen, **Nghi D. Q. Bui**</span>.
+<br>
+<a href="https://arxiv.org/abs/2406.11912" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/AgileCoder" target="_blank"> [Code]</a>
+<br>
+<br>
+- **REPOEXEC: Evaluate Code Generation with a Repository-Level Executable Benchmark**, by <span style="color:blue">Nam Le Hai, Dung Manh Nguyen, **Nghi D. Q. Bui**</span>.
+<br>
+<a href="https://arxiv.org/abs/2406.11927" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/RepoExec" target="_blank"> [Code]</a>
+<br>
+<br>
+- **Learning to Predict Program Execution by Modeling Dynamic Dependency on Code Graphs**, by <span style="color:blue">Cuong Chi Le, Hoang Nhat Phan, Huy Nhat Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>.
+<br>
+<a href="https://arxiv.org/abs/2408.02816" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/CodeFlow" target="_blank"> [Code]</a>
+<br>
+<br>
 
 # Journal Papers
 - **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology, 2020.
