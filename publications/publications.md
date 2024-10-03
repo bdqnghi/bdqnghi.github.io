@@ -13,31 +13,42 @@ permalink: /publications/
 <span style="color:red">**Flagship (A*)**</span>: ICSE(3), FSE(1), ASE(3), AAAI(1), SIGIR(1), ACL(2), EMNLP(3)   &nbsp; &nbsp;    <span style="color:red">**Top (A)**</span>: SANER(1), EACL(1)
 
 # Arxiv
-- **CodeTF: One-Stop Transformer-based Library for CodeLLMs**, by <span style="color:blue">**Nghi D. Q. Bui**, Henry Le, Yue Wang, Akhilesh Deepak Gotmare, Junnan Li, Steven Hoi</span>.
+- **CodeTF: One-Stop Transformer-based Library for CodeLLMs**, by <span style="color:blue">**Nghi D. Q. Bui**, Henry Le, Yue Wang, Akhilesh Deepak Gotmare, Junnan Li, Steven Hoi</span>, 2023.
 <br>
 <a href="https://arxiv.org/abs/2306.00029" target="_blank"> [PDF]</a> <a href="https://github.com/salesforce/CodeTF" target="_blank"> [Code]</a>
 <br>
 <br>
-- **RepoHyper: Better Context Retrieval Is All You Need for Repository-Level Code Completion**, by <span style="color:blue">Huy N. Phan, Hoang N. Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>.
+- **RepoHyper: Search-Expand-Refine on Semantic Graphs for Repository-Level Code Completion**, by <span style="color:blue">Huy N. Phan, Hoang N. Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>, 2024.
 <br>
 <a href="https://arxiv.org/abs/2403.06095" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/RepoHyper" target="_blank"> [Code]</a>
 <br>
 <br>
-- **AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology**, by <span style="color:blue">Minh Huynh Nguyen, Thang Phan Chau, Phong X. Nguyen, **Nghi D. Q. Bui**</span>.
+- **AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology**, by <span style="color:blue">Minh Huynh Nguyen, Thang Phan Chau, Phong X. Nguyen, **Nghi D. Q. Bui**</span>, 2024.
 <br>
 <a href="https://arxiv.org/abs/2406.11912" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/AgileCoder" target="_blank"> [Code]</a>
 <br>
 <br>
-- **REPOEXEC: Evaluate Code Generation with a Repository-Level Executable Benchmark**, by <span style="color:blue">Nam Le Hai, Dung Manh Nguyen, **Nghi D. Q. Bui**</span>.
+- **On the Impacts of Contexts on Repository-Level Code Generation**, by <span style="color:blue">Nam Le Hai, Dung Manh Nguyen, **Nghi D. Q. Bui**</span>, 2024.
 <br>
 <a href="https://arxiv.org/abs/2406.11927" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/RepoExec" target="_blank"> [Code]</a>
 <br>
 <br>
-- **Learning to Predict Program Execution by Modeling Dynamic Dependency on Code Graphs**, by <span style="color:blue">Cuong Chi Le, Hoang Nhat Phan, Huy Nhat Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>.
+- **Learning to Predict Program Execution by Modeling Dynamic Dependency on Code Graphs**, by <span style="color:blue">Cuong Chi Le, Hoang Nhat Phan, Huy Nhat Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>, 2024.
 <br>
 <a href="https://arxiv.org/abs/2408.02816" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/CodeFlow" target="_blank"> [Code]</a>
 <br>
 <br>
+- **HyperAgent: Generalist Software Engineering Agents to Solve Coding Tasks at Scale**, by <span style="color:blue">Huy Nhat Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>, 2024.
+<br>
+<a href="https://arxiv.org/abs/2409.16299" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/HyperAgent" target="_blank"> [Code]</a>
+<br>
+<br>
+- **CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities of CodeLLMs**, by <span style="color:blue">Dung Nguyen Manh, Thang Phan Chau, Nam Le Hai, Thong T. Doan, Nam V. Nguyen, Quang Pham, **Nghi D. Q. Bui**</span>, 2024.
+<br>
+<a href="https://arxiv.org/abs/2409.16299" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/CodeMMLU" target="_blank"> [Code]</a>
+<br>
+<br>
+
 
 # Journal Papers
 - **On the Generalizability of Neural Program Analyzers with respect to Semantic-Preserving Program Transformation**, by <span style="color:blue">Md. Rafiqul Islam RABIN, **Nghi D. Q. BUI**, Yijun YU, Lingxiao JIANG, Mohammad Amin ALIPOUR</span>, accepted at the Journal of Information and Software Technology, 2020.
