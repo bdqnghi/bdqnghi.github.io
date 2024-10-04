@@ -45,7 +45,7 @@ permalink: /publications/
 <br>
 - **CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities of CodeLLMs**, by <span style="color:blue">Dung Nguyen Manh, Thang Phan Chau, Nam Le Hai, Thong T. Doan, Nam V. Nguyen, Quang Pham, **Nghi D. Q. Bui**</span>, 2024.
 <br>
-<a href="https://arxiv.org/abs/2409.16299" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/CodeMMLU" target="_blank"> [Code]</a>
+<a href="https://arxiv.org/abs/2410.01999" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/CodeMMLU" target="_blank"> [Code]</a>
 <br>
 <br>
 
