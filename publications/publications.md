@@ -38,6 +38,11 @@ permalink: /publications/
 <a href="https://arxiv.org/abs/2408.02816" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/CodeFlow" target="_blank"> [Code]</a>
 <br>
 <br>
+- **XMainframe: A Large Language Model for Mainframe Modernization**, by <span style="color:blue">Anh T. V. Dau, Hieu Trung Dao, Anh Tuan Nguyen, Hieu Trung Tran, Phong X. Nguyen, **Nghi D. Q. Bui**</span>, 2024.
+<br>
+<a href="https://arxiv.org/abs/2408.04660" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/XMainframe" target="_blank"> [Code]</a>
+<br>
+<br>
 - **HyperAgent: Generalist Software Engineering Agents to Solve Coding Tasks at Scale**, by <span style="color:blue">Huy Nhat Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>, 2024.
 <br>
 <a href="https://arxiv.org/abs/2409.16299" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/HyperAgent" target="_blank"> [Code]</a>
