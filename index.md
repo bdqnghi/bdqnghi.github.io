@@ -17,7 +17,7 @@ Throughout my research career, I've had the honor of working with brilliant mind
 (Past) affiliations:
 - Head of AI, FPT Software AI Center, Viet Nam
 - Senior Research Scientist, Salesforce AI Research, worked with <a href="https://sites.google.com/view/stevenhoi/home" target="_blank">Prof. Steven Hoi</a>. 
-- Principal Research Scientist, Huawei Ireland Research Center, work with <a href="https://scholar.google.com/citations?user=E5Z63aUAAAAJ&hl=en" target="_blank">Prof. Yijun Yu</a>. 
+- Principal Research Scientist, Huawei Ireland Research Center, worked with <a href="https://scholar.google.com/citations?user=E5Z63aUAAAAJ&hl=en" target="_blank">Prof. Yijun Yu</a>. 
 
 ## Research Interests
 
