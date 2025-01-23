@@ -9,8 +9,7 @@ permalink: /
 ## About
 I completed the Ph.D in Computer Science (June-2020) at <a href="https://sis.smu.edu.sg/programmes/PhD/overview" target="_blank">School of Computing & Information Systems (SCIS), Singapore Management University (SMU)</a> (**Rank 81 Overrall, Rank 4** in Software Engineering Research on  <a href="http://csrankings.org/#/index?soft&world" target="_blank">CSRanking</a>) under the supervision of <a href="http://www.mysmu.edu/faculty/lxjiang/#gsc.tab=0" target="_blank">Prof. Lingxiao Jiang</a>.  I published papers at **top-tier academic conferences** across different domains in Computer Science, such as Software Engineering (<a href="http://www.icse-conferences.org/" target="_blank">ICSE</a> , <a href="https://www.esec-fse.org" target="_blank">ESEC/FSE</a>,  <a href="https://conf.researchr.org/series/ase" target="_blank">ASE</a>), Artificial Intelligence (<a href="https://www.aaai.org/Conferences/conferences.php" target="_blank">AAAI</a>), Natural Language Processing (<a href="https://2022.emnlp.org/" target="_blank">EMNLP</a>, <a href="https://2023.aclweb.org/" target="_blank">ACL</a>), Information Retrieval (<a href="https://sigir.org/" target="_blank">SIGIR</a>). 
 
-I'm also an active open-source contributor, with the majority of my work available on my [Github](https://github.com/bdqnghi){:target="_blank"}. Notable projects include [CodeTF (~1500 stars)](https://github.com/salesforce/CodeTF){:target="_blank"}, [CodeT5+ (~2400 stars)](https://github.com/salesforce/CodeT5/tree/main/CodeT5%2B){:target="_blank"}, [CodeCapybara](https://github.com/FSoft-AI4Code/CodeCapybara){:target="_blank"}, [The Vault](https://github.com/FSoft-AI4Code/TheVault){:target="_blank"}.
-
+I'm also an active open-source contributor, with the majority of my work available on my [Github](https://github.com/bdqnghi){:target="_blank"}. 
 
 Throughout my research career, I've had the honor of working with brilliant minds and talents from <a href="https://soarsmu.github.io/" target="_blank">SOAR Group - SMU</a>, <a href="https://ai.fpt-software.com/ai-residency/" target="_blank">FSoft AI Center</a>, <a href="https://www.linkedin.com/company/huawei-ireland-research-center/mycompany/" target="_blank">Huawei Ireland Research Center</a>, <a href="https://www.salesforceairesearch.com/" target="_blank">Salesforce AI Research</a>. 
 
@@ -30,13 +29,13 @@ I am deeply passionate about the future of **AI for Software Development** (AI4C
 
 ## Highlighted Publications
 
-* [**CodeT5+: Open Code Large Language Models for Code Understanding and Generation**](https://arxiv.org/pdf/2305.07922.pdf), EMNLP 2023
-<br>
-[on [Marktechpost](https://www.marktechpost.com/2023/05/20/salesforce-ai-introduces-codet5-a-new-family-of-open-code-large-language-models-with-an-encoder-decoder-architecture/)].
-<br>
 * [**CodeTF: One-Stop Transformer-based Library for CodeLLMs**](https://arxiv.org/pdf/2306.00029.pdf)
 <br>
 [on [YCombinator](https://news.ycombinator.com/item?id=36233881), [Syncedreview](https://syncedreview.com/2023/06/13/salesforce-ais-codetf-library-facilitates-easy-llm-integration-for-code-intelligence-tasks), [Marktechpost](https://www.marktechpost.com/2023/06/06/salesforce-ai-research-introduces-codetf-a-one-stop-transformer-library-for-code-large-language-models-codellm/)].
+<br>
+* [**CodeT5+: Open Code Large Language Models for Code Understanding and Generation**](https://arxiv.org/pdf/2305.07922.pdf), EMNLP 2023
+<br>
+[on [Marktechpost](https://www.marktechpost.com/2023/05/20/salesforce-ai-introduces-codet5-a-new-family-of-open-code-large-language-models-with-an-encoder-decoder-architecture/)].
 <br>
 * [**TreeCaps:Tree-based Capsule Networks for Source Code Processing**](https://arxiv.org/pdf/2009.09777.pdf), AAAI 2021.
 <br>
@@ -44,5 +43,6 @@ I am deeply passionate about the future of **AI for Software Development** (AI4C
 <br>
 * [**Self-Supervised Learning for Code Retrieval and Summarization through Semantic-Preserving Program Transformations**](https://arxiv.org/pdf/2009.02731.pdf), SIGIR 2021.
 <br>
+
 
 
