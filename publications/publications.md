@@ -18,26 +18,6 @@ permalink: /publications/
 <a href="https://arxiv.org/abs/2306.00029" target="_blank"> [PDF]</a> <a href="https://github.com/salesforce/CodeTF" target="_blank"> [Code]</a>
 <br>
 <br>
-- **RepoHyper: Search-Expand-Refine on Semantic Graphs for Repository-Level Code Completion**, by <span style="color:blue">Huy N. Phan, Hoang N. Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>, 2024.
-<br>
-<a href="https://arxiv.org/abs/2403.06095" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/RepoHyper" target="_blank"> [Code]</a>
-<br>
-<br>
-- **AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology**, by <span style="color:blue">Minh Huynh Nguyen, Thang Phan Chau, Phong X. Nguyen, **Nghi D. Q. Bui**</span>, 2024.
-<br>
-<a href="https://arxiv.org/abs/2406.11912" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/AgileCoder" target="_blank"> [Code]</a>
-<br>
-<br>
-- **On the Impacts of Contexts on Repository-Level Code Generation**, by <span style="color:blue">Nam Le Hai, Dung Manh Nguyen, **Nghi D. Q. Bui**</span>, 2024.
-<br>
-<a href="https://arxiv.org/abs/2406.11927" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/RepoExec" target="_blank"> [Code]</a>
-<br>
-<br>
-- **Learning to Predict Program Execution by Modeling Dynamic Dependency on Code Graphs**, by <span style="color:blue">Cuong Chi Le, Hoang Nhat Phan, Huy Nhat Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>, 2024.
-<br>
-<a href="https://arxiv.org/abs/2408.02816" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/CodeFlow" target="_blank"> [Code]</a>
-<br>
-<br>
 - **XMainframe: A Large Language Model for Mainframe Modernization**, by <span style="color:blue">Anh T. V. Dau, Hieu Trung Dao, Anh Tuan Nguyen, Hieu Trung Tran, Phong X. Nguyen, **Nghi D. Q. Bui**</span>, 2024.
 <br>
 <a href="https://arxiv.org/abs/2408.04660" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/XMainframe" target="_blank"> [Code]</a>
@@ -48,11 +28,8 @@ permalink: /publications/
 <a href="https://arxiv.org/abs/2409.16299" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/HyperAgent" target="_blank"> [Code]</a>
 <br>
 <br>
-- **CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities of CodeLLMs**, by <span style="color:blue">Dung Nguyen Manh, Thang Phan Chau, Nam Le Hai, Thong T. Doan, Nam V. Nguyen, Quang Pham, **Nghi D. Q. Bui**</span>, 2024.
-<br>
-<a href="https://arxiv.org/abs/2410.01999" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/CodeMMLU" target="_blank"> [Code]</a>
-<br>
-<br>
+
+
 
 
 # Journal Papers
@@ -61,6 +38,36 @@ permalink: /publications/
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
 # Conference Papers
+- <span style="color:blue">**[ICLR'25]**</span> **CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities of CodeLLMs**, by <span style="color:blue">Dung Nguyen Manh, Thang Phan Chau, Nam Le Hai, Thong T. Doan, Nam V. Nguyen, Quang Pham, **Nghi D. Q. Bui**</span>, Full Paper, International Conference on Learning Representation 2025, Singapore.
+<br>
+<a href="https://arxiv.org/abs/2410.01999" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/CodeMMLU" target="_blank"> [Code]</a>
+<br>
+<br>
+- <span style="color:blue">**[NAACL'25]**</span> **On the Impacts of Contexts on Repository-Level Code Generation**, by <span style="color:blue">Nam Le Hai, Dung Manh Nguyen, **Nghi D. Q. Bui**</span>, 2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics, Albuquerque, New Mexico.
+<br>
+<a href="https://arxiv.org/abs/2406.11927" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/RepoExec" target="_blank"> [Code]</a>
+<br>
+<br>
+- <span style="color:blue">**[NAACL'25]**</span> **VISUALCODER: Guiding Large Language Models in Code Execution with Fine-grained Multimodal Chain-of-Thought Reasoning**, by <span style="color:blue">Cuong Chi Le, Hoang-Chau Truong-Vinh, Huy Nhat Phan, Dung Duy Le, Tien N. Nguyen, **Nghi D. Q. Bui**</span>, 2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics, Albuquerque, New Mexico.
+<br>
+<a href="https://arxiv.org/abs/2410.23402" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/VisualCoder" target="_blank"> [Code]</a>
+<br>
+<br>
+- <span style="color:blue">**[FORGE'25]**</span> **RepoHyper: Search-Expand-Refine on Semantic Graphs for Repository-Level Code Completion**, by <span style="color:blue">Huy N. Phan, Hoang N. Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>, The 2nd ACM international conference on AI Foundation Models and Software Engineering, co-located with ICSE 2025, Ottawa, Canada.
+<br>
+<a href="https://arxiv.org/abs/2403.06095" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/RepoHyper" target="_blank"> [Code]</a>
+<br>
+<br>
+- <span style="color:blue">**[FORGE'25]**</span> **AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology**, by <span style="color:blue">Minh Huynh Nguyen, Thang Phan Chau, Phong X. Nguyen, **Nghi D. Q. Bui**</span>, The 2nd ACM international conference on AI Foundation Models and Software Engineering, co-located with ICSE 2025, Ottawa, Canada.
+<br>
+<a href="https://arxiv.org/abs/2406.11912" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/AgileCoder" target="_blank"> [Code]</a>
+<br>
+<br>
+- <span style="color:blue">**[FORGE'25]**</span> **CodeFLow: Learning to Predict Program Execution by Modeling Dynamic Dependency on Code Graphs**, by <span style="color:blue">Cuong Chi Le, Hoang Nhat Phan, Huy Nhat Phan, Tien N. Nguyen, **Nghi D. Q. Bui**</span>, The 2nd ACM international conference on AI Foundation Models and Software Engineering, co-located with ICSE 2025, Ottawa, Canada.
+<br>
+<a href="https://arxiv.org/abs/2408.02816" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/CodeFlow" target="_blank"> [Code]</a>
+<br>
+<br>
 - <span style="color:blue">**[ACL'24]**</span> **Neural Code Generation Enhancement via Functional Overlap Reranking**, by <span style="color:blue">Hung Quoc To, Minh Huynh Nguyen, **Nghi D. Q. Bui**</span>, Long Findings, in Proceedings The 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024), Bangkok, Thailand.
 <br>
 <span style="color:#AB2F15">(Rank A)</span><a href="https://arxiv.org/abs/2311.03366" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/SRank-CodeRanker" target="_blank"> [Code]</a>
