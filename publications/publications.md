@@ -38,7 +38,7 @@ permalink: /publications/
 <a href="https://arxiv.org/pdf/2008.01566.pdf" target="_blank"> [PDF]</a>
 
 # Conference Papers
-- <span style="color:blue">**[ICLR'25]**</span> **CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities of CodeLLMs**, by <span style="color:blue">Dung Nguyen Manh, Thang Phan Chau, Nam Le Hai, Thong T. Doan, Nam V. Nguyen, Quang Pham, **Nghi D. Q. Bui**</span>, Full Paper, International Conference on Learning Representation 2025, Singapore.
+- <span style="color:blue">**[ICLR'25]**</span> **CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities of CodeLLMs**, by <span style="color:blue">Dung Nguyen Manh, Thang Phan Chau, Nam Le Hai, Thong T. Doan, Nam V. Nguyen, Quang Pham, **Nghi D. Q. Bui**</span>, Full Paper, 13th International Conference on Learning Representation, Singapore.
 <br>
 <span style="color:#AB2F15">(Rank A*)</span><a href="https://arxiv.org/abs/2410.01999" target="_blank"> [PDF]</a> <a href="https://github.com/FSoft-AI4Code/CodeMMLU" target="_blank"> [Code]</a>
 <br>
