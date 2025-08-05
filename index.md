@@ -37,7 +37,10 @@ My work focuses on developing these agents using state-of-the-art techniques, su
 - Integrating agents into development ecosystems with plugins, APIs, and interfaces that prioritize safety, explainability, scalability, and measurable ROI, while fostering human-AI symbiosis to evolve developer roles toward strategic innovation.
 
 ## Highlighted Publications
-* [**HyperAgent: Generalist Software Engineering Agents to Solve Coding Tasks at Scale**]([https://arxiv.org/pdf/2306.00029.pdf](https://arxiv.org/abs/2409.16299))
+* [**CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding & Reasoning Capabilities of CodeLLMs**](https://arxiv.org/abs/2410.01999), ICLR 2025
+[on [Marktechpost](https://www.marktechpost.com/2024/10/09/codemmlu-a-comprehensive-multi-choice-benchmark-for-assessing-code-understanding-in-large-language-models/)]
+<br>
+* [**HyperAgent: Generalist Software Engineering Agents to Solve Coding Tasks at Scale**](https://arxiv.org/abs/2409.16299)
 [on [Marktechpost](https://www.marktechpost.com/2024/09/11/fpt-software-ai-center-introduces-hyperagent-a-groundbreaking-generalist-agent-system-to-resolve-various-software-engineering-tasks-at-scale-achieving-sota-performance-on-swe-bench-and-defects4j/)]
 <br>
 * [**CodeTF: One-Stop Transformer-based Library for CodeLLMs**](https://arxiv.org/pdf/2306.00029.pdf)
