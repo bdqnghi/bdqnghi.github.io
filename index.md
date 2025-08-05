@@ -22,11 +22,10 @@ Throughout my research career, I've had the honor of working with brilliant mind
 
 I am deeply passionate about advancing **autonomous coding agents** that span the entire software development lifecycle, from requirements gathering and design to testing, deployment, and ongoing maintenance. These agents go beyond basic assistance by acting as true pair programmers: interactive partners that collaborate in real-time, offering suggestions, reviewing code, debugging issues, and adapting to developer styles while drawing on vast knowledge to solve complex problems. My goal is to create systems that empower developers—whether experts or newcomers—to build software faster, more reliably, and more creatively, making programming accessible and enjoyable for everyone while addressing ethical challenges like bias, security, and transparency.
 My work focuses on developing these agents using state-of-the-art techniques, such as training foundational CodeLLMs and enhancing them with dynamic tool-calling, long-term memory, self-reflection, and multi-agent coordination. This enables agents to handle end-to-end workflows independently or in teams, while ensuring human oversight for critical decisions. Key aspects include:
-
-Architecting multi-modal systems that process code, natural language, visuals, and even physical inputs for comprehensive tasks like IoT integration or architectural design.
-Boosting reliability through advanced error-handling, hallucination mitigation, and benchmarks that evaluate performance across domains, models, and real-world scenarios.
-Applying agents to diverse challenges, including code synthesis, semantic search, automated testing, bug repair, migration, refactoring, and predictive maintenance.
-Integrating agents into development ecosystems with plugins, APIs, and interfaces that prioritize safety, explainability, scalability, and measurable ROI, while fostering human-AI symbiosis to evolve developer roles toward strategic innovation.
+- Architecting multi-modal systems that process code, natural language, visuals, and even physical inputs for comprehensive tasks like IoT integration or architectural design.
+- Boosting reliability through advanced error-handling, hallucination mitigation, and benchmarks that evaluate performance across domains, models, and real-world scenarios.
+- Applying agents to diverse challenges, including code synthesis, semantic search, automated testing, bug repair, migration, refactoring, and predictive maintenance.
+- Integrating agents into development ecosystems with plugins, APIs, and interfaces that prioritize safety, explainability, scalability, and measurable ROI, while fostering human-AI symbiosis to evolve developer roles toward strategic innovation.
 
 ## Highlighted Publications
 * [**HyperAgent: Generalist Software Engineering Agents to Solve Coding Tasks at Scale**]([https://arxiv.org/pdf/2306.00029.pdf](https://arxiv.org/abs/2409.16299))
