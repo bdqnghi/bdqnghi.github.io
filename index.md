@@ -18,6 +18,15 @@ Throughout my research career, I've had the honor of working with brilliant mind
 - Senior Research Scientist, Salesforce AI Research, worked with <a href="https://sites.google.com/view/stevenhoi/home" target="_blank">Prof. Steven Hoi</a>. 
 - Principal Research Scientist, Huawei Ireland Research Center, worked with <a href="https://scholar.google.com/citations?user=E5Z63aUAAAAJ&hl=en" target="_blank">Prof. Yijun Yu</a>. 
 
+## Supervision
+
+I’m fortunate to have chance to supervise talented students/AI Residence:
+- Dau Thi Van Anh, Master Student at <a href="https://www.concordia.ca/" target="_blank">Concordia University</a>.
+- Nguyen Manh Dung, Ph.D. Candidate at <a href="https://www.unimelb.edu.au/" target="_blank">University of Melbourne</a>.
+- Le Hai Nam, Ph.D. Candidate at <a href="https://hust.edu.vn/" target="_blank">Hanoi University of Science and Technology</a>.
+- Nguyen Huynh Minh, Ph.D. Candidate at <a href="https://nus.edu.sg/" target="_blank">National University of Singapore</a>.
+- Phan Nhat Huy, founder of the <a href="https://www.thedrylab.com/" target="_blank">DryLab</a>.
+
 ## Research Interests
 
 I am deeply passionate about advancing **autonomous coding agents** that span the entire software development lifecycle, from requirements gathering and design to testing, deployment, and ongoing maintenance. These agents go beyond basic assistance by acting as true pair programmers: interactive partners that collaborate in real-time, offering suggestions, reviewing code, debugging issues, and adapting to developer styles while drawing on vast knowledge to solve complex problems. My goal is to create systems that empower developers—whether experts or newcomers—to build software faster, more reliably, and more creatively, making programming accessible and enjoyable for everyone while addressing ethical challenges like bias, security, and transparency.
