@@ -1,0 +1,502 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Elegant Monochrome Design System - Timeless Typography & Contrast */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=JetBrains+Mono:wght@300;400;500&display=swap');
+
+@layer base {
+  :root {
+    /* Elegant Monochrome Colors - Pure Black & White */
+    --background: 0 0% 100%;              /* Pure White */
+    --foreground: 0 0% 8%;                /* Almost Black */
+    
+    /* Accent Colors - Medium Gray */
+    --accent: 0 0% 25%;                   /* Charcoal Gray */
+    --accent-foreground: 0 0% 98%;        /* Off White */
+    
+    /* Muted Colors */
+    --muted: 0 0% 96%;                    /* Very Light Gray */
+    --muted-foreground: 0 0% 45%;         /* Medium Gray */
+    
+    /* Interactive Elements - Pure Black */
+    --primary: 0 0% 9%;                   /* Almost Black */
+    --primary-foreground: 0 0% 98%;       /* Off White */
+    
+    /* Border and Inputs */
+    --border: 0 0% 85%;                   /* Light Gray Border */
+    --input: 0 0% 100%;                   /* White Input */
+    --ring: 0 0% 20%;                     /* Dark Gray focus */
+    
+    /* Card and Popover */
+    --card: 0 0% 100%;                    /* Pure White */
+    --card-foreground: 0 0% 8%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 8%;
+    
+    /* Secondary Elements */
+    --secondary: 0 0% 94%;                /* Very Light Gray */
+    --secondary-foreground: 0 0% 20%;     /* Dark Gray */
+    
+    /* Destructive (minimal use) */
+    --destructive: 0 0% 15%;
+    --destructive-foreground: 0 0% 98%;
+    
+    /* Clean sharp corners for minimalism */
+    --radius: 0rem;
+    
+    /* Typography Scale */
+    --font-size-xs: 0.75rem;      /* 12px */
+    --font-size-sm: 0.875rem;     /* 14px */
+    --font-size-base: 1rem;       /* 16px */
+    --font-size-lg: 1.125rem;     /* 18px */
+    --font-size-xl: 1.25rem;      /* 20px */
+    --font-size-2xl: 1.5rem;      /* 24px */
+    --font-size-3xl: 1.875rem;    /* 30px */
+    --font-size-4xl: 2.25rem;     /* 36px */
+    
+    /* Spacing Scale */
+    --space-xs: 0.5rem;    /* 8px */
+    --space-sm: 1rem;      /* 16px */
+    --space-md: 1.5rem;    /* 24px */
+    --space-lg: 2rem;      /* 32px */
+    --space-xl: 3rem;      /* 48px */
+    --space-2xl: 4rem;     /* 64px */
+    --space-3xl: 6rem;     /* 96px */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    background-image:
+      /* Subtle geometric pattern */
+      repeating-linear-gradient(
+        90deg,
+        transparent 0px,
+        transparent 60px,
+        hsl(var(--border) / 0.3) 60px,
+        hsl(var(--border) / 0.3) 61px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        transparent 0px,
+        transparent 60px,
+        hsl(var(--border) / 0.3) 60px,
+        hsl(var(--border) / 0.3) 61px
+      );
+    background-size: 60px 60px;
+  }
+  
+  /* Elegant Monochrome Typography */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold leading-tight;
+    font-family: 'Fraunces', Georgia, serif;
+    color: hsl(var(--foreground));
+    position: relative;
+    letter-spacing: -0.025em;
+  }
+  
+  h1 { 
+    font-size: var(--font-size-4xl); 
+    font-weight: 700;
+    letter-spacing: -0.035em;
+  }
+  h2 { 
+    font-size: var(--font-size-3xl); 
+    border-bottom: 1px solid hsl(var(--border)); 
+    padding-bottom: 0.75rem; 
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  h2::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 4rem;
+    height: 2px;
+    background: hsl(var(--foreground));
+  }
+  h3 { 
+    font-size: var(--font-size-2xl); 
+    color: hsl(var(--accent));
+    font-weight: 600;
+  }
+  h4 { font-size: var(--font-size-xl); font-weight: 600; }
+  h5 { font-size: var(--font-size-lg); font-weight: 600; }
+  h6 { font-size: var(--font-size-base); font-weight: 600; }
+  
+  /* Minimalist Links */
+  a {
+    @apply text-foreground transition-all duration-200;
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+  }
+  
+  a:hover {
+    color: hsl(var(--accent));
+    border-bottom-color: hsl(var(--accent));
+  }
+  
+  /* Clean underline animation */
+  a::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: hsl(var(--foreground));
+    transition: width 0.25s ease;
+  }
+  
+  a:hover::after {
+    width: 100%;
+  }
+  
+  /* Minimalist Main Content Container */
+  .main-content {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: var(--space-lg);
+    background: hsl(var(--card));
+    border: 1px solid hsl(var(--border));
+    box-shadow: 
+      0 1px 3px hsl(var(--foreground) / 0.1), 
+      0 1px 2px hsl(var(--foreground) / 0.06);
+    position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  /* Clean Section Spacing */
+  .section-spacing {
+    padding-top: var(--space-xl);
+    margin-bottom: var(--space-2xl);
+    border-top: 1px solid hsl(var(--border));
+    position: relative;
+  }
+  
+  .section-spacing::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 3rem;
+    height: 2px;
+    background: hsl(var(--foreground));
+  }
+  
+  /* Text Utilities */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Prose styling for better text flow */
+  .prose {
+    line-height: 1.7;
+  }
+
+  .prose p {
+    margin-bottom: 1.25rem;
+  }
+
+  .prose p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Ensure proper text wrapping */
+  p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+}
+
+@layer components {
+  /* Minimalist grid overlay for the fixed sidebar */
+  .sidebar-grid {
+    background-image:
+      /* Subtle grid pattern */
+      repeating-linear-gradient(
+        90deg,
+        transparent 0px,
+        transparent 40px,
+        hsl(var(--border) / 0.5) 40px,
+        hsl(var(--border) / 0.5) 41px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        transparent 0px,
+        transparent 40px,
+        hsl(var(--border) / 0.5) 40px,
+        hsl(var(--border) / 0.5) 41px
+      );
+    background-size: 40px 40px;
+  }
+
+  /* Clean headline hover effects */
+  h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    cursor: default;
+    transition: all 0.2s ease;
+  }
+
+  h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: hsl(var(--foreground));
+    transition: width 0.25s ease;
+  }
+
+  h1:hover::after, h2:hover::after, h3:hover::after, h4:hover::after, h5:hover::after, h6:hover::after {
+    width: 100%;
+  }
+
+  h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    color: hsl(var(--accent));
+  }
+
+  /* Clean minimalist buttons */
+  .btn-terminal {
+    @apply bg-secondary text-secondary-foreground border border-border;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    position: relative;
+    transition: all 0.2s ease;
+    box-shadow: 
+      0 1px 3px hsl(var(--foreground) / 0.1);
+  }
+
+  .btn-terminal:hover {
+    background: hsl(var(--foreground));
+    color: hsl(var(--background));
+    border-color: hsl(var(--foreground));
+    transform: translateY(-1px);
+    box-shadow: 
+      0 2px 6px hsl(var(--foreground) / 0.15);
+  }
+
+  /* Simple quote blocks */
+  .quote-block {
+    @apply border-l-2 border-foreground pl-lg py-md;
+    background: hsl(var(--muted));
+    font-style: italic;
+    position: relative;
+  }
+
+  /* Typography emphasis */
+  .text-emphasis {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+  }
+
+  /* Agent Animation Container */
+  .agent-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.1;
+  }
+
+  /* Floating Code Blocks - Representing Agent Analysis */
+  .floating-code {
+    position: absolute;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: hsl(var(--foreground));
+    white-space: nowrap;
+    animation: floatCode 15s infinite linear;
+    opacity: 0;
+  }
+
+  @keyframes floatCode {
+    0% {
+      opacity: 0;
+      transform: translateY(100vh) translateX(0px);
+    }
+    10% {
+      opacity: 0.3;
+    }
+    90% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-100px) translateX(50px);
+    }
+  }
+
+  /* Agent Workflow Lines */
+  .agent-workflow {
+    position: absolute;
+    width: 2px;
+    background: linear-gradient(180deg, transparent, hsl(var(--foreground) / 0.3), transparent);
+    animation: agentFlow 8s infinite ease-in-out;
+  }
+
+  @keyframes agentFlow {
+    0%, 100% {
+      height: 0;
+      opacity: 0;
+    }
+    50% {
+      height: 200px;
+      opacity: 1;
+    }
+  }
+
+  /* Thinking Dots - AI Processing */
+  .thinking-dots {
+    position: absolute;
+    display: flex;
+    gap: 4px;
+    animation: thinkingMove 12s infinite linear;
+  }
+
+  .thinking-dot {
+    width: 3px;
+    height: 3px;
+    background: hsl(var(--foreground));
+    border-radius: 50%;
+    animation: thinkingPulse 1.4s infinite ease-in-out;
+  }
+
+  .thinking-dot:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  .thinking-dot:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+
+  @keyframes thinkingMove {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.4;
+    }
+    90% {
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateX(calc(100vw + 100px));
+      opacity: 0;
+    }
+  }
+
+  @keyframes thinkingPulse {
+    0%, 80%, 100% {
+      transform: scale(0.5);
+      opacity: 0.3;
+    }
+    40% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+  }
+
+  /* Agent Network Nodes */
+  .network-node {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: hsl(var(--foreground));
+    border-radius: 50%;
+    animation: networkPulse 6s infinite ease-in-out;
+  }
+
+  .network-connection {
+    position: absolute;
+    height: 1px;
+    background: hsl(var(--foreground) / 0.2);
+    transform-origin: left center;
+    animation: networkConnect 6s infinite ease-in-out;
+  }
+
+  @keyframes networkPulse {
+    0%, 100% {
+      transform: scale(0.5);
+      opacity: 0.3;
+    }
+    50% {
+      transform: scale(1.5);
+      opacity: 0.7;
+    }
+  }
+
+  @keyframes networkConnect {
+    0%, 100% {
+      width: 0;
+      opacity: 0;
+    }
+    50% {
+      width: 120px;
+      opacity: 0.4;
+    }
+  }
+
+  /* Autonomous Decision Trees */
+  .decision-tree {
+    position: absolute;
+    width: 1px;
+    background: hsl(var(--foreground) / 0.2);
+    animation: treeGrow 10s infinite ease-in-out;
+  }
+
+  .decision-branch {
+    position: absolute;
+    width: 1px;
+    background: hsl(var(--foreground) / 0.15);
+    transform-origin: bottom left;
+    animation: branchGrow 10s infinite ease-in-out;
+  }
+
+  @keyframes treeGrow {
+    0%, 100% {
+      height: 0;
+      opacity: 0;
+    }
+    50% {
+      height: 100px;
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes branchGrow {
+    0%, 30%, 100% {
+      height: 0;
+      opacity: 0;
+    }
+    70% {
+      height: 40px;
+      opacity: 0.3;
+    }
+  }
+}
