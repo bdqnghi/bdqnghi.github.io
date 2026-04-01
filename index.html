@@ -25,5 +25,189 @@
 
   <body>
     <div id="root"></div>
+
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <style>
+      /* Desktop: two-column grid */
+      @media (min-width: 1500px) {
+        main {
+          display: grid !important;
+          grid-template-columns: 1fr 320px;
+          gap: 1.5rem;
+          align-items: start;
+        }
+        .main-content {
+          margin: 0 !important;
+          width: 100% !important;
+          max-width: 1000px !important;
+          justify-self: center;
+          grid-column: 1;
+        }
+        main > footer {
+          grid-column: 1 / -1;
+        }
+        .x-tweet-panel {
+          grid-column: 2;
+          grid-row: 1;
+        }
+      }
+      /* Mobile: show below main content */
+      @media (max-width: 1499px) {
+        .x-tweet-panel {
+          max-width: 500px;
+          margin: 1.5rem auto;
+          padding-left: var(--space-md);
+          padding-right: var(--space-md);
+        }
+      }
+      .x-tweet-panel {
+        background: hsl(var(--card));
+        border: 1px solid hsl(var(--border));
+        border-radius: 12px;
+      }
+      .x-tweet-panel .x-tweet-heading {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: hsl(var(--muted-foreground));
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid hsl(var(--border));
+        margin: 0;
+        text-align: center;
+      }
+      .x-tweet-panel .x-tweet-scroll {
+        padding: 0.75rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: hsl(var(--border)) transparent;
+      }
+      .x-tweet-panel .x-tweet-scroll::-webkit-scrollbar {
+        width: 4px;
+      }
+      .x-tweet-panel .x-tweet-scroll::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .x-tweet-panel .x-tweet-scroll::-webkit-scrollbar-thumb {
+        background: hsl(var(--border));
+        border-radius: 2px;
+      }
+      .x-tweet-panel .twitter-tweet {
+        margin: 0 !important;
+      }
+    </style>
+    <script>
+      // Split "Notable Works" section: move New Scientist interview into its own "Media Coverage" section
+      (function() {
+        function splitSections() {
+          var notableHeading = Array.from(document.querySelectorAll('h2')).find(function(h) {
+            return h.textContent === 'Notable Works';
+          });
+          if (!notableHeading) return false;
+          if (document.querySelector('.media-coverage-section')) return true;
+
+          var notableSection = notableHeading.closest('.section-spacing');
+          if (!notableSection) return true;
+
+          // Find the New Scientist entry (first child of the space-y-md div)
+          var entriesContainer = notableSection.querySelector('.space-y-md');
+          if (!entriesContainer || !entriesContainer.children.length) return true;
+          var nsEntry = entriesContainer.children[0];
+          if (!nsEntry.textContent.includes('New Scientist')) return true;
+
+          // Remove it from Notable Works
+          entriesContainer.removeChild(nsEntry);
+
+          // Create Media Coverage section after Notable Works
+          var mediaSection = document.createElement('div');
+          mediaSection.className = 'section-spacing media-coverage-section';
+          var mediaHeading = document.createElement('h2');
+          mediaHeading.className = 'text-2xl font-semibold mb-lg';
+          mediaHeading.textContent = 'Media Coverage';
+          var mediaEntries = document.createElement('div');
+          mediaEntries.className = 'space-y-md';
+          mediaEntries.appendChild(nsEntry);
+          mediaSection.appendChild(mediaHeading);
+          mediaSection.appendChild(mediaEntries);
+
+          notableSection.parentNode.insertBefore(mediaSection, notableSection.nextSibling);
+          return true;
+        }
+
+        var obs1 = new MutationObserver(function(m, o) {
+          if (splitSections()) o.disconnect();
+        });
+        obs1.observe(document.getElementById('root'), { childList: true, subtree: true });
+      })();
+
+      (function() {
+        function injectTweet() {
+          var main = document.querySelector('main');
+          if (!main) return false;
+          if (main.querySelector('.x-tweet-panel')) return true;
+
+          var panel = document.createElement('div');
+          panel.className = 'x-tweet-panel';
+
+          var heading = document.createElement('h3');
+          heading.className = 'x-tweet-heading';
+          heading.textContent = 'Featured Posts';
+          panel.appendChild(heading);
+
+          var scrollBox = document.createElement('div');
+          scrollBox.className = 'x-tweet-scroll';
+          panel.appendChild(scrollBox);
+
+          var tweetIds = ['2030771811705872435', '2007825862721232956', '1844115605781147986', '1992307258781282517', '1664458443430739969'];
+          var tweetBoxes = tweetIds.map(function() {
+            var box = document.createElement('div');
+            scrollBox.appendChild(box);
+            return box;
+          });
+
+          var footer = main.querySelector('footer');
+          if (footer) {
+            main.insertBefore(panel, footer);
+          } else {
+            main.appendChild(panel);
+          }
+
+          // Match scroll area height to main content
+          function syncHeight() {
+            var mc = document.querySelector('.main-content');
+            if (mc) {
+              var headingH = panel.querySelector('.x-tweet-heading').offsetHeight;
+              scrollBox.style.maxHeight = (mc.offsetHeight - headingH - 2) + 'px';
+            }
+          }
+          window.addEventListener('resize', syncHeight);
+          // Re-sync after tweets load (they change height)
+          setInterval(syncHeight, 2000);
+          setTimeout(syncHeight, 1000);
+
+          function renderTweets() {
+            if (window.twttr && window.twttr.widgets) {
+              tweetIds.forEach(function(id, i) {
+                window.twttr.widgets.createTweet(id, tweetBoxes[i], {
+                  theme: 'dark', dnt: true, conversation: 'none', width: 300
+                });
+              });
+            } else {
+              setTimeout(renderTweets, 500);
+            }
+          }
+          renderTweets();
+          return true;
+        }
+
+        var observer = new MutationObserver(function(mutations, obs) {
+          if (injectTweet()) obs.disconnect();
+        });
+        observer.observe(document.getElementById('root'), { childList: true, subtree: true });
+      })();
+    </script>
   </body>
 </html>
