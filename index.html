@@ -100,6 +100,21 @@
       }
     </style>
     <script>
+      // Remove "Blog" nav link
+      (function() {
+        function removeBlog() {
+          var blogLink = document.querySelector('a[href="/blog"]');
+          if (!blogLink) return false;
+          var li = blogLink.closest('li');
+          if (li) li.remove();
+          return true;
+        }
+        var obs = new MutationObserver(function(m, o) {
+          if (removeBlog()) o.disconnect();
+        });
+        obs.observe(document.getElementById('root'), { childList: true, subtree: true });
+      })();
+
       // Remove "Mentorship Philosophy" section
       (function() {
         function removeMentorship() {
