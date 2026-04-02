@@ -100,6 +100,23 @@
       }
     </style>
     <script>
+      // Remove "Mentorship Philosophy" section
+      (function() {
+        function removeMentorship() {
+          var h = Array.from(document.querySelectorAll('h2')).find(function(el) {
+            return el.textContent === 'Mentorship Philosophy';
+          });
+          if (!h) return false;
+          var section = h.closest('.pt-md');
+          if (section) section.remove();
+          return true;
+        }
+        var obs = new MutationObserver(function(m, o) {
+          if (removeMentorship()) o.disconnect();
+        });
+        obs.observe(document.getElementById('root'), { childList: true, subtree: true });
+      })();
+
       // Split "Notable Works" section: move New Scientist interview into its own "Media Coverage" section
       (function() {
         function splitSections() {
