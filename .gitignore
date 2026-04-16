@@ -3,3 +3,6 @@ _site
 .jekyll-metadata
 .DS_Store
 images/.DS_Store
+node_modules/
+dist/
+.vite/
