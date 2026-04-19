@@ -17,7 +17,7 @@ export const publications: Publication[] = [
   {
     id: 'fse26-donot-treat',
     title: 'Do Not Treat Code as Natural Language: Implications for Repository-Level Code Generation and Beyond',
-    authors: ['Nghi D. Q. Bui'],
+    authors: ['Minh Le-Anh', 'Huyen Nguyen', 'Khanh An Tran', 'Nam Le Hai', 'Linh Ngo Van', 'Nghi D. Q. Bui', 'Bach Le'],
     venue: 'ACM International Conference on the Foundations of Software Engineering (FSE)',
     year: 2026,
     type: 'conference',
@@ -26,22 +26,22 @@ export const publications: Publication[] = [
     ranking: 'Rank A*'
   },
   {
-    id: 'opendev-2025',
+    id: 'opendev-2026',
     title: 'OpenDev: Building Effective AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned',
     authors: ['Nghi D. Q. Bui'],
     venue: 'Technical Report',
-    year: 2025,
+    year: 2026,
     type: 'preprint',
     abstract: '81-page technical report. First ever to detail how coding agents should be built.',
     pdfUrl: 'https://arxiv.org/abs/2603.05344',
     codeUrl: 'https://github.com/opendev-to/opendev'
   },
   {
-    id: 'swe-evo-2025',
+    id: 'swe-evo-2026',
     title: 'SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios',
-    authors: ['Nghi D. Q. Bui'],
+    authors: ['Minh V. T. Thai', 'Tue Le', 'Dung Nguyen Manh', 'Huy Phan Nhat', 'Nghi D. Q. Bui'],
     venue: 'Preprint',
-    year: 2025,
+    year: 2026,
     type: 'preprint',
     abstract: 'Frontier and challenging benchmark to measure the capabilities of coding agents on long-horizon software engineering tasks.',
     pdfUrl: 'https://arxiv.org/abs/2512.18470'
@@ -49,12 +49,12 @@ export const publications: Publication[] = [
   {
     id: 'acl26-codewiki',
     title: "CodeWiki: Evaluating AI's Ability to Generate Holistic Documentation for Large-Scale Codebases",
-    authors: ['Nghi D. Q. Bui'],
+    authors: ['Anh Nguyen Hoang', 'Minh Le-Anh', 'Bach Le', 'Nghi D. Q. Bui'],
     venue: 'Annual Meeting of the Association for Computational Linguistics (ACL)',
     year: 2026,
     type: 'conference',
     abstract: 'Methodology and benchmark to evaluate the ability of coding agents to generate documentation on large-scale codebases.',
-    pdfUrl: 'https://arxiv.org/abs/2512.18470',
+    pdfUrl: 'https://arxiv.org/abs/2510.24428',
     codeUrl: 'https://github.com/FSoft-AI4Code/CodeWiki',
     ranking: 'Rank A*'
   },

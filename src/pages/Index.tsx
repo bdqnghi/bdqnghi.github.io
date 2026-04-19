@@ -80,7 +80,7 @@ const Index = () => {
           </div>
           <div>
             <h3 className="text-sm font-semibold leading-snug">
-              <a href="https://arxiv.org/abs/2512.18470" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
+              <a href="https://arxiv.org/abs/2510.24428" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
                 CodeWiki: Evaluating AI's Ability to Generate Holistic Documentation for Large-Scale Codebases
               </a>
             </h3>
