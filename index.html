@@ -18,7 +18,22 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@QuocNghi91" />
     <meta name="twitter:image" content="/favicon.svg" />
-    <script type="module" crossorigin src="/assets/index-CP2s1YMq.js"></script>
+
+    <script>
+      // Restore SPA path after GitHub Pages 404 redirect.
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location));
+    </script>
+    <script type="module" crossorigin src="/assets/index-DMY0Gc8k.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-ByhuOppn.css">
   </head>
 
