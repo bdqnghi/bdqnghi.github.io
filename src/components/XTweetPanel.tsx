@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 declare global {
   interface Window {
     twttr?: {
+      ready?: (cb: (twttr: Window["twttr"]) => void) => void;
       widgets: {
         createTweet: (id: string, el: HTMLElement, opts: Record<string, unknown>) => Promise<HTMLElement>;
       };
@@ -18,36 +19,51 @@ const TWEET_IDS = [
   "1664458443430739969",
 ];
 
+function whenTwttrReady(cb: () => void) {
+  if (window.twttr?.widgets) {
+    cb();
+    return;
+  }
+  if (window.twttr?.ready) {
+    window.twttr.ready(cb);
+    return;
+  }
+  // Fallback: short poll for the case where the script tag hasn't initialized yet.
+  const id = setInterval(() => {
+    if (window.twttr?.widgets) {
+      clearInterval(id);
+      cb();
+    }
+  }, 50);
+}
+
 export default function XTweetPanel() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!document.getElementById("x-widgets-js")) {
-      const s = document.createElement("script");
-      s.id = "x-widgets-js";
-      s.src = "https://platform.twitter.com/widgets.js";
-      s.async = true;
-      document.body.appendChild(s);
+    // Pre-create boxes synchronously so layout is stable while tweets load.
+    const boxes: HTMLDivElement[] = [];
+    if (scrollRef.current) {
+      scrollRef.current.innerHTML = "";
+      TWEET_IDS.forEach(() => {
+        const box = document.createElement("div");
+        scrollRef.current!.appendChild(box);
+        boxes.push(box);
+      });
     }
 
-    function renderTweets() {
-      if (window.twttr?.widgets && scrollRef.current) {
-        scrollRef.current.innerHTML = "";
-        TWEET_IDS.forEach((id) => {
-          const box = document.createElement("div");
-          scrollRef.current!.appendChild(box);
-          window.twttr!.widgets.createTweet(id, box, {
+    whenTwttrReady(() => {
+      TWEET_IDS.forEach((id, i) => {
+        if (boxes[i]) {
+          window.twttr!.widgets.createTweet(id, boxes[i], {
             theme: "light",
             dnt: true,
             conversation: "none",
             width: 300,
           });
-        });
-      } else {
-        setTimeout(renderTweets, 500);
-      }
-    }
-    renderTweets();
+        }
+      });
+    });
   }, []);
 
   return (
