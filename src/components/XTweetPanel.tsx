@@ -3,8 +3,9 @@ import { useEffect, useRef } from "react";
 declare global {
   interface Window {
     twttr?: {
-      ready?: (cb: (twttr: Window["twttr"]) => void) => void;
+      ready?: (cb: (twttr: NonNullable<Window["twttr"]>) => void) => void;
       widgets: {
+        load: (el?: HTMLElement) => Promise<void>;
         createTweet: (id: string, el: HTMLElement, opts: Record<string, unknown>) => Promise<HTMLElement>;
       };
     };
@@ -19,60 +20,38 @@ const TWEET_IDS = [
   "1664458443430739969",
 ];
 
-function whenTwttrReady(cb: () => void) {
-  if (window.twttr?.widgets) {
-    cb();
-    return;
-  }
-  if (window.twttr?.ready) {
-    window.twttr.ready(cb);
-    return;
-  }
-  // Fallback: short poll for the case where the script tag hasn't initialized yet.
-  const id = setInterval(() => {
-    if (window.twttr?.widgets) {
-      clearInterval(id);
-      cb();
-    }
-  }, 50);
-}
-
 export default function XTweetPanel() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Pre-create boxes synchronously so layout is stable while tweets load.
-    const boxes: HTMLDivElement[] = [];
-    if (scrollRef.current) {
-      scrollRef.current.innerHTML = "";
-      TWEET_IDS.forEach(() => {
-        const box = document.createElement("div");
-        scrollRef.current!.appendChild(box);
-        boxes.push(box);
-      });
-    }
-
-    whenTwttrReady(() => {
-      TWEET_IDS.forEach((id, i) => {
-        if (boxes[i]) {
-          window.twttr!.widgets.createTweet(id, boxes[i], {
-            theme: "light",
-            dnt: true,
-            conversation: "none",
-            width: 300,
-          });
-        }
-      });
+    // Ask widgets.js to scan our scroll container and convert all
+    // `.twitter-tweet` blockquotes to embedded tweets in one batch.
+    // The ready() stub in index.html queues this immediately, even
+    // if the actual widgets.js script hasn't finished loading yet.
+    window.twttr?.ready?.((twttr) => {
+      if (scrollRef.current) {
+        twttr.widgets.load(scrollRef.current);
+      }
     });
   }, []);
 
   return (
     <div className="x-tweet-panel h-full flex flex-col">
       <h3 className="x-tweet-heading flex-shrink-0">Community Highlights</h3>
-      <div
-        ref={scrollRef}
-        className="x-tweet-scroll flex-1"
-      />
+      <div ref={scrollRef} className="x-tweet-scroll flex-1">
+        {TWEET_IDS.map((id) => (
+          <blockquote
+            key={id}
+            className="twitter-tweet"
+            data-theme="light"
+            data-dnt="true"
+            data-conversation="none"
+            data-width="300"
+          >
+            <a href={`https://twitter.com/x/status/${id}`}> </a>
+          </blockquote>
+        ))}
+      </div>
     </div>
   );
 }

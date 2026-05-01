@@ -34,11 +34,30 @@
       }(window.location));
     </script>
 
-    <!-- Preload X widgets.js so tweets render fast -->
+    <!-- Preconnect to platform.twitter.com so the TLS handshake starts immediately -->
     <link rel="preconnect" href="https://platform.twitter.com">
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <script type="module" crossorigin src="/assets/index-Ih3IktxG.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-ByhuOppn.css">
+    <link rel="preconnect" href="https://syndication.twitter.com">
+    <link rel="dns-prefetch" href="https://abs.twimg.com">
+
+    <!-- X widgets stub: queues ready() callbacks before the script arrives.
+         Standard Twitter pattern: https://developer.twitter.com/en/docs/twitter-for-websites/javascript-api/guides/set-up-twitter-for-websites -->
+    <script>
+      window.twttr = (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        js.async = true;
+        fjs.parentNode.insertBefore(js, fjs);
+        t._e = [];
+        t.ready = function (f) { t._e.push(f); };
+        return t;
+      }(document, "script", "twitter-wjs"));
+    </script>
+    <script type="module" crossorigin src="/assets/index-CrlwtI-F.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BkbBDvT1.css">
   </head>
 
   <body>
