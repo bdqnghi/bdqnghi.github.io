@@ -19,6 +19,25 @@
     <meta name="twitter:site" content="@QuocNghi91" />
     <meta name="twitter:image" content="/favicon.svg" />
 
+    <!-- Preconnect to Twitter origins so TLS handshakes start immediately -->
+    <link rel="preconnect" href="https://platform.twitter.com" crossorigin>
+    <link rel="preconnect" href="https://syndication.twitter.com" crossorigin>
+    <link rel="dns-prefetch" href="https://abs.twimg.com">
+    <link rel="dns-prefetch" href="https://pbs.twimg.com">
+
+    <!-- Load widgets.js with high priority, before bundling-related work -->
+    <link rel="preload" as="script" href="https://platform.twitter.com/widgets.js" crossorigin>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <!-- twttr.ready stub: lets components queue callbacks before the real script arrives -->
+    <script>
+      (function () {
+        var t = window.twttr || (window.twttr = {});
+        t._e = t._e || [];
+        if (!t.ready) t.ready = function (f) { t._e.push(f); };
+      })();
+    </script>
+
     <script>
       // Restore SPA path after GitHub Pages 404 redirect.
       // https://github.com/rafgraph/spa-github-pages
@@ -33,31 +52,8 @@
         }
       }(window.location));
     </script>
-
-    <!-- Preconnect to platform.twitter.com so the TLS handshake starts immediately -->
-    <link rel="preconnect" href="https://platform.twitter.com">
-    <link rel="preconnect" href="https://syndication.twitter.com">
-    <link rel="dns-prefetch" href="https://abs.twimg.com">
-
-    <!-- X widgets stub: queues ready() callbacks before the script arrives.
-         Standard Twitter pattern: https://developer.twitter.com/en/docs/twitter-for-websites/javascript-api/guides/set-up-twitter-for-websites -->
-    <script>
-      window.twttr = (function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0],
-          t = window.twttr || {};
-        if (d.getElementById(id)) return t;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://platform.twitter.com/widgets.js";
-        js.async = true;
-        fjs.parentNode.insertBefore(js, fjs);
-        t._e = [];
-        t.ready = function (f) { t._e.push(f); };
-        return t;
-      }(document, "script", "twitter-wjs"));
-    </script>
-    <script type="module" crossorigin src="/assets/index-CrlwtI-F.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BkbBDvT1.css">
+    <script type="module" crossorigin src="/assets/index-CqBQdeHv.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-ByhuOppn.css">
   </head>
 
   <body>

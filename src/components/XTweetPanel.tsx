@@ -3,9 +3,9 @@ import { useEffect, useRef } from "react";
 declare global {
   interface Window {
     twttr?: {
+      _e?: Array<(twttr: NonNullable<Window["twttr"]>) => void>;
       ready?: (cb: (twttr: NonNullable<Window["twttr"]>) => void) => void;
       widgets: {
-        load: (el?: HTMLElement) => Promise<void>;
         createTweet: (id: string, el: HTMLElement, opts: Record<string, unknown>) => Promise<HTMLElement>;
       };
     };
@@ -20,38 +20,47 @@ const TWEET_IDS = [
   "1664458443430739969",
 ];
 
+const TWEET_OPTS = {
+  theme: "light",
+  dnt: true,
+  conversation: "none",
+  width: 300,
+} as const;
+
 export default function XTweetPanel() {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const renderedRef = useRef(false);
 
   useEffect(() => {
-    // Ask widgets.js to scan our scroll container and convert all
-    // `.twitter-tweet` blockquotes to embedded tweets in one batch.
-    // The ready() stub in index.html queues this immediately, even
-    // if the actual widgets.js script hasn't finished loading yet.
+    if (renderedRef.current) return;
+    renderedRef.current = true;
+    const scroll = scrollRef.current;
+    if (!scroll) return;
+
+    // Pre-create boxes synchronously so the panel doesn't reflow
+    // when each tweet finishes loading.
+    scroll.innerHTML = "";
+    const boxes = TWEET_IDS.map(() => {
+      const box = document.createElement("div");
+      box.className = "x-tweet-slot";
+      scroll.appendChild(box);
+      return box;
+    });
+
+    // Fire all 5 createTweet calls in parallel as soon as widgets.js is ready.
+    // The stub in index.html queues this callback even before the script loads,
+    // so there's zero polling delay.
     window.twttr?.ready?.((twttr) => {
-      if (scrollRef.current) {
-        twttr.widgets.load(scrollRef.current);
-      }
+      TWEET_IDS.forEach((id, i) => {
+        twttr.widgets.createTweet(id, boxes[i], TWEET_OPTS);
+      });
     });
   }, []);
 
   return (
     <div className="x-tweet-panel h-full flex flex-col">
       <h3 className="x-tweet-heading flex-shrink-0">Community Highlights</h3>
-      <div ref={scrollRef} className="x-tweet-scroll flex-1">
-        {TWEET_IDS.map((id) => (
-          <blockquote
-            key={id}
-            className="twitter-tweet"
-            data-theme="light"
-            data-dnt="true"
-            data-conversation="none"
-            data-width="300"
-          >
-            <a href={`https://twitter.com/x/status/${id}`}> </a>
-          </blockquote>
-        ))}
-      </div>
+      <div ref={scrollRef} className="x-tweet-scroll flex-1" />
     </div>
   );
 }
