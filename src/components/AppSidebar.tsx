@@ -1,12 +1,11 @@
 import { NavLink } from "react-router-dom";
-import { Mail, Linkedin, Github, Twitter, GraduationCap, Star, Home, Briefcase, BookOpen, Users, type LucideIcon } from "lucide-react";
+import { Mail, Linkedin, Github, Twitter, GraduationCap, Star, Home, Briefcase, BookOpen, type LucideIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const nav: { to: string; label: string; icon: LucideIcon }[] = [
   { to: "/", label: "Home", icon: Home },
   { to: "/background", label: "Background", icon: Briefcase },
   { to: "/publications", label: "Publications", icon: BookOpen },
-  { to: "/students", label: "Students", icon: Users },
 ];
 
 const openSourceRepos = [
