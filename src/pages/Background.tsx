@@ -41,15 +41,15 @@ const Background = () => {
           <ul className="space-y-2.5">
             <li className="grid grid-cols-[5.5rem_1fr] gap-x-3">
               <span className="text-xs font-semibold text-muted-foreground pt-0.5">NeurIPS</span>
-              <span className="text-sm">Area Chair, Evaluations and Datasets Track (2026). Reviewer for Main Track and Position Paper Track (2026), Datasets and Benchmarks Track (2024), Main Track (2023), and the DL4C Workshop (2025).</span>
+              <span className="text-sm">Area Chair, Evaluations and Datasets Track (2026). Reviewer, Main Track (2023, 2026), Position Paper Track (2026), Datasets and Benchmarks Track (2024), DL4C Workshop (2025).</span>
             </li>
             <li className="grid grid-cols-[5.5rem_1fr] gap-x-3">
               <span className="text-xs font-semibold text-muted-foreground pt-0.5">ICLR</span>
-              <span className="text-sm">Reviewer for the main conference (2022, 2023, 2025, 2026) and the DL4C Workshop (2025). Program Committee Member, DL4C Workshop (2022).</span>
+              <span className="text-sm">Reviewer, Main Conference (2022, 2023, 2025, 2026), DL4C Workshop (2025). Program Committee, DL4C Workshop (2022).</span>
             </li>
             <li className="grid grid-cols-[5.5rem_1fr] gap-x-3">
               <span className="text-xs font-semibold text-muted-foreground pt-0.5">ACL / ARR</span>
-              <span className="text-sm">Reviewer across ACL Rolling Review cycles from 2022 through 2026, including the ARR cycles routed to ACL 2024 and EMNLP 2024.</span>
+              <span className="text-sm">Reviewer, ARR (2022–2026), incl. ACL 2024 and EMNLP 2024.</span>
             </li>
             <li className="grid grid-cols-[5.5rem_1fr] gap-x-3">
               <span className="text-xs font-semibold text-muted-foreground pt-0.5">EMNLP</span>
@@ -57,7 +57,7 @@ const Background = () => {
             </li>
             <li className="grid grid-cols-[5.5rem_1fr] gap-x-3">
               <span className="text-xs font-semibold text-muted-foreground pt-0.5">MSR</span>
-              <span className="text-sm">Program Committee Member, Technical Track (2025).</span>
+              <span className="text-sm">Program Committee, Technical Track (2025).</span>
             </li>
           </ul>
         </div>
