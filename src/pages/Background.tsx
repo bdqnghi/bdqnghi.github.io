@@ -59,14 +59,6 @@ const Background = () => {
               <span className="text-xs font-semibold text-muted-foreground pt-0.5">MSR</span>
               <span className="text-sm">Program Committee Member, Technical Track (2025).</span>
             </li>
-            <li className="grid grid-cols-[5.5rem_1fr] gap-x-3">
-              <span className="text-xs font-semibold text-muted-foreground pt-0.5">TSE</span>
-              <span className="text-sm">Reviewer for <em>IEEE Transactions on Software Engineering</em>. Joined the reviewer pool in Oct 2025; completed one assigned review in 2026 and declined several additional invitations.</span>
-            </li>
-            <li className="grid grid-cols-[5.5rem_1fr] gap-x-3">
-              <span className="text-xs font-semibold text-muted-foreground pt-0.5">TOSEM</span>
-              <span className="text-sm">Reviewer for <em>ACM Transactions on Software Engineering and Methodology</em>. Completed reviews for five manuscripts between Nov 2023 and Mar 2026, plus additional invitations across 2025–2026.</span>
-            </li>
           </ul>
         </div>
       </div>
