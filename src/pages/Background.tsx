@@ -19,7 +19,7 @@ const Background = () => {
           <ul className="space-y-2">
             <li className="grid grid-cols-[5.5rem_1fr] gap-x-3 gap-y-0.5">
               <span className="text-xs font-medium text-muted-foreground">2026-Now</span>
-              <span className="text-sm">Staff Research Scientist, <a href="https://research.google/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">Google Research</a>, United States</span>
+              <span className="text-sm">Research Scientist, <a href="https://research.google/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">Google Research</a>, United States</span>
             </li>
             <li className="grid grid-cols-[5.5rem_1fr] gap-x-3 gap-y-0.5">
               <span className="text-xs font-medium text-muted-foreground">2023-2025</span>
