@@ -138,18 +138,18 @@ export default function AppSidebar() {
           </ul>
         </div>
 
-        {/* Visitor Tracker */}
+        {/* Visitor Map */}
         <div className="pt-md w-full border-t border-border">
           <div className="flex justify-center">
             <a
-              href="https://clustrmaps.com/site/1ad1p"
-              title="Visit tracker"
+              href="https://info.flagcounter.com/6RjZ"
+              title="View visitor locations"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="//www.clustrmaps.com/map_v2.png?d=McQNhkf8Yz9_O9RxR6737fb3TmJs5kCW-Tm-aoQaocc&cl=ffffff"
-                alt="Visitor tracker map"
+                src="https://s01.flagcounter.com/map/6RjZ/size_s/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/"
+                alt="Visitor map and pageview count"
                 className="max-w-full h-auto rounded-sm opacity-80"
                 style={{ maxHeight: '140px' }}
               />
