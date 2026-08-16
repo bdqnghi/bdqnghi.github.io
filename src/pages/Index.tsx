@@ -31,27 +31,17 @@ const Index = () => {
       {/* Research Focus */}
       <div className="mb-6">
         <h2 className="text-lg font-semibold mb-3">Research Focus</h2>
-        <p className="text-sm leading-relaxed mb-2">
-          I am on the path to define foundational <span className="highlight">pillars towards breakthrough</span> for coding agents, focusing on four critical areas:
+        <p className="text-sm leading-relaxed">
+          My research has evolved alongside the field of AI for software engineering. From 2016 to
+          2020, I focused on software engineering research and developed deep learning models that
+          learn the structural and semantic properties of source code for code understanding and
+          program analysis. From 2020 to 2023, I expanded this work to language models for code
+          generation and evaluation methods that measure generated code on realistic software
+          engineering tasks. Since 2023, I have focused on coding agents and frontier benchmarks for
+          increasingly complex problems. Today, I build next generation agent harnesses for
+          <span className="highlight"> long horizon tasks</span>, RL environments, and frontier evaluation
+          pipelines that provide reliable learning signals for iterative model hill climbing.
         </p>
-        <ul className="space-y-2 text-sm">
-          <li className="flex">
-            <span className="mr-2 text-muted-foreground">•</span>
-            <span><strong>Frontier Challenging Benchmarks:</strong> Defining comprehensive evaluation frameworks that truly test how coding agents operate in <span className="highlight">real-world development scenarios</span>, moving beyond simplistic coding tasks to complex, multi-step software engineering challenges.</span>
-          </li>
-          <li className="flex">
-            <span className="mr-2 text-muted-foreground">•</span>
-            <span><strong>Proactive Coding Agents:</strong> Building agents that act as <span className="highlight">true pair programmers</span> instead of reactive coding assistants like current SOTA developer tools. These agents anticipate needs, suggest improvements, and actively participate in the development process.</span>
-          </li>
-          <li className="flex">
-            <span className="mr-2 text-muted-foreground">•</span>
-            <span><strong>Foundation Models for Code:</strong> Developing foundational CodeLLMs that can learn to solve <span className="highlight">long-horizon software engineering tasks</span>, incorporating dynamic tool-calling, long-term memory, self-reflection, and multi-agent coordination.</span>
-          </li>
-          <li className="flex">
-            <span className="mr-2 text-muted-foreground">•</span>
-            <span><strong>Software Evolution:</strong> As software becomes easier to build, the world is rapidly accumulating legacy code that must be evolved and maintained. I focus on building coding agents that understand large-scale codebases and continuously evolve them, keeping systems up-to-date and addressing one of the most critical sustainability challenges in software development.</span>
-          </li>
-        </ul>
       </div>
 
       {/* Notable Works */}
@@ -80,7 +70,7 @@ const Index = () => {
           </div>
           <div>
             <h3 className="text-sm font-semibold leading-snug">
-              <a href="https://arxiv.org/abs/2510.24428" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
+              <a href="https://arxiv.org/abs/2512.18470" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
                 CodeWiki: Evaluating AI's Ability to Generate Holistic Documentation for Large-Scale Codebases
               </a>
             </h3>

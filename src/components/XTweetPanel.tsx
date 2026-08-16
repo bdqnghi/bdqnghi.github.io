@@ -3,8 +3,6 @@ import { useEffect, useRef } from "react";
 declare global {
   interface Window {
     twttr?: {
-      _e?: Array<(twttr: NonNullable<Window["twttr"]>) => void>;
-      ready?: (cb: (twttr: NonNullable<Window["twttr"]>) => void) => void;
       widgets: {
         createTweet: (id: string, el: HTMLElement, opts: Record<string, unknown>) => Promise<HTMLElement>;
       };
@@ -20,47 +18,45 @@ const TWEET_IDS = [
   "1664458443430739969",
 ];
 
-const TWEET_OPTS = {
-  theme: "light",
-  dnt: true,
-  conversation: "none",
-  width: 300,
-} as const;
-
 export default function XTweetPanel() {
   const scrollRef = useRef<HTMLDivElement>(null);
-  const renderedRef = useRef(false);
 
   useEffect(() => {
-    if (renderedRef.current) return;
-    renderedRef.current = true;
-    const scroll = scrollRef.current;
-    if (!scroll) return;
+    if (!document.getElementById("x-widgets-js")) {
+      const s = document.createElement("script");
+      s.id = "x-widgets-js";
+      s.src = "https://platform.twitter.com/widgets.js";
+      s.async = true;
+      document.body.appendChild(s);
+    }
 
-    // Pre-create boxes synchronously so the panel doesn't reflow
-    // when each tweet finishes loading.
-    scroll.innerHTML = "";
-    const boxes = TWEET_IDS.map(() => {
-      const box = document.createElement("div");
-      box.className = "x-tweet-slot";
-      scroll.appendChild(box);
-      return box;
-    });
-
-    // Fire all 5 createTweet calls in parallel as soon as widgets.js is ready.
-    // The stub in index.html queues this callback even before the script loads,
-    // so there's zero polling delay.
-    window.twttr?.ready?.((twttr) => {
-      TWEET_IDS.forEach((id, i) => {
-        twttr.widgets.createTweet(id, boxes[i], TWEET_OPTS);
-      });
-    });
+    function renderTweets() {
+      if (window.twttr?.widgets && scrollRef.current) {
+        scrollRef.current.innerHTML = "";
+        TWEET_IDS.forEach((id) => {
+          const box = document.createElement("div");
+          scrollRef.current!.appendChild(box);
+          window.twttr!.widgets.createTweet(id, box, {
+            theme: "light",
+            dnt: true,
+            conversation: "none",
+            width: 300,
+          });
+        });
+      } else {
+        setTimeout(renderTweets, 500);
+      }
+    }
+    renderTweets();
   }, []);
 
   return (
     <div className="x-tweet-panel h-full flex flex-col">
       <h3 className="x-tweet-heading flex-shrink-0">Community Highlights</h3>
-      <div ref={scrollRef} className="x-tweet-scroll flex-1" />
+      <div
+        ref={scrollRef}
+        className="x-tweet-scroll flex-1"
+      />
     </div>
   );
 }
