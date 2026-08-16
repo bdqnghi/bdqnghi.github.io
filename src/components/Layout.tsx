@@ -64,6 +64,12 @@ const Layout = ({ children }: LayoutProps) => {
         </div>
       )}
 
+      {/* ── Mobile main content ── */}
+      <main className="md:hidden flex-1 flex flex-col">
+        <div className="flex-1">{children}</div>
+        <Footer />
+      </main>
+
       {/* ── Desktop layout ── */}
       <div className="hidden md:flex w-full relative flex-1">
 
