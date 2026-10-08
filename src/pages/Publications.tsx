@@ -4,12 +4,19 @@ import { publications, Publication } from "@/data/publications";
 import { Badge } from "@/components/ui/badge";
 import { Github } from "lucide-react";
 
+// First author, or marked as co-first author, on the paper.
+const isFirstAuthor = (pub: Publication) =>
+  pub.authors.some((author, index) =>
+    /nghi d\. q\. bui/i.test(author) && (index === 0 || /co-first/i.test(author))
+  );
+
 const Publications = () => {
   const [selectedYear, setSelectedYear] = useState<string>('all');
   const [selectedType, setSelectedType] = useState<string>('all');
   const [selectedConference, setSelectedConference] = useState<string>('all');
   const [expandedAbstracts, setExpandedAbstracts] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState<string>('');
+  const [firstAuthorOnly, setFirstAuthorOnly] = useState<boolean>(false);
 
   const years = Array.from(new Set(publications.map(p => p.year))).sort((a, b) => b - a);
   const types = Array.from(new Set(publications.map(p => p.type)));
@@ -45,7 +52,8 @@ const Publications = () => {
       pub.authors.some(author => author.toLowerCase().includes(searchQuery.toLowerCase())) ||
       pub.venue.toLowerCase().includes(searchQuery.toLowerCase()) ||
       (pub.abstract && pub.abstract.toLowerCase().includes(searchQuery.toLowerCase()));
-    return yearMatch && typeMatch && conferenceMatch && searchMatch;
+    const firstAuthorMatch = !firstAuthorOnly || isFirstAuthor(pub);
+    return yearMatch && typeMatch && conferenceMatch && searchMatch && firstAuthorMatch;
   }).sort((a, b) => {
     // Sort by year (newest first), then by title for same year
     if (a.year !== b.year) {
@@ -149,6 +157,17 @@ const Publications = () => {
               ))}
             </select>
           </div>
+
+          <label htmlFor="first-author-filter" className="flex items-center gap-1.5 text-sm font-medium cursor-pointer">
+            <input
+              id="first-author-filter"
+              type="checkbox"
+              checked={firstAuthorOnly}
+              onChange={(e) => setFirstAuthorOnly(e.target.checked)}
+              className="accent-primary"
+            />
+            First author ({publications.filter(isFirstAuthor).length})
+          </label>
         </div>
 
         {/* Conference Statistics */}
