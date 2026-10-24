@@ -40,28 +40,45 @@ const Background = () => {
 
         <div>
           <h2 className="text-lg font-semibold mb-3">Academic Service</h2>
-          <ul className="space-y-2.5">
-            <li className="grid grid-cols-[5.5rem_1fr] gap-x-3">
-              <span className="text-xs font-semibold text-muted-foreground pt-0.5">NeurIPS</span>
-              <span className="text-sm">Area Chair, Evaluations and Datasets Track (2026). Reviewer, Main Track (2023, 2026), Position Paper Track (2026), Datasets and Benchmarks Track (2024), DL4C Workshop (2025).</span>
-            </li>
-            <li className="grid grid-cols-[5.5rem_1fr] gap-x-3">
-              <span className="text-xs font-semibold text-muted-foreground pt-0.5">ICLR</span>
-              <span className="text-sm">Reviewer, Main Conference (2022, 2023, 2025, 2026), DL4C Workshop (2025). Program Committee, DL4C Workshop (2022).</span>
-            </li>
-            <li className="grid grid-cols-[5.5rem_1fr] gap-x-3">
-              <span className="text-xs font-semibold text-muted-foreground pt-0.5">ACL / ARR</span>
-              <span className="text-sm">Reviewer, ARR (2022–2026), incl. ACL 2024 and EMNLP 2024.</span>
-            </li>
-            <li className="grid grid-cols-[5.5rem_1fr] gap-x-3">
-              <span className="text-xs font-semibold text-muted-foreground pt-0.5">EMNLP</span>
-              <span className="text-sm">Reviewer (2023, 2024).</span>
-            </li>
-            <li className="grid grid-cols-[5.5rem_1fr] gap-x-3">
-              <span className="text-xs font-semibold text-muted-foreground pt-0.5">MSR</span>
-              <span className="text-sm">Program Committee, Technical Track (2025).</span>
-            </li>
-          </ul>
+          <div className="space-y-4">
+            <div className="grid gap-1 sm:grid-cols-[5.5rem_1fr] sm:gap-x-3">
+              <h3 className="text-sm font-semibold leading-relaxed">NeurIPS</h3>
+              <ul className="list-disc pl-5 space-y-1 text-sm leading-relaxed marker:text-accent">
+                <li><span className="font-semibold">Area Chair</span> — Evaluations and Datasets Track, 2026</li>
+                <li><span className="font-medium">Reviewer</span> — Main Track, 2023 and 2026</li>
+                <li><span className="font-medium">Reviewer</span> — Position Paper Track, 2026</li>
+                <li><span className="font-medium">Reviewer</span> — Datasets and Benchmarks Track, 2024</li>
+                <li><span className="font-medium">Reviewer</span> — DL4C Workshop, 2025</li>
+              </ul>
+            </div>
+            <div className="grid gap-1 sm:grid-cols-[5.5rem_1fr] sm:gap-x-3">
+              <h3 className="text-sm font-semibold leading-relaxed">ICLR</h3>
+              <ul className="list-disc pl-5 space-y-1 text-sm leading-relaxed marker:text-accent">
+                <li><span className="font-semibold">Area Chair</span> — 2027</li>
+                <li><span className="font-medium">Reviewer</span> — Main Conference, 2022, 2023, 2025, and 2026</li>
+                <li><span className="font-medium">Reviewer</span> — DL4C Workshop, 2025</li>
+                <li><span className="font-medium">Program Committee</span> — DL4C Workshop, 2022</li>
+              </ul>
+            </div>
+            <div className="grid gap-1 sm:grid-cols-[5.5rem_1fr] sm:gap-x-3">
+              <h3 className="text-sm font-semibold leading-relaxed">ACL / ARR</h3>
+              <ul className="list-disc pl-5 space-y-1 text-sm leading-relaxed marker:text-accent">
+                <li><span className="font-medium">Reviewer</span> — ACL Rolling Review, 2022–2026, including ACL 2024 and EMNLP 2024</li>
+              </ul>
+            </div>
+            <div className="grid gap-1 sm:grid-cols-[5.5rem_1fr] sm:gap-x-3">
+              <h3 className="text-sm font-semibold leading-relaxed">EMNLP</h3>
+              <ul className="list-disc pl-5 space-y-1 text-sm leading-relaxed marker:text-accent">
+                <li><span className="font-medium">Reviewer</span> — 2023 and 2024</li>
+              </ul>
+            </div>
+            <div className="grid gap-1 sm:grid-cols-[5.5rem_1fr] sm:gap-x-3">
+              <h3 className="text-sm font-semibold leading-relaxed">MSR</h3>
+              <ul className="list-disc pl-5 space-y-1 text-sm leading-relaxed marker:text-accent">
+                <li><span className="font-medium">Program Committee</span> — Technical Track, 2025</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
