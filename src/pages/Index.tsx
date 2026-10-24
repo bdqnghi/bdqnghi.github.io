@@ -56,13 +56,13 @@ const Index = () => {
             {" "}From 2020 to 2023, I contributed to the early wave of foundation models for understanding
             and generating code, including <ExternalLink href="https://jack-clark.net/2022/08/08/import-ai-299-the-worlds-best-language-model-is-made-in-china-nvidia-boosts-llm-training-openai-shows-how-to-fill-in-the-middle-on-a-language-model/">PanGu-Coder</ExternalLink>
             {" "}and <ExternalLink href="https://arxiv.org/abs/2305.07922">CodeT5+</ExternalLink>
-            {" "}(<ExternalLink href="https://www.marktechpost.com/2023/05/20/salesforce-ai-introduces-codet5-a-new-family-of-open-code-large-language-models-with-an-encoder-decoder-architecture/">media</ExternalLink>;
+            {" "}(<ExternalLink href="https://www.marktechpost.com/2023/05/20/salesforce-ai-introduces-codet5-a-new-family-of-open-code-large-language-models-with-an-encoder-decoder-architecture/">MarkTechPost</ExternalLink>;
             {" "}<ExternalLink href="https://x.com/stevenhoi/status/1658270266424975361">X</ExternalLink>).
             {" "}I also developed <ExternalLink href="https://arxiv.org/abs/2306.00029">CodeTF</ExternalLink>,
             {" "}the first one-stop library designed to make code language models easier to train, evaluate, and use
-            {" "}(<ExternalLink href="https://news.ycombinator.com/item?id=36233881">media</ExternalLink>,
-            {" "}<ExternalLink href="https://syncedreview.com/2023/06/13/salesforce-ais-codetf-library-facilitates-easy-llm-integration-for-code-intelligence-tasks">media</ExternalLink>,
-            {" "}<ExternalLink href="https://www.marktechpost.com/2023/06/06/salesforce-ai-research-introduces-codetf-a-one-stop-transformer-library-for-code-large-language-models-codellm/">media</ExternalLink>;
+            {" "}(<ExternalLink href="https://news.ycombinator.com/item?id=36233881">Hacker News</ExternalLink>,
+            {" "}<ExternalLink href="https://syncedreview.com/2023/06/13/salesforce-ais-codetf-library-facilitates-easy-llm-integration-for-code-intelligence-tasks">Synced</ExternalLink>,
+            {" "}<ExternalLink href="https://www.marktechpost.com/2023/06/06/salesforce-ai-research-introduces-codetf-a-one-stop-transformer-library-for-code-large-language-models-codellm/">MarkTechPost</ExternalLink>;
             {" "}<ExternalLink href="https://x.com/_akhaliq/status/1664458443430739969">X</ExternalLink>).
           </p>
 
@@ -70,16 +70,16 @@ const Index = () => {
             From 2023 to 2025, I advanced the early wave of coding agents, building their ability
             to navigate codebases, fix bugs, and verify changes in real software projects through
             {" "}<ExternalLink href="https://arxiv.org/abs/2409.16299">HyperAgent</ExternalLink>
-            {" "}(<ExternalLink href="https://www.marktechpost.com/2024/09/11/fpt-software-ai-center-introduces-hyperagent-a-groundbreaking-generalist-agent-system-to-resolve-various-software-engineering-tasks-at-scale-achieving-sota-performance-on-swe-bench-and-defects4j/">media</ExternalLink>;
+            {" "}(<ExternalLink href="https://www.marktechpost.com/2024/09/11/fpt-software-ai-center-introduces-hyperagent-a-groundbreaking-generalist-agent-system-to-resolve-various-software-engineering-tasks-at-scale-achieving-sota-performance-on-swe-bench-and-defects4j/">MarkTechPost</ExternalLink>;
             {" "}<ExternalLink href="https://x.com/QuocNghi91/status/1839220524242899243">X</ExternalLink>).
             {" "}I also developed <ExternalLink href="https://arxiv.org/abs/2410.01999">CodeMMLU</ExternalLink>
             {" "}to test the code understanding and reasoning these agents need
-            {" "}(<ExternalLink href="https://www.marktechpost.com/2024/10/09/codemmlu-a-comprehensive-multi-choice-benchmark-for-assessing-code-understanding-in-large-language-models/">media</ExternalLink>;
+            {" "}(<ExternalLink href="https://www.marktechpost.com/2024/10/09/codemmlu-a-comprehensive-multi-choice-benchmark-for-assessing-code-understanding-in-large-language-models/">MarkTechPost</ExternalLink>;
             {" "}<ExternalLink href="https://x.com/rohanpaul_ai/status/1844115605781147986">X</ExternalLink>).
             {" "}With <ExternalLink href="https://arxiv.org/abs/2408.04660">XMainframe</ExternalLink>,
             {" "}I contributed to early efforts to use LLMs to modernize mission-critical systems
             written in languages such as COBOL, where training data and developer expertise are scarce
-            {" "}(<ExternalLink href="https://www.newscientist.com/article/2443466-ai-could-help-shrinking-pool-of-coders-keep-outdated-programs-working/">media</ExternalLink>).
+            {" "}(<ExternalLink href="https://www.newscientist.com/article/2443466-ai-could-help-shrinking-pool-of-coders-keep-outdated-programs-working/">The New Scientist</ExternalLink>).
           </p>
 
           <p>
@@ -93,7 +93,7 @@ const Index = () => {
             {" "}I also authored <ExternalLink href="https://arxiv.org/abs/2603.05344">OpenDev</ExternalLink>,
             {" "}the first comprehensive technical report on building an open-source coding agent
             for the terminal, detailing how its harness coordinates tools, memory, and execution
-            {" "}(<ExternalLink href="https://co-r-e.com/method/opendev-terminal-coding-agent">media</ExternalLink>;
+            {" "}(<ExternalLink href="https://co-r-e.com/method/opendev-terminal-coding-agent">CO-R-E</ExternalLink>;
             {" "}<ExternalLink href="https://x.com/omarsar0/status/2030771811705872435">X</ExternalLink>).
             {" "}Today, I contribute to <ExternalLink href="https://deepmind.google/models/gemini/">Gemini 4</ExternalLink>
             {" "}through post-training, reinforcement learning environments, evaluation pipelines,
@@ -117,7 +117,7 @@ const Index = () => {
             </h3>
             <p className="text-xs text-muted-foreground mt-0.5">
               81-page technical report. First ever to detail how coding agents should be built. Written in <span className="font-semibold text-accent">Rust</span>.
-              {" "}[<ExternalLink href="https://co-r-e.com/method/opendev-terminal-coding-agent">media</ExternalLink>]
+              {" "}[<ExternalLink href="https://co-r-e.com/method/opendev-terminal-coding-agent">CO-R-E</ExternalLink>]
               {" "}[<ExternalLink href="https://x.com/omarsar0/status/2030771811705872435">X</ExternalLink>]
             </p>
           </div>
@@ -150,7 +150,7 @@ const Index = () => {
               </a>
             </h3>
             <p className="text-xs text-muted-foreground mt-0.5">
-              ICLR 2025 [<a href="https://www.marktechpost.com/2024/10/09/codemmlu-a-comprehensive-multi-choice-benchmark-for-assessing-code-understanding-in-large-language-models/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">media</a>]
+              ICLR 2025 [<a href="https://www.marktechpost.com/2024/10/09/codemmlu-a-comprehensive-multi-choice-benchmark-for-assessing-code-understanding-in-large-language-models/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">MarkTechPost</a>]
               {" "}[<ExternalLink href="https://x.com/rohanpaul_ai/status/1844115605781147986">X</ExternalLink>]
             </p>
           </div>
@@ -161,7 +161,7 @@ const Index = () => {
               </a>
             </h3>
             <p className="text-xs text-muted-foreground mt-0.5">
-              [<a href="https://www.marktechpost.com/2024/09/11/fpt-software-ai-center-introduces-hyperagent-a-groundbreaking-generalist-agent-system-to-resolve-various-software-engineering-tasks-at-scale-achieving-sota-performance-on-swe-bench-and-defects4j/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">media</a>]
+              [<a href="https://www.marktechpost.com/2024/09/11/fpt-software-ai-center-introduces-hyperagent-a-groundbreaking-generalist-agent-system-to-resolve-various-software-engineering-tasks-at-scale-achieving-sota-performance-on-swe-bench-and-defects4j/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">MarkTechPost</a>]
               {" "}[<ExternalLink href="https://x.com/QuocNghi91/status/1839220524242899243">X</ExternalLink>]
             </p>
           </div>
@@ -172,7 +172,7 @@ const Index = () => {
               </a>
             </h3>
             <p className="text-xs text-muted-foreground mt-0.5">
-              [<a href="https://news.ycombinator.com/item?id=36233881" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">media</a>, <a href="https://syncedreview.com/2023/06/13/salesforce-ais-codetf-library-facilitates-easy-llm-integration-for-code-intelligence-tasks" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">media</a>, <a href="https://www.marktechpost.com/2023/06/06/salesforce-ai-research-introduces-codetf-a-one-stop-transformer-library-for-code-large-language-models-codellm/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">media</a>]
+              [<a href="https://news.ycombinator.com/item?id=36233881" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">Hacker News</a>, <a href="https://syncedreview.com/2023/06/13/salesforce-ais-codetf-library-facilitates-easy-llm-integration-for-code-intelligence-tasks" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">Synced</a>, <a href="https://www.marktechpost.com/2023/06/06/salesforce-ai-research-introduces-codetf-a-one-stop-transformer-library-for-code-large-language-models-codellm/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">MarkTechPost</a>]
               {" "}[<ExternalLink href="https://x.com/_akhaliq/status/1664458443430739969">X</ExternalLink>]
             </p>
           </div>
@@ -183,7 +183,7 @@ const Index = () => {
               </a>
             </h3>
             <p className="text-xs text-muted-foreground mt-0.5">
-              EMNLP 2023 [<a href="https://www.marktechpost.com/2023/05/20/salesforce-ai-introduces-codet5-a-new-family-of-open-code-large-language-models-with-an-encoder-decoder-architecture/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">media</a>]
+              EMNLP 2023 [<a href="https://www.marktechpost.com/2023/05/20/salesforce-ai-introduces-codet5-a-new-family-of-open-code-large-language-models-with-an-encoder-decoder-architecture/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">MarkTechPost</a>]
               {" "}[<ExternalLink href="https://x.com/stevenhoi/status/1658270266424975361">X</ExternalLink>]
             </p>
           </div>

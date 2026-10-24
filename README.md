@@ -56,7 +56,9 @@ workflow that builds the project and uploads `dist/`.
 ## Current customizations
 
 - Responsive academic profile layout with background and publications pages.
-- Live GitHub repository star counts with static fallbacks.
+- GitHub star counts refresh every 10 minutes and when returning to the tab after
+  counts become stale, with shared caching and a Shields.io fallback when GitHub
+  requests fail. Hovering shows the full count when available; static counts are a final fallback.
 - Privacy-conscious embedded X posts.
 - Flag Counter geographic visitor map.
 - Custom neural-orbit favicon inspired by iterative AI learning systems.

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { Mail, Linkedin, Github, Twitter, GraduationCap, Star, Home, Briefcase, BookOpen, type LucideIcon } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useQueries } from "@tanstack/react-query";
 
 const nav: { to: string; label: string; icon: LucideIcon }[] = [
   { to: "/", label: "Home", icon: Home },
@@ -26,27 +26,57 @@ function formatStars(count: number): string {
   return count.toString();
 }
 
+const STAR_REFRESH_INTERVAL = 10 * 60 * 1000;
+
+interface StarCount {
+  label: string;
+  title: string;
+}
+
+async function fetchStarCount(repo: string, signal: AbortSignal): Promise<StarCount> {
+  try {
+    const res = await fetch(`https://api.github.com/repos/${repo}`, { signal });
+    if (!res.ok) throw new Error(`GitHub stars request failed: ${res.status}`);
+
+    const { stargazers_count: count } = await res.json();
+    if (!Number.isSafeInteger(count) || count < 0) {
+      throw new Error("Invalid GitHub star count");
+    }
+    return { label: formatStars(count), title: `${count.toLocaleString()} GitHub stars` };
+  } catch (error) {
+    if (signal.aborted) throw error;
+
+    // Shields caches GitHub counts without using the visitor's GitHub API quota.
+    const res = await fetch(`https://img.shields.io/github/stars/${repo}.json`, { signal });
+    if (!res.ok) throw new Error(`Star count fallback failed: ${res.status}`);
+
+    const { message } = await res.json();
+    if (typeof message !== "string" || !/^\d+(\.\d+)?[km]?$/i.test(message)) {
+      throw new Error("Invalid fallback star count");
+    }
+    const label = /^\d+$/.test(message) ? formatStars(Number(message)) : message;
+    return { label, title: `${message} GitHub stars` };
+  }
+}
+
 export default function AppSidebar() {
-  const [starCounts, setStarCounts] = useState<Record<string, string>>({});
+  const starQueries = useQueries({
+    queries: openSourceRepos.map(({ repo }) => ({
+      queryKey: ["github-stars", repo],
+      queryFn: ({ signal }) => fetchStarCount(repo, signal),
+      // Share cached counts between sidebar instances and avoid frequent API calls.
+      staleTime: STAR_REFRESH_INTERVAL,
+      gcTime: 60 * 60 * 1000,
+      refetchInterval: STAR_REFRESH_INTERVAL,
+      refetchIntervalInBackground: false,
+      refetchOnWindowFocus: true,
+      retry: false,
+    })),
+  });
 
-  useEffect(() => {
-    const uniqueRepos = [...new Set(openSourceRepos.map(r => r.repo))];
-
-    uniqueRepos.forEach(async (repoPath) => {
-      try {
-        const res = await fetch(`https://api.github.com/repos/${repoPath}`);
-        if (res.ok) {
-          const data = await res.json();
-          setStarCounts(prev => ({
-            ...prev,
-            [repoPath]: formatStars(data.stargazers_count),
-          }));
-        }
-      } catch {
-        // silently fall back to static counts
-      }
-    });
-  }, []);
+  const starCounts: Record<string, StarCount | undefined> = Object.fromEntries(
+    openSourceRepos.map(({ repo }, index) => [repo, starQueries[index].data]),
+  );
 
   return (
     <aside aria-label="Researcher sidebar" className="w-full">
@@ -105,9 +135,12 @@ export default function AppSidebar() {
                   <Github className="w-3 h-3 flex-shrink-0" />
                   <span>{repo.name}</span>
                 </span>
-                <span className="flex items-center gap-0.5 text-muted-foreground tabular-nums">
+                <span
+                  className="flex items-center gap-0.5 text-muted-foreground tabular-nums"
+                  title={starCounts[repo.repo]?.title || "GitHub stars (last known count)"}
+                >
                   <Star className="w-3 h-3" />
-                  <span>{starCounts[repo.repo] || repo.fallback}</span>
+                  <span>{starCounts[repo.repo]?.label || repo.fallback}</span>
                 </span>
               </a>
             ))}
