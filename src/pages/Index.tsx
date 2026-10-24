@@ -38,7 +38,8 @@ const Index = () => {
             {" "}<ExternalLink href="https://antigravity.google/">Antigravity</ExternalLink>).
             {" "}My recent work includes frontier research on
             {" "}<ExternalLink href="https://deepmind.google/models/gemini/">Gemini 4</ExternalLink>,
-            {" "}focusing on post-training and reinforcement learning environments.
+            {" "}with contributions to post-training, reinforcement learning environments,
+            evaluation pipelines, and benchmarks.
           </p>
         </div>
       </div>
@@ -94,8 +95,9 @@ const Index = () => {
             for the terminal, detailing how its harness coordinates tools, memory, and execution
             {" "}(<ExternalLink href="https://co-r-e.com/method/opendev-terminal-coding-agent">media</ExternalLink>;
             {" "}<ExternalLink href="https://x.com/omarsar0/status/2030771811705872435">X</ExternalLink>).
-            {" "}Today, I focus on post-training and reinforcement learning environments to contribute
-            to the success of <ExternalLink href="https://deepmind.google/models/gemini/">Gemini 4</ExternalLink>.
+            {" "}Today, I contribute to <ExternalLink href="https://deepmind.google/models/gemini/">Gemini 4</ExternalLink>
+            {" "}through post-training, reinforcement learning environments, evaluation pipelines,
+            and benchmarks.
           </p>
         </div>
         <p className="text-sm mt-4">
