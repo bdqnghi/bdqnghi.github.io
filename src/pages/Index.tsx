@@ -25,7 +25,7 @@ const Index = () => {
             {" "}and enjoy building fast, reliable systems in Python, Rust, and Go.
           </p>
           <p className="text-sm leading-relaxed break-words">
-            I've been fortunate to contribute to impactful work at key stages of AI's development: foundation
+            I've been fortunate to contribute to impactful work at early stages of AI's development: foundation
             models and tools for coding
             {" "}(<ExternalLink href="https://jack-clark.net/2022/08/08/import-ai-299-the-worlds-best-language-model-is-made-in-china-nvidia-boosts-llm-training-openai-shows-how-to-fill-in-the-middle-on-a-language-model/">PanGu-Coder</ExternalLink>,
             {" "}<ExternalLink href="https://arxiv.org/abs/2305.07922">CodeT5+</ExternalLink>,
