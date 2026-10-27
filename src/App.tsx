@@ -8,7 +8,6 @@ import Publications from "./pages/Publications";
 import Background from "./pages/Background";
 import NotFound from "./pages/NotFound";
 import Layout from "./components/Layout";
-import AgentAnimations from "./components/AgentAnimations";
 
 const queryClient = new QueryClient();
 
@@ -17,7 +16,6 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <AgentAnimations />
       <BrowserRouter>
         <Layout>
           <Routes>

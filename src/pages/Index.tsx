@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
+import BlogPosts from "@/components/BlogPosts";
 
 const ExternalLink = ({ href, children }: { href: string; children: ReactNode }) => (
   <a href={href} target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
@@ -46,7 +47,7 @@ const Index = () => {
 
       <section className="mb-6" aria-labelledby="research-focus">
         <h2 id="research-focus" className="text-lg font-semibold mb-3">Research Focus</h2>
-        <div className="space-y-3 text-sm leading-relaxed">
+        <div className="research-story space-y-4 text-sm leading-relaxed">
           <p>
             From 2016 to 2020, I studied how models learn the structure and behavior of code and
             applied them to a wide range of software engineering tasks, including program repair,
@@ -105,105 +106,92 @@ const Index = () => {
         </p>
       </section>
 
+      <BlogPosts />
+
       {/* Notable Works */}
-      <div className="mb-6">
-        <h2 className="text-lg font-semibold mb-3">Notable Works</h2>
-        <div className="space-y-3">
-          <div>
-            <h3 className="text-sm font-semibold leading-snug">
-              <a href="https://arxiv.org/abs/2603.05344" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
+      <section className="selected-works mb-6" aria-labelledby="notable-works">
+        <h2 id="notable-works" className="text-lg font-semibold mb-4">Notable Works</h2>
+        <ul className="list-disc space-y-4 pl-4 marker:text-accent/80">
+          <li className="pl-1.5">
+            <h3 className="font-sans text-sm font-medium leading-relaxed">
+              <a href="https://arxiv.org/abs/2603.05344" target="_blank" rel="noopener noreferrer" className="notable-title">
                 OpenDev: Building Effective AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned
               </a>
             </h3>
-            <p className="text-xs text-muted-foreground mt-0.5">
+            <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
               81-page technical report. First ever to detail how coding agents should be built. Written in <span className="font-semibold text-accent">Rust</span>.
               {" "}[<ExternalLink href="https://co-r-e.com/method/opendev-terminal-coding-agent">CO-R-E</ExternalLink>]
               {" "}[<ExternalLink href="https://x.com/omarsar0/status/2030771811705872435">X</ExternalLink>]
             </p>
-          </div>
-          <div>
-            <h3 className="text-sm font-semibold leading-snug">
-              <a href="https://arxiv.org/abs/2512.18470" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
+          </li>
+          <li className="pl-1.5">
+            <h3 className="font-sans text-sm font-medium leading-relaxed">
+              <a href="https://arxiv.org/abs/2512.18470" target="_blank" rel="noopener noreferrer" className="notable-title">
                 SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios
               </a>
             </h3>
-            <p className="text-xs text-muted-foreground mt-0.5">
+            <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
               Frontier and challenging benchmark to measure the capabilities of coding agents on long-horizon software engineering tasks.
               {" "}[<ExternalLink href="https://x.com/omarsar0/status/2007825862721232956">X</ExternalLink>]
             </p>
-          </div>
-          <div>
-            <h3 className="text-sm font-semibold leading-snug">
-              <a href="https://arxiv.org/abs/2510.24428" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
+          </li>
+          <li className="pl-1.5">
+            <h3 className="font-sans text-sm font-medium leading-relaxed">
+              <a href="https://arxiv.org/abs/2510.24428" target="_blank" rel="noopener noreferrer" className="notable-title">
                 CodeWiki: Evaluating AI's Ability to Generate Holistic Documentation for Large-Scale Codebases
               </a>
             </h3>
-            <p className="text-xs text-muted-foreground mt-0.5">
+            <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
               Methodology and benchmark to evaluate the ability of coding agents to generate documentation on large-scale codebases.
               {" "}[<ExternalLink href="https://x.com/tom_doerr/status/1992307258781282517">X</ExternalLink>]
             </p>
-          </div>
-          <div>
-            <h3 className="text-sm font-semibold leading-snug">
-              <a href="https://arxiv.org/abs/2410.01999" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
+          </li>
+          <li className="pl-1.5">
+            <h3 className="font-sans text-sm font-medium leading-relaxed">
+              <a href="https://arxiv.org/abs/2410.01999" target="_blank" rel="noopener noreferrer" className="notable-title">
                 CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding & Reasoning Capabilities of CodeLLMs
               </a>
             </h3>
-            <p className="text-xs text-muted-foreground mt-0.5">
+            <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
               ICLR 2025 [<a href="https://www.marktechpost.com/2024/10/09/codemmlu-a-comprehensive-multi-choice-benchmark-for-assessing-code-understanding-in-large-language-models/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">MarkTechPost</a>]
               {" "}[<ExternalLink href="https://x.com/rohanpaul_ai/status/1844115605781147986">X</ExternalLink>]
             </p>
-          </div>
-          <div>
-            <h3 className="text-sm font-semibold leading-snug">
-              <a href="https://arxiv.org/abs/2409.16299" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
+          </li>
+          <li className="pl-1.5">
+            <h3 className="font-sans text-sm font-medium leading-relaxed">
+              <a href="https://arxiv.org/abs/2409.16299" target="_blank" rel="noopener noreferrer" className="notable-title">
                 HyperAgent: Generalist Software Engineering Agents to Solve Coding Tasks at Scale
               </a>
             </h3>
-            <p className="text-xs text-muted-foreground mt-0.5">
+            <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
               [<a href="https://www.marktechpost.com/2024/09/11/fpt-software-ai-center-introduces-hyperagent-a-groundbreaking-generalist-agent-system-to-resolve-various-software-engineering-tasks-at-scale-achieving-sota-performance-on-swe-bench-and-defects4j/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">MarkTechPost</a>]
               {" "}[<ExternalLink href="https://x.com/QuocNghi91/status/1839220524242899243">X</ExternalLink>]
             </p>
-          </div>
-          <div>
-            <h3 className="text-sm font-semibold leading-snug">
-              <a href="https://arxiv.org/pdf/2306.00029.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
+          </li>
+          <li className="pl-1.5">
+            <h3 className="font-sans text-sm font-medium leading-relaxed">
+              <a href="https://arxiv.org/pdf/2306.00029.pdf" target="_blank" rel="noopener noreferrer" className="notable-title">
                 CodeTF: One-Stop Transformer-based Library for CodeLLMs
               </a>
             </h3>
-            <p className="text-xs text-muted-foreground mt-0.5">
+            <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
               [<a href="https://news.ycombinator.com/item?id=36233881" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">Hacker News</a>, <a href="https://syncedreview.com/2023/06/13/salesforce-ais-codetf-library-facilitates-easy-llm-integration-for-code-intelligence-tasks" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">Synced</a>, <a href="https://www.marktechpost.com/2023/06/06/salesforce-ai-research-introduces-codetf-a-one-stop-transformer-library-for-code-large-language-models-codellm/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">MarkTechPost</a>]
               {" "}[<ExternalLink href="https://x.com/_akhaliq/status/1664458443430739969">X</ExternalLink>]
             </p>
-          </div>
-          <div>
-            <h3 className="text-sm font-semibold leading-snug">
-              <a href="https://arxiv.org/pdf/2305.07922.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
+          </li>
+          <li className="pl-1.5">
+            <h3 className="font-sans text-sm font-medium leading-relaxed">
+              <a href="https://arxiv.org/pdf/2305.07922.pdf" target="_blank" rel="noopener noreferrer" className="notable-title">
                 CodeT5+: Open Code Large Language Models for Code Understanding and Generation
               </a>
             </h3>
-            <p className="text-xs text-muted-foreground mt-0.5">
+            <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
               EMNLP 2023 [<a href="https://www.marktechpost.com/2023/05/20/salesforce-ai-introduces-codet5-a-new-family-of-open-code-large-language-models-with-an-encoder-decoder-architecture/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">MarkTechPost</a>]
               {" "}[<ExternalLink href="https://x.com/stevenhoi/status/1658270266424975361">X</ExternalLink>]
             </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Media Coverage */}
-      <div className="mb-6">
-        <h2 className="text-lg font-semibold mb-3">Media Coverage</h2>
-        <div className="space-y-3">
-          <div>
-            <h3 className="text-sm font-semibold leading-snug">
-              <a href="https://www.newscientist.com/article/2443466-ai-could-help-shrinking-pool-of-coders-keep-outdated-programs-working/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
-                My Interview on The New Scientist on the future of AI for modernization outdated system
-              </a>
-            </h3>
-            <p className="text-xs text-muted-foreground mt-0.5">New Scientist Interview</p>
-          </div>
-        </div>
-      </div>
+          </li>
+        </ul>
+      </section>
 
     </div>
   );

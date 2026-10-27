@@ -2,14 +2,14 @@ import { Mail, Linkedin, Github, Twitter, GraduationCap } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-border mt-3xl">
-      <div className="mx-auto max-w-7xl px-lg py-lg">
-        <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <div className="text-sm text-muted-foreground">
+    <footer className="mt-12 border-t border-border/65">
+      <div className="mx-auto max-w-[860px] px-6 py-6">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div className="text-[11px] text-muted-foreground">
             © 2024 Nghi D. Q. Bui. All rights reserved.
           </div>
           
-          <div className="flex items-center space-x-6">
+          <div className="flex flex-wrap items-center gap-4">
             <a 
               href="mailto:bdqnghi@gmail.com" 
               className="flex items-center gap-xs text-sm text-muted-foreground hover:text-accent transition-colors"

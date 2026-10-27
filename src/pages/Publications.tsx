@@ -106,7 +106,7 @@ const Publications = () => {
         
         {/* Search and Filters */}
         <div className="flex flex-wrap items-center gap-3 mb-4">
-          <div className="flex items-center space-x-xs">
+          <div className="flex w-full min-w-0 items-center gap-2 sm:w-auto">
             <label htmlFor="search" className="text-sm font-medium">Search:</label>
             <input
               id="search"
@@ -114,7 +114,7 @@ const Publications = () => {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search papers..."
-              className="w-64 text-sm border border-border bg-background px-3 py-1.5 rounded-md placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring/40"
+              className="min-w-0 flex-1 rounded-lg border border-border bg-background px-3 py-1.5 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring/40 sm:w-64 sm:flex-none"
             />
             {searchQuery && (
               <button

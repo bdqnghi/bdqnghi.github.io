@@ -118,6 +118,8 @@
   h5 { font-size: var(--font-size-base); font-weight: 600; }
   h6 { font-size: var(--font-size-sm); font-weight: 600; }
 
+  h2[id] { scroll-margin-top: 5rem; }
+
   /* Links */
   a {
     color: hsl(var(--link));
@@ -132,10 +134,10 @@
 
   /* Main Content -- seamless with background */
   .main-content {
-    width: 92%;
+    width: 100%;
     max-width: 860px;
     margin: 0 auto;
-    padding: var(--space-xl) var(--space-lg);
+    padding: 44px 32px;
     position: relative;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -144,7 +146,7 @@
   @media (max-width: 768px) {
     .main-content {
       width: 100%;
-      padding: var(--space-lg) var(--space-md);
+      padding: 28px 20px;
     }
     .section-spacing {
       padding-top: var(--space-sm);
@@ -282,31 +284,22 @@
     background: hsl(var(--background));
   }
 
-  /* Heading hover -- gentle */
-  h1, h2, h3, h4, h5, h6 {
-    transition: color 250ms var(--ease);
-  }
-
-  h1:hover, h2:hover, h3:hover {
-    color: hsl(var(--accent));
-  }
-
   /* Buttons */
   .btn-terminal {
     @apply bg-secondary text-secondary-foreground border border-border;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    border-radius: var(--radius);
+    text-transform: none;
+    letter-spacing: 0;
+    border-radius: 999px;
     transition: all 200ms var(--ease);
   }
 
   .btn-terminal:hover {
-    background: hsl(var(--foreground));
-    color: hsl(var(--background));
-    border-color: hsl(var(--foreground));
+    background: hsl(var(--accent) / 0.08);
+    color: hsl(var(--foreground));
+    border-color: hsl(var(--accent) / 0.35);
   }
 
   /* Quote blocks */
@@ -459,63 +452,74 @@
   }
 }
 
-/* Mobile slide-in animations */
-@keyframes slideInLeft {
-  from { transform: translateX(-100%); }
-  to { transform: translateX(0); }
+/* Panels share one timing curve so the page and its controls move together. */
+.site-main {
+  transition: margin 320ms var(--ease-out);
 }
-@keyframes slideInRight {
-  from { transform: translateX(100%); }
-  to { transform: translateX(0); }
+.desktop-panel {
+  background: hsl(48 27% 95.5%);
+  transition: transform 320ms var(--ease-out), visibility 320ms;
 }
-.animate-slide-in-left {
-  animation: slideInLeft 0.25s var(--ease-out) forwards;
-}
-.animate-slide-in-right {
-  animation: slideInRight 0.25s var(--ease-out) forwards;
-}
-
-/* Tweet panel -- right sidebar content */
-.x-tweet-panel {
-  padding: 0 0.75rem;
-}
-
-.x-tweet-panel .x-tweet-heading {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.7rem;
-  font-weight: 500;
+.profile-panel[data-open="false"] { transform: translateX(-100%); visibility: hidden; }
+.community-panel-shell[data-open="false"] { transform: translateX(100%); visibility: hidden; }
+.panel-toggle {
+  position: fixed;
+  top: 22px;
+  z-index: 40;
+  width: 32px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid hsl(var(--border) / 0.8);
+  border-radius: 999px;
   color: hsl(var(--muted-foreground));
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 0 0.75rem 0.75rem;
-  border-bottom: 1px solid hsl(var(--border));
-  margin: 0;
-  text-align: center;
+  background: hsl(var(--background) / 0.96);
+  box-shadow: 0 2px 10px -6px hsl(var(--foreground) / 0.25);
+  transition: left 320ms var(--ease-out), right 320ms var(--ease-out), background 180ms, color 180ms, box-shadow 180ms;
 }
-
-.x-tweet-panel .x-tweet-scroll {
-  padding: 0.75rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  overflow-y: auto;
+.panel-toggle:hover {
+  background: white;
+  color: hsl(var(--foreground));
+  box-shadow: 0 3px 14px -6px hsl(var(--foreground) / 0.25);
+}
+.panel-toggle:focus-visible, .panel-mobile-trigger:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 3px;
+}
+.profile-toggle { left: max(12px, calc(var(--profile-space) - 16px)); }
+.community-toggle { right: max(12px, calc(var(--community-space) - 16px)); }
+.panel-mobile-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 6px 0;
+  color: hsl(var(--muted-foreground));
+}
+.panel-drawer { background: hsl(48 27% 95.5%); animation-duration: 320ms; animation-timing-function: var(--ease-out); }
+@media (min-width: 1024px) {
+  .site-main { margin-left: var(--profile-space); }
+}
+@media (min-width: 1280px) {
+  .site-main { margin-right: var(--community-space); }
+}
+.community-scroll {
   scrollbar-width: thin;
   scrollbar-color: hsl(var(--border)) transparent;
+  overscroll-behavior: contain;
 }
-
-.x-tweet-panel .x-tweet-scroll::-webkit-scrollbar {
-  width: 3px;
+.community-scroll::-webkit-scrollbar { width: 4px; }
+.community-scroll::-webkit-scrollbar-thumb { background: hsl(var(--border)); border-radius: 4px; }
+.original-post .twitter-tweet { margin: 0 !important; }
+.notable-title {
+  color: hsl(var(--foreground));
+  font: inherit;
+  text-decoration: none;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
-
-.x-tweet-panel .x-tweet-scroll::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.x-tweet-panel .x-tweet-scroll::-webkit-scrollbar-thumb {
-  background: hsl(var(--border));
-  border-radius: 2px;
-}
-
-.x-tweet-panel .twitter-tweet {
-  margin: 0 !important;
+.notable-title:hover { color: hsl(var(--link)); text-decoration: underline; }
+.notable-title:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 3px; border-radius: 2px; }
+.research-story { line-height: 1.85; }
+@media (prefers-reduced-motion: reduce) {
+  .site-main, .desktop-panel, .panel-toggle, .panel-toggle svg, .panel-drawer { transition: none !important; animation: none !important; }
 }

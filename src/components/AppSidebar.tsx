@@ -59,7 +59,7 @@ async function fetchStarCount(repo: string, signal: AbortSignal): Promise<StarCo
   }
 }
 
-export default function AppSidebar() {
+export default function AppSidebar({ onNavigate }: { onNavigate?: () => void }) {
   const starQueries = useQueries({
     queries: openSourceRepos.map(({ repo }) => ({
       queryKey: ["github-stars", repo],
@@ -80,7 +80,7 @@ export default function AppSidebar() {
 
   return (
     <aside aria-label="Researcher sidebar" className="w-full">
-      <div className="flex flex-col items-center text-center gap-md">
+      <div className="flex flex-col items-center gap-5 text-center">
         <img
           src="/lovable-uploads/066bf4cf-e62c-4883-9d4e-8cded092d002.png"
           alt="Profile portrait of Dr. NGHI D. Q. BUI"
@@ -88,31 +88,31 @@ export default function AppSidebar() {
           height={200}
           loading="eager"
           decoding="async"
-          className="w-[160px] h-[160px] md:w-[180px] md:h-[180px] rounded-full object-cover border border-border shadow-sm"
+          className="h-36 w-36 rounded-full border-[5px] border-white object-cover shadow-[0_4px_24px_-12px_rgba(62,47,33,0.35)] ring-1 ring-border/60"
         />
 
         <div className="space-y-xs">
-          <p className="text-2xl font-bold tracking-tight">Dr. NGHI D. Q. BUI</p>
-          <p className="text-sm text-muted-foreground">Research Scientist at Google</p>
-          <p className="text-xs text-muted-foreground/70">&gt; building autonomous coding agents</p>
+          <p className="font-serif text-[25px] font-medium tracking-tight">Dr. Nghi D. Q. Bui</p>
+          <p className="text-xs text-muted-foreground">Research Scientist at Google</p>
         </div>
 
-        <nav className="w-full pt-md border-t border-border">
-          <ul className="flex flex-col gap-0.5">
+        <nav className="w-full border-t border-border/60 pt-4" aria-label="Main navigation">
+          <ul className="flex flex-col gap-1">
             {nav.map((item) => (
               <li key={item.to}>
                 <NavLink
                   to={item.to}
                   end
+                  onClick={onNavigate}
                   className={({ isActive }) =>
-                    `group flex items-center gap-sm px-sm py-1.5 rounded-md text-sm transition-colors duration-150 ${
+                    `group flex items-center gap-3 rounded-xl border px-3 py-2.5 text-[13px] transition-colors duration-200 ${
                       isActive
-                        ? "bg-secondary text-foreground font-medium"
-                        : "text-muted-foreground hover:text-foreground hover:bg-secondary/50"
+                        ? "border-border/65 bg-white/85 text-foreground font-medium shadow-sm"
+                        : "border-transparent text-muted-foreground hover:text-foreground hover:bg-white/60"
                     }`
                   }
                 >
-                  <item.icon className="w-3.5 h-3.5 flex-shrink-0" />
+                  <item.icon className="w-3.5 h-3.5 flex-shrink-0" strokeWidth={1.5} />
                   <span>{item.label}</span>
                 </NavLink>
               </li>
@@ -121,7 +121,7 @@ export default function AppSidebar() {
         </nav>
 
         <div className="pt-md w-full border-t border-border">
-          <h3 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2 text-left px-sm">Open Source</h3>
+          <h3 className="mb-2 px-3 text-left font-sans text-[10px] font-semibold uppercase tracking-[0.14em] text-muted-foreground">Open Source</h3>
           <div className="text-xs space-y-0.5">
             {openSourceRepos.map((repo) => (
               <a
@@ -129,14 +129,14 @@ export default function AppSidebar() {
                 href={`https://github.com/${repo.repo}${repo.path || ""}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-between px-sm py-1 rounded-md hover:bg-secondary/50 transition-colors duration-150 group"
+                className="group flex items-center justify-between rounded-xl px-3 py-2 transition-colors duration-200 hover:bg-white/70"
               >
                 <span className="flex items-center gap-1.5 text-foreground/80 group-hover:text-foreground">
                   <Github className="w-3 h-3 flex-shrink-0" />
                   <span>{repo.name}</span>
                 </span>
                 <span
-                  className="flex items-center gap-0.5 text-muted-foreground tabular-nums"
+                  className="flex items-center gap-1 rounded-full border border-border/50 bg-white/60 px-2 py-0.5 text-[10px] text-muted-foreground tabular-nums"
                   title={starCounts[repo.repo]?.title || "GitHub stars (last known count)"}
                 >
                   <Star className="w-3 h-3" />
@@ -148,20 +148,20 @@ export default function AppSidebar() {
         </div>
 
         <div className="pt-md mt-auto w-full border-t border-border">
-          <h3 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2 text-left px-sm">Contact</h3>
+          <h3 className="mb-2 px-3 text-left font-sans text-[10px] font-semibold uppercase tracking-[0.14em] text-muted-foreground">Contact</h3>
           <ul className="text-sm space-y-0.5">
             {[
-              { href: "mailto:bdqnghi@gmail.com", icon: Mail, label: "email" },
-              { href: "https://www.linkedin.com/in/quocnghi/", icon: Linkedin, label: "linkedin", ext: true },
-              { href: "https://github.com/bdqnghi", icon: Github, label: "github", ext: true },
-              { href: "https://x.com/QuocNghi91", icon: Twitter, label: "x", ext: true },
-              { href: "https://scholar.google.com/citations?user=QwybxYsAAAAJ&hl=en", icon: GraduationCap, label: "google scholar", ext: true },
+              { href: "mailto:bdqnghi@gmail.com", icon: Mail, label: "Email" },
+              { href: "https://www.linkedin.com/in/quocnghi/", icon: Linkedin, label: "LinkedIn", ext: true },
+              { href: "https://github.com/bdqnghi", icon: Github, label: "GitHub", ext: true },
+              { href: "https://x.com/QuocNghi91", icon: Twitter, label: "X", ext: true },
+              { href: "https://scholar.google.com/citations?user=QwybxYsAAAAJ&hl=en", icon: GraduationCap, label: "Google Scholar", ext: true },
             ].map(({ href, icon: Icon, label, ext }) => (
               <li key={label}>
                 <a
                   href={href}
                   {...(ext ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                  className="flex items-center gap-2 px-sm py-1 rounded-md text-foreground/80 hover:text-foreground hover:bg-secondary/50 transition-colors duration-150"
+                  className="flex items-center gap-3 rounded-xl px-3 py-2 text-muted-foreground transition-colors duration-200 hover:bg-white/70 hover:text-foreground"
                 >
                   <Icon className="w-3.5 h-3.5" />
                   <span className="text-xs">{label}</span>

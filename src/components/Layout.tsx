@@ -1,8 +1,9 @@
-import { ReactNode, useState } from "react";
+import { CSSProperties, ReactNode, useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import Footer from "./Footer";
 import AppSidebar from "./AppSidebar";
 import XTweetPanel from "./XTweetPanel";
-import { PanelLeft, PanelRight, X } from "lucide-react";
+import { Sheet, SheetContent, SheetDescription, SheetTitle } from "./ui/sheet";
 
 interface LayoutProps {
   children: ReactNode;
@@ -13,122 +14,61 @@ const Layout = ({ children }: LayoutProps) => {
   const [rightOpen, setRightOpen] = useState(true);
   const [mobileLeft, setMobileLeft] = useState(false);
   const [mobileRight, setMobileRight] = useState(false);
+  const panelSizes = {
+    "--profile-space": leftOpen ? "260px" : "0px",
+    "--community-space": rightOpen ? "340px" : "0px",
+  } as CSSProperties;
 
   return (
-    <div className="min-h-screen bg-background text-foreground flex flex-col">
-
-      {/* ── Mobile top bar ── */}
-      <div className="md:hidden flex items-center justify-between border-b border-border px-4 py-3 sticky top-0 z-30 bg-background/95 backdrop-blur-sm">
-        <button
-          onClick={() => setMobileLeft(true)}
-          className="p-1.5 rounded-md hover:bg-secondary transition-colors"
-          aria-label="Open profile sidebar"
-        >
-          <PanelLeft className="w-5 h-5 text-muted-foreground" />
+    <div className="site-layout min-h-screen bg-background text-foreground" style={panelSizes}>
+      <header className="sticky top-0 z-30 flex items-center justify-between border-b border-border/70 bg-background/95 px-4 py-3 backdrop-blur-md lg:hidden">
+        <button onClick={() => setMobileLeft(true)} className="panel-mobile-trigger" aria-label="Open profile sidebar">
+          <ChevronRight className="h-4 w-4" strokeWidth={1.5} />
+          <span className="text-xs">Profile</span>
         </button>
-        <span className="text-sm font-medium text-foreground">Nghi D. Q. Bui</span>
-        <button
-          onClick={() => setMobileRight(true)}
-          className="p-1.5 rounded-md hover:bg-secondary transition-colors"
-          aria-label="Open community highlights"
-        >
-          <PanelRight className="w-5 h-5 text-muted-foreground" />
+        <span className="font-serif text-sm font-medium">Nghi D. Q. Bui</span>
+        <button onClick={() => setMobileRight(true)} className="panel-mobile-trigger" aria-label="Open community highlights">
+          <span className="text-xs">Highlights</span>
+          <ChevronLeft className="h-4 w-4" strokeWidth={1.5} />
         </button>
-      </div>
+      </header>
 
-      {/* ── Mobile left drawer ── */}
-      {mobileLeft && (
-        <div className="md:hidden fixed inset-0 z-50">
-          <div className="absolute inset-0 bg-foreground/20 backdrop-blur-[2px]" onClick={() => setMobileLeft(false)} />
-          <aside className="absolute left-0 top-0 h-full w-[85vw] max-w-[320px] bg-background border-r border-border p-lg overflow-y-auto animate-slide-in-left">
-            <button onClick={() => setMobileLeft(false)} className="absolute top-4 right-4 p-1 rounded-md hover:bg-secondary transition-colors" aria-label="Close">
-              <X className="w-4 h-4 text-muted-foreground" />
-            </button>
-            <AppSidebar />
-          </aside>
-        </div>
-      )}
+      <Sheet open={mobileLeft} onOpenChange={setMobileLeft}>
+        <SheetContent side="left" className="panel-drawer w-[min(100vw,320px)] overflow-y-auto px-6 pb-8 pt-12">
+          <SheetTitle className="sr-only">Profile and navigation</SheetTitle>
+          <SheetDescription className="sr-only">Research profile, pages, and contact links.</SheetDescription>
+          <AppSidebar onNavigate={() => setMobileLeft(false)} />
+        </SheetContent>
+      </Sheet>
+      <Sheet open={mobileRight} onOpenChange={setMobileRight}>
+        <SheetContent side="right" className="panel-drawer w-[min(100vw,360px)] p-0">
+          <SheetTitle className="sr-only">Community highlights</SheetTitle>
+          <SheetDescription className="sr-only">Posts about my research and open source work.</SheetDescription>
+          <XTweetPanel />
+        </SheetContent>
+      </Sheet>
 
-      {/* ── Mobile right drawer ── */}
-      {mobileRight && (
-        <div className="md:hidden fixed inset-0 z-50">
-          <div className="absolute inset-0 bg-foreground/20 backdrop-blur-[2px]" onClick={() => setMobileRight(false)} />
-          <aside className="absolute right-0 top-0 h-full w-[85vw] max-w-[360px] bg-background border-l border-border overflow-y-auto animate-slide-in-right">
-            <button onClick={() => setMobileRight(false)} className="absolute top-4 left-4 p-1 rounded-md hover:bg-secondary transition-colors z-10" aria-label="Close">
-              <X className="w-4 h-4 text-muted-foreground" />
-            </button>
-            <div className="pt-12">
-              <XTweetPanel />
-            </div>
-          </aside>
-        </div>
-      )}
+      <aside id="profile-panel" aria-label="Profile" aria-hidden={!leftOpen} {...(!leftOpen ? { inert: "" } : {})} data-open={leftOpen} className="desktop-panel profile-panel community-scroll fixed inset-y-0 left-0 z-20 hidden w-[260px] overflow-y-auto border-r border-border/65 px-5 py-9 lg:block">
+        <AppSidebar />
+      </aside>
+      <button onClick={() => setLeftOpen((open) => !open)} className="panel-toggle profile-toggle hidden lg:flex" aria-label={leftOpen ? "Collapse profile sidebar" : "Expand profile sidebar"} aria-expanded={leftOpen} aria-controls="profile-panel" title={leftOpen ? "Collapse profile" : "Expand profile"}>
+        <ChevronLeft className={`h-4 w-4 transition-transform duration-300 ${leftOpen ? "" : "rotate-180"}`} strokeWidth={1.5} />
+      </button>
 
-      {/* ── Mobile main content ── */}
-      <main className="md:hidden flex-1 flex flex-col">
+      <main className="site-main flex min-h-screen min-w-0 flex-col">
         <div className="flex-1">{children}</div>
         <Footer />
       </main>
 
-      {/* ── Desktop layout ── */}
-      <div className="hidden md:flex w-full relative flex-1">
-
-        {/* Left sidebar */}
-        <aside
-          className={`sidebar-grid fixed left-0 top-0 h-screen border-r border-border overflow-y-auto transition-all duration-300 ease-out z-20 ${
-            leftOpen ? "w-[260px] p-lg" : "w-0 p-0 overflow-hidden border-r-0"
-          }`}
-        >
-          {leftOpen && <AppSidebar />}
-        </aside>
-
-        {/* Left toggle */}
-        <button
-          onClick={() => setLeftOpen(!leftOpen)}
-          className={`fixed top-4 z-30 p-1.5 rounded-md bg-background border border-border hover:bg-secondary transition-all duration-300 ease-out ${
-            leftOpen ? "left-[248px]" : "left-3"
-          }`}
-          aria-label={leftOpen ? "Hide profile sidebar" : "Show profile sidebar"}
-        >
-          <PanelLeft className="w-4 h-4 text-muted-foreground" />
-        </button>
-
-        {/* Main content */}
-        <main
-          className="flex-1 min-w-0 min-h-screen flex flex-col transition-all duration-300 ease-out"
-          style={{
-            marginLeft: leftOpen ? 260 : 0,
-            marginRight: rightOpen ? 340 : 0,
-          }}
-        >
-          <div className="flex-1">{children}</div>
-          <Footer />
-        </main>
-
-        {/* Right sidebar */}
-        <aside
-          className={`fixed right-0 top-0 h-screen border-l border-border overflow-y-auto transition-all duration-300 ease-out z-20 bg-background ${
-            rightOpen ? "w-[340px]" : "w-0 overflow-hidden border-l-0"
-          }`}
-        >
-          {rightOpen && (
-            <div className="pt-12 h-full flex flex-col">
-              <XTweetPanel />
-            </div>
-          )}
-        </aside>
-
-        {/* Right toggle */}
-        <button
-          onClick={() => setRightOpen(!rightOpen)}
-          className={`fixed top-4 z-30 p-1.5 rounded-md bg-background border border-border hover:bg-secondary transition-all duration-300 ease-out ${
-            rightOpen ? "right-[328px]" : "right-3"
-          }`}
-          aria-label={rightOpen ? "Hide community highlights" : "Show community highlights"}
-        >
-          <PanelRight className="w-4 h-4 text-muted-foreground" />
-        </button>
-      </div>
+      <aside id="community-panel" aria-label="Community" aria-hidden={!rightOpen} {...(!rightOpen ? { inert: "" } : {})} data-open={rightOpen} className="desktop-panel community-panel-shell fixed inset-y-0 right-0 z-20 hidden w-[340px] border-l border-border/65 xl:block">
+        <XTweetPanel />
+      </aside>
+      <button onClick={() => setRightOpen((open) => !open)} className="panel-toggle community-toggle hidden xl:flex" aria-label={rightOpen ? "Collapse community highlights" : "Expand community highlights"} aria-expanded={rightOpen} aria-controls="community-panel" title={rightOpen ? "Collapse highlights" : "Expand highlights"}>
+        <ChevronRight className={`h-4 w-4 transition-transform duration-300 ${rightOpen ? "" : "rotate-180"}`} strokeWidth={1.5} />
+      </button>
+      <button onClick={() => setMobileRight(true)} className="panel-toggle right-3 hidden lg:flex xl:hidden" aria-label="Open community highlights" title="Community highlights">
+        <ChevronLeft className="h-4 w-4" strokeWidth={1.5} />
+      </button>
     </div>
   );
 };
